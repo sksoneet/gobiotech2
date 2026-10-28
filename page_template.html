@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GoBiotech – Biotechnology institutes in India</title>
+<style>
+:root{--bg:#f6faf7;--card:#fff;--text:#14261c;--muted:#5b6f63;--accent:#1b7f4b;--line:#d9e6dd;--warn:#9a6700;--warnbg:#fff4d6;--ok:#14663b;--okbg:#dff5e6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1712;--card:#16231b;--text:#e6f2ea;--muted:#9bb2a4;--accent:#4fd18b;--line:#26382d;--warn:#f0c35a;--warnbg:#3a3014;--ok:#7be0a8;--okbg:#17372540;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1712;--card:#16231b;--text:#e6f2ea;--muted:#9bb2a4;--accent:#4fd18b;--line:#26382d;--warn:#f0c35a;--warnbg:#3a3014;--ok:#7be0a8;--okbg:#17372540;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 48px}
+h1{margin:0;font-size:1.8rem}h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:4px 0 16px}
+.note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 14px;font-size:.9rem;margin-bottom:16px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.bar input,.bar select{flex:1 1 160px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font-size:1rem}
+.count{color:var(--muted);font-size:.9rem;margin-bottom:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.card h2{margin:0 0 2px;font-size:1.1rem}
+.meta{color:var(--muted);font-size:.9rem}
+.row{margin-top:8px;font-size:.93rem}
+.row b{display:inline-block;min-width:92px;color:var(--muted);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:8px 14px;font-size:.95rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.chip small{opacity:.75;margin-left:4px}
+.own{font-weight:600;color:var(--accent)}
+.lbl{font-size:.85rem;color:var(--muted);margin:2px 0 6px;font-weight:600}
+.aghelp{font-size:.8rem;color:var(--muted);margin:-6px 0 14px}
+.tag{border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:.8rem}
+.badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.78rem;font-weight:600;margin-left:6px}
+.v1{background:var(--okbg);color:var(--ok)}.v0{background:var(--warnbg);color:var(--warn)}
+a{color:var(--accent)}
+.row .tag{display:inline-block;margin:2px 4px 2px 0}
+footer{color:var(--muted);font-size:.85rem;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Go<span>Biotech</span></h1>
+<p class="sub">Biotechnology institutes in India, state by state. Now covering: <b id="covered"></b></p>
+<div class="note">Early version. Entries marked “Needs verification” have not yet been checked against the institute’s official prospectus. Always confirm fees and seats on the official website before applying.</div>
+<div class="chips" id="chips" role="group" aria-label="Institution type"></div>
+<div class="lbl">Funding / sponsoring agency</div>
+<div class="chips" id="agchips" role="group" aria-label="Sponsoring agency"></div>
+<div class="aghelp">A tag means the institute, or its biotechnology programme, is run, funded or supported by that agency, based on the pages we found. ICAR includes state agricultural and veterinary universities that follow ICAR norms and receive ICAR support. DST and ICMR entries are mostly PhD-level research institutes.</div>
+<div class="bar">
+<input id="q" type="search" placeholder="Search institute or city…">
+<select id="st"><option value="">All states</option></select>
+<select id="deg"><option value="">All degree levels</option><option>UG</option><option>Masters</option><option>PhD</option></select>
+<select id="host"><option value="">Hostel: any</option><option value="Yes">Hostel available</option></select>
+</div>
+<div class="count" id="count"></div>
+<div id="list"></div>
+<footer id="foot"></footer>
+</div>
+<script>
+var DATA=/*__DATA__*/null;
+var L=DATA.institutes;
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function row(l,v){return v?'<div class="row"><b>'+l+'</b>'+v+'</div>':''}
+function rk(i){var r=i.rankings||{};return ["NIRF","NAAC","NBA","ISO","QS / THE"].map(function(k){return '<span class="tag">'+k+': '+esc(r[k]||"to be verified")+'</span>'}).join("")+' <a href="https://www.nirfindia.org" target="_blank" rel="noopener">Check NIRF</a>'}
+function card(i){
+var e=i.eligibility||{},s=i.streams||{},h="";
+h+='<div class="card"><h2>'+esc(i.name)+'<span class="badge '+(i.status==="partly_sourced"?'v1">Partly sourced':'v0">Needs verification')+'</span></h2>';
+h+='<div class="meta">'+esc(i.city)+', '+esc(i.state)+' \u00b7 <span class="own">'+esc(i.ownership)+'</span> \u00b7 '+esc(i.type)+'</div>';
+h+=row("Address",esc(i.address))+row("Department",esc(i.department))+row("Programmes",esc(i.programmes))+row("Fees",esc(i.fees))+row("Hostel",esc(i.hostel));
+h+=row("Rankings",rk(i))+row("Agency",esc((i.agencies||[]).join(" \u00b7 ")))+row("Campuses",esc(i.campuses));
+if(i.seats&&i.seats.length)h+=row("Seats",i.seats.map(esc).join("<br>"));
+h+=row("UG stream",esc(s.ug))+row("PG stream",esc(s.masters))+row("PhD stream",esc(s.phd));
+h+='<div class="row"><b>Admission</b><span class="badge '+(e.basis==="sourced"?'v1">Partly sourced':'v0">General pattern, confirm')+'</span></div>';
+h+=row("UG",esc(e.ug))+row("Masters",esc(e.masters))+row("PhD",esc(e.phd))+row("Maths?",esc(e.maths));
+h+='<div class="tags">'+i.degrees.map(function(d){return '<span class="tag">'+d+'</span>'}).join("")+'</div>';
+h+='<div class="row"><a href="'+esc(i.website)+'" target="_blank" rel="noopener">Official website</a></div>';
+if(i.sources&&i.sources.length)h+='<div class="row"><b>Sources</b>'+i.sources.map(function(x){return '<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.note||"source")+'</a>'}).join(" \u00b7 ")+'</div>';
+h+='<div class="row"><b>Verified</b>Collected '+esc(i.data_collected)+'; last automatic check: '+esc(i.last_checked||"not yet run")+'</div></div>';
+return h}
+var OWN=["Central Government","State / UT Government","Private"],own="";
+var chips=document.getElementById("chips");
+function drawChips(){chips.innerHTML=[["","All"]].concat(OWN.map(function(o){return [o,o]})).map(function(c){var n=c[0]?L.filter(function(i){return i.ownership===c[0]}).length:L.length;return '<button class="chip" type="button" data-o="'+esc(c[0])+'" aria-pressed="'+(own===c[0])+'">'+esc(c[1])+'<small>'+n+'</small></button>'}).join("")}
+chips.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;own=b.getAttribute("data-o");drawChips();render()});
+var AGS=["DBT","DST","CSIR","ICMR","ICAR","Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"],ag="";
+var agchips=document.getElementById("agchips");
+function drawAg(){agchips.innerHTML=[["","All agencies"]].concat(AGS.map(function(o){return [o,o]})).map(function(c){var n=c[0]?L.filter(function(i){return (i.agencies||[]).indexOf(c[0])>-1}).length:L.length;return '<button class="chip" type="button" data-a="'+esc(c[0])+'" aria-pressed="'+(ag===c[0])+'">'+esc(c[1])+'<small>'+n+'</small></button>'}).join("")}
+agchips.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;ag=b.getAttribute("data-a");drawAg();render()});
+var states=[];L.forEach(function(i){if(states.indexOf(i.state)<0)states.push(i.state)});states.sort();
+var sel=document.getElementById("st");states.forEach(function(s){var o=document.createElement("option");o.textContent=s;sel.appendChild(o)});
+document.getElementById("covered").textContent=states.join(", ");
+document.getElementById("foot").textContent="Data generated "+DATA.generated+" from data/institutes.json. Every record lists its sources; a scheduled checker re-reads them and flags changes for review before this page is updated.";
+function render(){
+var st=sel.value,q=document.getElementById("q").value.toLowerCase(),dg=document.getElementById("deg").value,hs=document.getElementById("host").value;
+var r=L.filter(function(i){return (!own||i.ownership===own)&&(!ag||(i.agencies||[]).indexOf(ag)>-1)&&(!st||i.state===st)&&(!q||(i.name+" "+i.city+" "+i.type+" "+i.programmes).toLowerCase().indexOf(q)>-1)&&(!dg||i.degrees.indexOf(dg)>-1)&&(!hs||i.hostel===hs)});
+document.getElementById("count").textContent=r.length+" institute"+(r.length===1?"":"s")+" found";
+document.getElementById("list").innerHTML=r.map(card).join("");}
+["q","st","deg","host"].forEach(function(id){document.getElementById(id).addEventListener("input",render)});
+drawChips();
+drawAg();
+render();
+</script>
+</body>
+</html>
