@@ -2,7 +2,7 @@ name: Build and deploy website
 on:
   push:
     branches: [main]
-    paths: ["data/institutes.json", "tools/page_template.html", "tools/build_page.py"]
+    paths: ["data/institutes.json", "data/index_inputs.json", "tools/compute_index.py", "tools/page_template.html", "tools/build_page.py"]
   workflow_dispatch: {}
 permissions:
   contents: read
@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/validate_data.py
+      - run: python tools/compute_index.py
       - run: python tools/build_page.py site/index.html
       - uses: actions/upload-pages-artifact@v3
         with:

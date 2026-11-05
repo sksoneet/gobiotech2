@@ -36,7 +36,7 @@ gh repo create gobiotech --public --source=. --push
 Then do steps 4 to 7 above.
 
 ## What to expect on the first checker run
-- It visits about 125 source links. Aggregator pages (Careers360, Collegedunia) may block automated visits or
+- It visits about 385 unique source links (each shared link once), 12 at a time and at most 2 at a time per website; expect 10–25 minutes. Aggregator pages (Careers360, Collegedunia) may block automated visits or
   be slow; those show up as "could not fetch". That is useful: it tells you which links to replace.
 - Links that are cut off (for example the Manav Rachna B.Tech link) will fail. Fix them in `data/institutes.json`.
 - The first run only records baselines, so it will not report content changes until the second run.
@@ -51,3 +51,10 @@ let the next weekly run record the new page as the baseline.
 ## Custom domain (after you buy it)
 Settings > Pages > **Custom domain**. At your registrar add a CNAME record `www` pointing to
 `YOUR-USERNAME.github.io`, or the four GitHub Pages A records for the bare domain, then tick **Enforce HTTPS**.
+
+## Reading the first report
+Open `reports/link_status.csv` in a spreadsheet and sort by `status`:
+- `error`: the link is broken or the site blocks bots. Replace it with a working page (prefer the institute’s own site).
+- `thin`: the page looks empty to a script (needs JavaScript). Keep it, but it cannot be checked automatically.
+- `baseline`: saved for the next run. `unchanged` / `changed` appear from the second run onward.
+Aggregator sites (Careers360, Collegedunia, Collegedekho, Zollege) are 60% of the links; if they block the runner, the official-site links are still checked.

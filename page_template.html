@@ -30,6 +30,13 @@ h1{margin:0;font-size:1.8rem}h1 span{color:var(--accent)}
 .chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 .chip small{opacity:.75;margin-left:4px}
 .own{font-weight:600;color:var(--accent)}
+.rk{display:flex;gap:12px;align-items:flex-start}
+.rk>div:nth-child(2){flex:1}
+.rkn{font-size:1.5rem;font-weight:700;color:var(--accent);min-width:2.2rem;line-height:1.2}
+.score{font-size:1.3rem;font-weight:700}
+.method{border:1px dashed var(--line);border-radius:12px;padding:10px 14px;margin:0 0 14px;font-size:.88rem;color:var(--muted)}
+.method b{color:var(--text)}
+[hidden]{display:none!important}
 .lbl{font-size:.85rem;color:var(--muted);margin:2px 0 6px;font-weight:600}
 .aghelp{font-size:.8rem;color:var(--muted);margin:-6px 0 14px}
 .tag{border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:.8rem}
@@ -45,6 +52,8 @@ footer{color:var(--muted);font-size:.85rem;margin-top:24px}
 <h1>Go<span>Biotech</span></h1>
 <p class="sub">Biotechnology institutes in India, state by state. Now covering: <b id="covered"></b></p>
 <div class="note">Early version. Entries marked “Needs verification” have not yet been checked against the institute’s official prospectus. Always confirm fees and seats on the official website before applying.</div>
+<div class="chips" id="tabs" role="tablist" aria-label="Views"></div>
+<div id="v-dir">
 <div class="chips" id="chips" role="group" aria-label="Institution type"></div>
 <div class="lbl">Funding / sponsoring agency</div>
 <div class="chips" id="agchips" role="group" aria-label="Sponsoring agency"></div>
@@ -57,6 +66,9 @@ footer{color:var(--muted);font-size:.85rem;margin-top:24px}
 </div>
 <div class="count" id="count"></div>
 <div id="list"></div>
+</div>
+<div id="v-top" hidden></div>
+<div id="v-help" hidden></div>
 <footer id="foot"></footer>
 </div>
 <script>
@@ -92,6 +104,57 @@ var states=[];L.forEach(function(i){if(states.indexOf(i.state)<0)states.push(i.s
 var sel=document.getElementById("st");states.forEach(function(s){var o=document.createElement("option");o.textContent=s;sel.appendChild(o)});
 document.getElementById("covered").textContent=states.join(", ");
 document.getElementById("foot").textContent="Data generated "+DATA.generated+" from data/institutes.json. Every record lists its sources; a scheduled checker re-reads them and flags changes for review before this page is updated.";
+
+var TOP=DATA.top20||{};
+var TABS=[["dir","Directory"],["ug","Top 20 UG"],["masters","Top 20 Masters"],["phd","Top 20 PhD"],["help","Free counselling"]],view="dir";
+var tabsEl=document.getElementById("tabs"),topEl=document.getElementById("v-top");
+function drawTabs(){tabsEl.innerHTML=TABS.map(function(t){return '<button class="chip" type="button" data-v="'+t[0]+'" aria-pressed="'+(view===t[0])+'">'+t[1]+'</button>'}).join("")}
+function showView(){drawTabs();var dir=view==="dir",help=view==="help";document.getElementById("v-dir").hidden=!dir;topEl.hidden=dir||help;helpEl.hidden=!help;if(help)renderHelp();else if(!dir)renderTop(view)}
+tabsEl.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;view=b.getAttribute("data-v");showView()});
+
+var SITE=(DATA.site||{}).counselling||{},helpEl=document.getElementById("v-help");
+function dg(s){return String(s||"").replace(/[^0-9]/g,"")}
+function gv(id){var e=document.getElementById(id);return (e&&e.value)||""}
+function helpMsg(){return "Hello GoBiotech, I would like free counselling.\nLevel: "+(gv("hl")||"not sure")+"\nPreferred state: "+(gv("hs")||"any")+"\nClass 12 / degree subjects: "+(gv("hx")||"-")+"\nBudget: "+(gv("hb")||"-")+"\nQuestion: "+(gv("hq")||"-")}
+function helpLinks(){var m=helpMsg(),o=[];
+if(SITE.phone)o.push('<a class="chip" href="tel:'+esc(String(SITE.phone).replace(/[^0-9+]/g,""))+'">Call '+esc(SITE.phone)+'</a>');
+if(SITE.whatsapp)o.push('<a class="chip" target="_blank" rel="noopener" href="https://wa.me/'+dg(SITE.whatsapp)+'?text='+encodeURIComponent(m)+'">WhatsApp us</a>');
+if(SITE.email)o.push('<a class="chip" href="mailto:'+esc(SITE.email)+'?subject='+encodeURIComponent("Counselling request")+'&body='+encodeURIComponent(m)+'">Email us</a>');
+return o.join(" ")}
+function renderHelp(){
+var has=SITE.phone||SITE.whatsapp||SITE.email;
+var h='<h2 style="margin:0 0 6px">Free counselling for your doubts</h2>';
+h+='<div class="method">Tell us your level, state and question, and a counsellor can guide you. The guidance uses the data on this site, so please confirm fees, seats and eligibility on the institute\u2019s official notice before you apply. This site does not store what you type here: the message is only passed to your own phone, WhatsApp or email app.</div>';
+if(has){h+='<div class="row"><b>Contact</b><span id="hlinks">'+helpLinks()+'</span></div>';
+if(SITE.hours)h+=row("Hours",esc(SITE.hours));
+if((SITE.languages||[]).length)h+=row("Languages",esc(SITE.languages.join(", ")))}
+else h+='<div class="note">Counselling contact details are not set up on this site yet. You can still write your question below and copy it to send later.</div>';
+h+='<div class="bar"><select id="hl"><option value="">Level (not sure)</option><option>UG</option><option>Masters</option><option>PhD</option></select><select id="hs"><option value="">Any state</option>'+states.map(function(s){return '<option>'+esc(s)+'</option>'}).join("")+'</select></div>';
+h+='<div class="bar"><input id="hx" placeholder="Class 12 / degree subjects (for example PCB, B.Sc Zoology)"><input id="hb" placeholder="Budget (for example under 1 lakh a year)"></div>';
+h+='<div class="bar"><textarea id="hq" rows="3" style="flex:1 1 100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font-size:1rem" placeholder="Your question or doubt"></textarea></div>';
+h+='<div class="row"><b>Your message</b></div><pre id="hmsg" style="white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:inherit;font-size:.92rem;margin:4px 0 10px"></pre>';
+h+='<button class="chip" type="button" id="hcopy">Copy message</button> <span id="hok" class="aghelp"></span>';
+helpEl.innerHTML=h;
+function upd(){var m=helpMsg(),p=document.getElementById("hmsg"),l=document.getElementById("hlinks");if(p)p.textContent=m;if(l)l.innerHTML=helpLinks()}
+["hl","hs","hx","hb","hq"].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener("input",upd)});
+var c=document.getElementById("hcopy");if(c)c.addEventListener("click",function(){var m=helpMsg();var done=function(){var k=document.getElementById("hok");if(k)k.textContent="Copied."};if(typeof navigator!=="undefined"&&navigator.clipboard)navigator.clipboard.writeText(m).then(done,function(){});else done()});
+upd()}
+function renderTop(lv){
+var rows=TOP[lv]||[],W=TOP.weights||{},nm={ug:"undergraduate",masters:"Master\u2019s",phd:"PhD"}[lv];
+var h='<h2 style="margin:0 0 6px">GoBiotech Index: top 20 for '+nm+' admission</h2>';
+h+='<div class="method"><b>Experimental index, not an official ranking.</b> Scored out of 100 from: national standing (NIRF 2025 rank, '+(W.national_standing||0)+'%), institution status ('+(W.institution_status||0)+'%), programme strength for this level ('+(W.programme_strength||0)+'%), support such as hostel and fellowships ('+(W.support||0)+'%) and how well the data is sourced ('+(W.data_confidence||0)+'%). '+esc((TOP[lv+"_candidates"]||0)+' institutes in our data offer this level. ')+(TOP.notes||[]).map(esc).join(" ")+'</div>';
+h+=rows.map(function(r){var p=r.parts||{};
+return '<div class="card"><div class="rk"><div class="rkn">'+r.rank+'</div><div><h2>'+esc(r.name)+'</h2><div class="meta">'+esc(r.city)+', '+esc(r.state)+' \u00b7 <span class="own">'+esc(r.ownership)+'</span>'+((r.agencies||[]).length?' \u00b7 '+esc(r.agencies.join(" \u00b7 ")):'')+'</div></div><div class="score">'+r.score+'</div></div>'
++row("Why",esc(r.why))
++row("Scores","Standing "+p.national_standing+" \u00b7 Status "+p.institution_status+" \u00b7 Programme "+p.programme_strength+" \u00b7 Support "+p.support+" \u00b7 Data "+p.data_confidence)
++(r.tie?row("Note","Tied with a neighbouring institute; order inside a tie is alphabetical."):"")
++'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'">Open full details in the directory</a></div></div>'}).join("");
+var nu=(TOP.notable_unranked||{})[lv]||[];
+if(nu.length){h+='<h2 style="margin:18px 0 6px">Well-regarded institutes without a NIRF rank</h2><div class="method">NIRF does not rank many dedicated research institutes, so they cannot score on national standing. These are national institutes or agency-backed centres (DBT, CSIR, ICMR, DST, ICAR or Government of India autonomous) that offer this level in our data, ordered by programme strength, support and data confidence. They are listed separately, not scored against NIRF-ranked institutes, and this is not an endorsement.</div>'+nu.map(function(r){return '<div class="card"><h2>'+esc(r.name)+'</h2><div class="meta">'+esc(r.city)+', '+esc(r.state)+' \u00b7 <span class="own">'+esc(r.ownership)+'</span>'+((r.agencies||[]).length?' \u00b7 '+esc(r.agencies.join(" \u00b7 ")):'')+'</div>'+row("Why",esc(r.why))+(r.in_top20?row("Note","Also in the top 20 above."):"")+'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'">Open full details in the directory</a></div></div>'}).join("")}
+topEl.innerHTML=h}
+topEl.addEventListener("click",function(e){var a=e.target.closest("a");if(!a||!a.getAttribute("data-open"))return;if(e.preventDefault)e.preventDefault();
+document.getElementById("q").value=a.getAttribute("data-open");sel.value="";document.getElementById("deg").value="";document.getElementById("host").value="";own="";ag="";drawChips();drawAg();view="dir";showView();render()});
+if(DATA.coverage_notes)document.getElementById("foot").textContent+=" Coverage: "+DATA.coverage_notes;
 function render(){
 var st=sel.value,q=document.getElementById("q").value.toLowerCase(),dg=document.getElementById("deg").value,hs=document.getElementById("host").value;
 var r=L.filter(function(i){return (!own||i.ownership===own)&&(!ag||(i.agencies||[]).indexOf(ag)>-1)&&(!st||i.state===st)&&(!q||(i.name+" "+i.city+" "+i.type+" "+i.programmes).toLowerCase().indexOf(q)>-1)&&(!dg||i.degrees.indexOf(dg)>-1)&&(!hs||i.hostel===hs)});
@@ -101,6 +164,7 @@ document.getElementById("list").innerHTML=r.map(card).join("");}
 drawChips();
 drawAg();
 render();
+showView();
 </script>
 </body>
 </html>

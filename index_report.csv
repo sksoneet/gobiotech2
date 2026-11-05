@@ -1,0 +1,61 @@
+level,position,name,state,score,standing,depth,backing,support,confidence,evidence
+ug,1,Indian Institute of Technology (IIT) Delhi,Delhi,91.0,94,100,80,80,High,published NIRF-type rank (best about 2)
+ug,2,Jamia Millia Islamia (JMI),Delhi,88.5,93,100,60,80,Medium,published NIRF-type rank (best about 4)
+ug,3,Indian Institute of Technology (IIT) Roorkee,Uttarakhand,86.2,84,100,80,80,Medium,published NIRF-type rank (best about 6)
+ug,4,Indian Institute of Technology (IIT) Madras,Tamil Nadu,86.0,100,100,80,40,High,published NIRF-type rank (best about 1)
+ug,5,Indian Institute of Technology (IIT) Kanpur,Uttar Pradesh,80.5,85,100,100,40,Medium,estimated tier: institute of national importance / eminence
+ug,6,"Indian Institute of Science (IISc), Bengaluru",Karnataka,78.5,85,100,80,40,Medium,estimated tier: institute of national importance / eminence
+ug,7,"Indian Institute of Science Education and Research (IISER), Berhampur",Odisha,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,8,"Indian Institute of Science Education and Research (IISER), Bhopal",Madhya Pradesh,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,9,"Indian Institute of Science Education and Research (IISER), Kolkata",West Bengal,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,10,"Indian Institute of Science Education and Research (IISER), Mohali",Punjab,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,11,"Indian Institute of Science Education and Research (IISER), Pune",Maharashtra,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,12,"Indian Institute of Science Education and Research (IISER), Thiruvananthapuram",Kerala,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,13,"Indian Institute of Science Education and Research (IISER), Tirupati",Andhra Pradesh,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,14,Indian Institute of Technology (IIT) Guwahati,Assam,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,15,Indian Institute of Technology (IIT) Hyderabad,Telangana,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,16,Indian Institute of Technology (IIT) Kharagpur,West Bengal,78.5,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+ug,17,National Institute of Technology (NIT) Rourkela,Odisha,74.5,85,80,80,40,Low,estimated tier: institute of national importance / eminence
+ug,18,National Institute of Technology (NIT) Warangal,Telangana,74.5,85,80,80,40,Low,estimated tier: institute of national importance / eminence
+ug,19,Amity University Haryana,Haryana,71.0,58,100,60,80,Medium,published NIRF-type rank (best about 126)
+ug,20,ICAR–National Dairy Research Institute (NDRI),Haryana,71.0,70,100,80,40,Medium,estimated tier: central university / ICAR institution
+masters,1,Indian Institute of Technology (IIT) Delhi,Delhi,89.6,94,100,80,80,High,published NIRF-type rank (best about 2)
+masters,2,Regional Centre for Biotechnology (RCB),Haryana,89.0,85,90,100,80,Low,estimated tier: institute of national importance / eminence
+masters,3,Jawaharlal Nehru University (JNU),Delhi,87.6,99,80,80,80,Medium,published NIRF-type rank (best about 2)
+masters,4,Indian Institute of Technology (IIT) Bombay,Maharashtra,87.0,85,80,100,80,Medium,estimated tier: institute of national importance / eminence
+masters,5,Indian Institute of Technology (IIT) Madras,Tamil Nadu,86.0,100,100,80,40,High,published NIRF-type rank (best about 1)
+masters,6,Indian Institute of Technology (IIT) Roorkee,Uttarakhand,85.8,84,100,80,80,Medium,published NIRF-type rank (best about 6)
+masters,7,Indian Institute of Technology (IIT) Kanpur,Uttar Pradesh,85.0,85,100,100,40,Medium,estimated tier: institute of national importance / eminence
+masters,8,Jamia Millia Islamia (JMI),Delhi,84.2,93,100,60,80,Medium,published NIRF-type rank (best about 4)
+masters,9,Jamia Hamdard,Delhi,83.0,100,80,60,80,Medium,published NIRF-type rank (best about 1)
+masters,10,All India Institute of Medical Sciences (AIIMS) Delhi,Delhi,82.0,85,80,80,80,Low,estimated tier: institute of national importance / eminence
+masters,11,"Indian Institute of Science (IISc), Bengaluru",Karnataka,80.0,85,100,80,40,Medium,estimated tier: institute of national importance / eminence
+masters,12,"Indian Institute of Science Education and Research (IISER), Berhampur",Odisha,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,13,"Indian Institute of Science Education and Research (IISER), Bhopal",Madhya Pradesh,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,14,"Indian Institute of Science Education and Research (IISER), Kolkata",West Bengal,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,15,"Indian Institute of Science Education and Research (IISER), Mohali",Punjab,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,16,"Indian Institute of Science Education and Research (IISER), Pune",Maharashtra,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,17,"Indian Institute of Science Education and Research (IISER), Thiruvananthapuram",Kerala,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,18,"Indian Institute of Science Education and Research (IISER), Tirupati",Andhra Pradesh,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,19,Indian Institute of Technology (IIT) Guwahati,Assam,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+masters,20,Indian Institute of Technology (IIT) Hyderabad,Telangana,80.0,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,1,Regional Centre for Biotechnology (RCB),Haryana,90.2,85,90,100,80,Low,estimated tier: institute of national importance / eminence
+phd,2,Indian Institute of Technology (IIT) Bombay,Maharashtra,88.8,85,80,100,80,Medium,estimated tier: institute of national importance / eminence
+phd,3,Indian Institute of Technology (IIT) Delhi,Delhi,87.9,94,100,80,80,High,published NIRF-type rank (best about 2)
+phd,4,Jawaharlal Nehru University (JNU),Delhi,86.6,99,80,80,80,Medium,published NIRF-type rank (best about 2)
+phd,5,Indian Institute of Technology (IIT) Kanpur,Uttar Pradesh,85.8,85,100,100,40,Medium,estimated tier: institute of national importance / eminence
+phd,6,Indian Institute of Technology (IIT) Roorkee,Uttarakhand,84.6,84,100,80,80,Medium,published NIRF-type rank (best about 6)
+phd,7,Indian Institute of Technology (IIT) Madras,Tamil Nadu,84.0,100,100,80,40,High,published NIRF-type rank (best about 1)
+phd,8,All India Institute of Medical Sciences (AIIMS) Delhi,Delhi,81.8,85,80,80,80,Low,estimated tier: institute of national importance / eminence
+phd,9,Jamia Millia Islamia (JMI),Delhi,80.5,93,100,60,80,Medium,published NIRF-type rank (best about 4)
+phd,10,Jamia Hamdard,Delhi,80.0,100,80,60,80,Medium,published NIRF-type rank (best about 1)
+phd,11,"Indian Institute of Science (IISc), Bengaluru",Karnataka,78.8,85,100,80,40,Medium,estimated tier: institute of national importance / eminence
+phd,12,"Indian Institute of Science Education and Research (IISER), Berhampur",Odisha,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,13,"Indian Institute of Science Education and Research (IISER), Bhopal",Madhya Pradesh,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,14,"Indian Institute of Science Education and Research (IISER), Kolkata",West Bengal,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,15,"Indian Institute of Science Education and Research (IISER), Mohali",Punjab,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,16,"Indian Institute of Science Education and Research (IISER), Pune",Maharashtra,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,17,"Indian Institute of Science Education and Research (IISER), Thiruvananthapuram",Kerala,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,18,"Indian Institute of Science Education and Research (IISER), Tirupati",Andhra Pradesh,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,19,Indian Institute of Technology (IIT) Guwahati,Assam,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence
+phd,20,Indian Institute of Technology (IIT) Hyderabad,Telangana,78.8,85,100,80,40,Low,estimated tier: institute of national importance / eminence

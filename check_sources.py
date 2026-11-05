@@ -1,25 +1,37 @@
 #!/usr/bin/env python3
 """Re-read every source URL in data/institutes.json and report what changed.
 
-It never edits institutes.json. Changes go to reports/ for a human to review.
+It never edits institutes.json. Everything goes to reports/ for a human to review.
 
-  python tools/check_sources.py                 # check all, write report
+  python tools/check_sources.py                 # check all, write reports
   python tools/check_sources.py --only jnu      # check one institute id
-  python tools/check_sources.py --accept        # after review: save new pages as the baseline
+  python tools/check_sources.py --accept        # after review: save current pages as the new baseline
 
-First run records a baseline (nothing is "changed" yet).
+Design for ~400+ unique links:
+  * each unique URL is fetched once, even if many institutes cite it;
+  * fetches run in parallel (12 workers) but at most 2 at a time per website, with a short pause;
+  * short timeouts (15 s) and one retry, so a dead site cannot stall the run;
+  * the first run records baselines and reports only broken links.
+Outputs: reports/changes-DATE.md (human summary), reports/link_status.csv (every URL),
+reports/review_queue.json (items needing a person).
 """
-import argparse, datetime, gzip, hashlib, json, pathlib, re, sys, time
-import urllib.request, urllib.error
+import argparse, csv, datetime, gzip, hashlib, json, pathlib, re, sys, threading, time
+import urllib.error, urllib.parse, urllib.request
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "institutes.json"
 SNAP = ROOT / "data" / "snapshots"
 REPORTS = ROOT / "reports"
-UA = "GoBiotechBot/1.0 (+data accuracy checker; contact site owner)"
-JACCARD_ALERT = 0.90   # page text this similar or less => flag
+UA = "Mozilla/5.0 (compatible; GoBiotechBot/1.0; data accuracy checker)"
+JACCARD_ALERT = 0.90
 MAX_CHARS = 200_000
+WORKERS, PER_HOST, TIMEOUT, RETRIES, PAUSE = 12, 2, 15, 1, 0.4
+
+_host_locks = defaultdict(lambda: threading.Semaphore(PER_HOST))
+_lock_guard = threading.Lock()
 
 
 class TextOnly(HTMLParser):
@@ -42,32 +54,35 @@ class TextOnly(HTMLParser):
             self.out.append(data.strip())
 
 
-def fetch(url, timeout=25, retries=2):
+def host_lock(url):
+    host = urllib.parse.urlparse(url).netloc.lower().replace("www.", "")
+    with _lock_guard:
+        return _host_locks[host]
+
+
+def fetch(url):
     last = None
-    for attempt in range(retries + 1):
+    for attempt in range(RETRIES + 1):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                raw = r.read(5_000_000)
-                ctype = r.headers.get("Content-Type", "")
-                return raw, ctype, None
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en"})
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                return r.read(5_000_000), r.headers.get("Content-Type", ""), None
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}"
-            if e.code in (404, 410, 403):
+            if e.code in (404, 410, 403, 401):
                 break
-        except Exception as e:  # network, SSL, timeout
+        except Exception as e:
             last = type(e).__name__
-        time.sleep(2 * (attempt + 1))
+        time.sleep(1.5 * (attempt + 1))
     return None, None, last
 
 
 def to_text(raw, ctype, url):
-    if "pdf" in ctype.lower() or url.lower().endswith(".pdf"):
-        try:  # optional dependency
+    if "pdf" in ctype.lower() or url.lower().split("?")[0].endswith(".pdf"):
+        try:
             import io
             from pypdf import PdfReader
-            reader = PdfReader(io.BytesIO(raw))
-            return "\n".join((p.extract_text() or "") for p in reader.pages)[:MAX_CHARS]
+            return "\n".join((p.extract_text() or "") for p in PdfReader(io.BytesIO(raw)).pages)[:MAX_CHARS]
         except Exception:
             return "PDF-HASH:" + hashlib.sha256(raw).hexdigest()
     p = TextOnly()
@@ -83,14 +98,27 @@ def numbers(text):
     return set(re.findall(r"(?:₹|rs\.?|inr)?\s?\d[\d,\.]*\s?(?:lakh|lakhs|l|k|%|seats)?", text.lower()))
 
 
-def snap_path(inst_id, i):
-    return SNAP / f"{inst_id}-{i}.txt.gz"
+def snap_path(url):
+    return SNAP / (hashlib.sha1(url.encode()).hexdigest()[:16] + ".txt.gz")
+
+
+def check_one(url):
+    """Returns dict(status, text, err)."""
+    with host_lock(url):
+        raw, ctype, err = fetch(url)
+        time.sleep(PAUSE)
+    if err:
+        return {"url": url, "status": "error", "err": err}
+    text = to_text(raw, ctype, url)
+    if len(text) < 200 and not text.startswith("PDF-HASH"):
+        return {"url": url, "status": "thin", "text": text, "err": "page text is almost empty (may need JavaScript or blocks bots)"}
+    return {"url": url, "status": "ok", "text": text}
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
-    ap.add_argument("--accept", action="store_true", help="store current pages as the new baseline")
+    ap.add_argument("--accept", action="store_true")
     ap.add_argument("--data", default=str(DATA))
     args = ap.parse_args()
 
@@ -98,48 +126,79 @@ def main():
     SNAP.mkdir(parents=True, exist_ok=True)
     REPORTS.mkdir(exist_ok=True)
     today = datetime.date.today().isoformat()
-    lines, queue, baseline, ok = [], [], 0, 0
 
+    users = defaultdict(list)  # url -> [institute names]
+    notes = {}
     for inst in data["institutes"]:
         if args.only and inst["id"] != args.only:
             continue
-        for i, src in enumerate(inst.get("sources", [])):
-            url = src["url"]
-            raw, ctype, err = fetch(url)
-            if err:
-                queue.append({"id": inst["id"], "url": url, "issue": f"fetch failed: {err}"})
-                lines.append(f"- **{inst['name']}**: could not fetch {url} ({err}). Link may be broken or blocked.")
-                continue
-            text = to_text(raw, ctype, url)
-            path = snap_path(inst["id"], i)
+        for s in inst.get("sources", []):
+            users[s["url"]].append(inst["name"])
+            notes.setdefault(s["url"], s.get("note", ""))
+    urls = sorted(users)
+    print(f"Checking {len(urls)} unique URLs for {sum(len(v) for v in users.values())} source links ...", flush=True)
+
+    results = {}
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        futs = {ex.submit(check_one, u): u for u in urls}
+        for n, f in enumerate(as_completed(futs), 1):
+            r = f.result()
+            results[r["url"]] = r
+            if n % 25 == 0:
+                print(f"  {n}/{len(urls)} done", flush=True)
+
+    queue, lines, rows = [], [], []
+    baseline = unchanged = 0
+    for u in urls:
+        r = results[u]
+        who = "; ".join(users[u][:3]) + (f" (+{len(users[u]) - 3} more)" if len(users[u]) > 3 else "")
+        status, detail = r["status"], r.get("err", "")
+        if r["status"] == "error":
+            queue.append({"url": u, "institutes": users[u], "issue": f"fetch failed: {r['err']}"})
+            lines.append(f"- **Broken or blocked** ({r['err']}): {u} \u2014 used by {who}")
+        else:
+            path = snap_path(u)
+            text = r["text"]
+            if r["status"] == "thin":
+                queue.append({"url": u, "institutes": users[u], "issue": "page looks empty to the checker"})
+                lines.append(f"- **Looks empty** (may need JavaScript or blocks bots): {u} \u2014 used by {who}")
             if not path.exists():
                 path.write_bytes(gzip.compress(text.encode("utf-8")))
                 baseline += 1
-                continue
-            old = gzip.decompress(path.read_bytes()).decode("utf-8")
-            if old == text:
-                ok += 1
-                continue
-            a, b = sentences(old), sentences(text)
-            jac = len(a & b) / max(1, len(a | b))
-            na, nb = numbers(old), numbers(text)
-            added, removed = sorted(nb - na)[:12], sorted(na - nb)[:12]
-            if jac <= JACCARD_ALERT or added or removed:
-                queue.append({"id": inst["id"], "url": url, "issue": "content changed",
-                              "similarity": round(jac, 3), "numbers_added": added, "numbers_removed": removed})
-                lines.append(f"- **{inst['name']}** ({src.get('note','')}): content changed, similarity {jac:.2f}. "
-                             f"Numbers added: {added or '-'}; removed: {removed or '-'}. {url}")
-            if args.accept:
-                path.write_bytes(gzip.compress(text.encode("utf-8")))
-        time.sleep(1)  # be polite to servers
+                status = "baseline" if r["status"] == "ok" else status
+            else:
+                old = gzip.decompress(path.read_bytes()).decode("utf-8")
+                if old == text:
+                    unchanged += 1
+                    status = "unchanged" if r["status"] == "ok" else status
+                elif r["status"] == "ok":
+                    a, b = sentences(old), sentences(text)
+                    jac = len(a & b) / max(1, len(a | b))
+                    na, nb = numbers(old), numbers(text)
+                    added, removed = sorted(nb - na)[:12], sorted(na - nb)[:12]
+                    if jac <= JACCARD_ALERT or added or removed:
+                        status = "changed"
+                        detail = f"similarity {jac:.2f}; numbers added {added or '-'}; removed {removed or '-'}"
+                        queue.append({"url": u, "institutes": users[u], "issue": "content changed", "similarity": round(jac, 3), "numbers_added": added, "numbers_removed": removed})
+                        lines.append(f"- **Changed** ({detail}): {u} \u2014 used by {who}")
+                    else:
+                        unchanged += 1
+                        status = "unchanged"
+                    if args.accept:
+                        path.write_bytes(gzip.compress(text.encode("utf-8")))
+        rows.append([u, status, detail, "; ".join(users[u]), notes.get(u, "")])
 
-    report = ROOT / "reports" / f"changes-{today}.md"
+    with open(REPORTS / "link_status.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["url", "status", "detail", "institutes", "note"])
+        w.writerows(rows)
+    broken = sum(1 for r in rows if r[1] == "error")
     body = [f"# Source check {today}", "",
-            f"Baselines recorded: {baseline}. Unchanged pages: {ok}. Needing review: {len(queue)}.", ""]
-    body += lines or ["No changes needing review."]
-    report.write_text("\n".join(body) + "\n", encoding="utf-8")
-    (ROOT / "reports" / "review_queue.json").write_text(json.dumps(queue, indent=1, ensure_ascii=False), encoding="utf-8")
-    print("\n".join(body))
+            f"URLs checked: {len(urls)}. Baselines recorded: {baseline}. Unchanged: {unchanged}. Broken or blocked: {broken}. Needing review: {len(queue)}.", ""]
+    body += sorted(lines) or ["Nothing needs review."]
+    (REPORTS / f"changes-{today}.md").write_text("\n".join(body) + "\n", encoding="utf-8")
+    (REPORTS / "review_queue.json").write_text(json.dumps(queue, indent=1, ensure_ascii=False), encoding="utf-8")
+    print("\n".join(body[:40]))
     return 0
 
 

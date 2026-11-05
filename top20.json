@@ -1,0 +1,2196 @@
+{
+ "name": "GoBiotech Index (GBI), experimental",
+ "weights": {
+  "national_standing": 35,
+  "institution_status": 25,
+  "programme_strength": 20,
+  "support": 10,
+  "data_confidence": 10
+ },
+ "notes": [
+  "Experimental index built only from signals in this site's own data and NIRF 2025 ranks found in public reports. It is not an official ranking and is not advice to apply or not apply.",
+  "Student and researcher work-environment feedback is NOT included yet: no reliable, comparable feedback data has been collected. The index has no weight for it until verified survey data exists.",
+  "Institutes with no published NIRF rank get a low default standing score, so research institutes that NIRF does not rank (for example NCBS or CCMB) are held down on that component.",
+  "NIRF ranks come from public reports of the NIRF 2025 lists; aggregator sites disagree on a few NIT ranks, so the figures used are the ones repeated by most sources. IIT Kharagpur and IIT Roorkee are both entered as overall #7 because overall ranks 6 and 7 were not clearly assigned. NIRF ranks for NIT Tiruchirappalli and NIT Surathkal are not used because those institutes are not in our data yet.",
+  "Ties are broken alphabetically. An institute not ranked by NIRF uses a low default standing score."
+ ],
+ "generated": "2026-10-28",
+ "ug": [
+  {
+   "id": "indian-institute-of-technology-iit-madras",
+   "name": "Indian Institute of Technology (IIT) Madras",
+   "state": "Tamil Nadu",
+   "city": "Chennai",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Madras",
+   "unranked": false,
+   "score": 95.0,
+   "parts": {
+    "national_standing": 100,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #1, Engineering #1; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 1,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-science-iisc-bengaluru",
+   "name": "Indian Institute of Science (IISc), Bengaluru",
+   "state": "Karnataka",
+   "city": "Bengaluru",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Science (IISc), Bengaluru",
+   "unranked": false,
+   "score": 92.3,
+   "parts": {
+    "national_standing": 92,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #2, University #1, Research #1; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 2,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-delhi",
+   "name": "Indian Institute of Technology (IIT) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Delhi",
+   "unranked": false,
+   "score": 90.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 80,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #4, Engineering #2; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 3,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-roorkee",
+   "name": "Indian Institute of Technology (IIT) Roorkee",
+   "state": "Uttarakhand",
+   "city": "Roorkee",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Roorkee",
+   "unranked": false,
+   "score": 87.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7, Engineering #6; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 4,
+   "tie": false
+  },
+  {
+   "id": "icar-national-dairy-research-institute-ndri",
+   "name": "ICAR–National Dairy Research Institute (NDRI)",
+   "state": "Haryana",
+   "city": "Karnal",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–National Dairy Research Institute (NDRI)",
+   "unranked": false,
+   "score": 86.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #2; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 5,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kanpur",
+   "name": "Indian Institute of Technology (IIT) Kanpur",
+   "state": "Uttar Pradesh",
+   "city": "Kanpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kanpur",
+   "unranked": false,
+   "score": 86.4,
+   "parts": {
+    "national_standing": 70,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #5; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 6,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kharagpur",
+   "name": "Indian Institute of Technology (IIT) Kharagpur",
+   "state": "West Bengal",
+   "city": "Kharagpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kharagpur",
+   "unranked": false,
+   "score": 82.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 7,
+   "tie": false
+  },
+  {
+   "id": "jamia-millia-islamia-jmi",
+   "name": "Jamia Millia Islamia (JMI)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Jamia Millia Islamia (JMI)",
+   "unranked": false,
+   "score": 81.4,
+   "parts": {
+    "national_standing": 66,
+    "institution_status": 85,
+    "programme_strength": 85,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #13, University #4, Engineering #24; central university; UG admission through a national or state common test",
+   "rank": 8,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-guwahati",
+   "name": "Indian Institute of Technology (IIT) Guwahati",
+   "state": "Assam",
+   "city": "Guwahati",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Guwahati",
+   "unranked": false,
+   "score": 78.2,
+   "parts": {
+    "national_standing": 55,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 70
+   },
+   "why": "NIRF 2025 Overall #11, Engineering #8; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 9,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-rourkela",
+   "name": "National Institute of Technology (NIT) Rourkela",
+   "state": "Odisha",
+   "city": "Rourkela",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Rourkela",
+   "unranked": false,
+   "score": 70.4,
+   "parts": {
+    "national_standing": 44,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Overall #34, Engineering #13; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 10,
+   "tie": false
+  },
+  {
+   "id": "punjab-agricultural-university-pau",
+   "name": "Punjab Agricultural University (PAU)",
+   "state": "Punjab",
+   "city": "Ludhiana",
+   "ownership": "State / UT Government",
+   "agencies": [
+    "DBT",
+    "ICAR"
+   ],
+   "search": "Punjab Agricultural University (PAU)",
+   "unranked": false,
+   "score": 69.3,
+   "parts": {
+    "national_standing": 72,
+    "institution_status": 65,
+    "programme_strength": 65,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; UG programme with an institute-level route",
+   "rank": 11,
+   "tie": false
+  },
+  {
+   "id": "iiser-network",
+   "name": "IISER network (7 campuses: Pune, Kolkata, Mohali, Bhopal, Thiruvananthapuram, Tirupati, Berhampur)",
+   "state": "Multiple states",
+   "city": "Seven campuses",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "IISER",
+   "unranked": false,
+   "score": 68.8,
+   "parts": {
+    "national_standing": 25,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #55, Research #35; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 12,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-calicut",
+   "name": "National Institute of Technology (NIT) Calicut",
+   "state": "Kerala",
+   "city": "Kozhikode",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Calicut",
+   "unranked": false,
+   "score": 62.2,
+   "parts": {
+    "national_standing": 35,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 30
+   },
+   "why": "NIRF 2025 Engineering #21; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 13,
+   "tie": false
+  },
+  {
+   "id": "motilal-nehru-national-institute-of-technology-mnnit-allahab",
+   "name": "Motilal Nehru National Institute of Technology (MNNIT) Allahabad",
+   "state": "Uttar Pradesh",
+   "city": "Prayagraj",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Motilal Nehru National Institute of Technology (MNNIT) Allahabad",
+   "unranked": false,
+   "score": 62.1,
+   "parts": {
+    "national_standing": 14,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Engineering #62; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 14,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-agartala",
+   "name": "National Institute of Technology (NIT) Agartala",
+   "state": "Tripura",
+   "city": "Agartala",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Agartala",
+   "unranked": true,
+   "score": 61.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 70
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 15,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-warangal",
+   "name": "National Institute of Technology (NIT) Warangal",
+   "state": "Telangana",
+   "city": "Warangal",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Warangal",
+   "unranked": false,
+   "score": 60.3,
+   "parts": {
+    "national_standing": 29,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 30
+   },
+   "why": "NIRF 2025 Engineering #28; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 16,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-hyderabad",
+   "name": "Indian Institute of Technology (IIT) Hyderabad",
+   "state": "Telangana",
+   "city": "Hyderabad (Kandi)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Hyderabad",
+   "unranked": true,
+   "score": 60.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 30
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 17,
+   "tie": false
+  },
+  {
+   "id": "amrita-school-of-biotechnology-amritapuri-kollam",
+   "name": "Amrita School of Biotechnology (Amritapuri, Kollam)",
+   "state": "Kerala",
+   "city": "Amritapuri (Kollam)",
+   "ownership": "Private",
+   "agencies": [],
+   "search": "Amrita School of Biotechnology (Amritapuri, Kollam)",
+   "unranked": false,
+   "score": 57.0,
+   "parts": {
+    "national_standing": 47,
+    "institution_status": 55,
+    "programme_strength": 65,
+    "support": 60,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Overall #17; private or deemed university; UG programme with an institute-level route",
+   "rank": 18,
+   "tie": true
+  },
+  {
+   "id": "alagappa-college-of-technology-anna-university-chennai",
+   "name": "Alagappa College of Technology, Anna University (Chennai)",
+   "state": "Tamil Nadu",
+   "city": "Chennai (Guindy)",
+   "ownership": "State / UT Government",
+   "agencies": [],
+   "search": "Alagappa College of Technology, Anna University (Chennai)",
+   "unranked": false,
+   "score": 57.0,
+   "parts": {
+    "national_standing": 36,
+    "institution_status": 65,
+    "programme_strength": 85,
+    "support": 30,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Overall #29; state or UT public institution; UG admission through a national or state common test",
+   "rank": 19,
+   "tie": true
+  },
+  {
+   "id": "national-institute-of-technology-nit-andhra-pradesh",
+   "name": "National Institute of Technology (NIT) Andhra Pradesh",
+   "state": "Andhra Pradesh",
+   "city": "Tadepalligudem",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Andhra Pradesh",
+   "unranked": true,
+   "score": 57.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 30
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 20,
+   "tie": true
+  }
+ ],
+ "ug_candidates": 184,
+ "masters": [
+  {
+   "id": "indian-institute-of-technology-iit-madras",
+   "name": "Indian Institute of Technology (IIT) Madras",
+   "state": "Tamil Nadu",
+   "city": "Chennai",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Madras",
+   "unranked": false,
+   "score": 93.0,
+   "parts": {
+    "national_standing": 100,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #1, Engineering #1; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 1,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-bombay",
+   "name": "Indian Institute of Technology (IIT) Bombay",
+   "state": "Maharashtra",
+   "city": "Mumbai",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Bombay",
+   "unranked": false,
+   "score": 91.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 95,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #3, Engineering #3; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 2,
+   "tie": false
+  },
+  {
+   "id": "icar-indian-agricultural-research-institute-iari",
+   "name": "ICAR–Indian Agricultural Research Institute (IARI)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–Indian Agricultural Research Institute (IARI)",
+   "unranked": false,
+   "score": 90.3,
+   "parts": {
+    "national_standing": 92,
+    "institution_status": 100,
+    "programme_strength": 65,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #1; institute of national importance or a national research institute; PG programme with an institute-level route",
+   "rank": 3,
+   "tie": true
+  },
+  {
+   "id": "indian-institute-of-science-iisc-bengaluru",
+   "name": "Indian Institute of Science (IISc), Bengaluru",
+   "state": "Karnataka",
+   "city": "Bengaluru",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Science (IISc), Bengaluru",
+   "unranked": false,
+   "score": 90.3,
+   "parts": {
+    "national_standing": 92,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #2, University #1, Research #1; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 4,
+   "tie": true
+  },
+  {
+   "id": "indian-institute-of-technology-iit-delhi",
+   "name": "Indian Institute of Technology (IIT) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Delhi",
+   "unranked": false,
+   "score": 88.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 80,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #4, Engineering #2; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 5,
+   "tie": false
+  },
+  {
+   "id": "jawaharlal-nehru-university-jnu",
+   "name": "Jawaharlal Nehru University (JNU)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Jawaharlal Nehru University (JNU)",
+   "unranked": false,
+   "score": 88.0,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 85,
+    "programme_strength": 95,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #9, University #2; central university; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 6,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kanpur",
+   "name": "Indian Institute of Technology (IIT) Kanpur",
+   "state": "Uttar Pradesh",
+   "city": "Kanpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kanpur",
+   "unranked": false,
+   "score": 85.4,
+   "parts": {
+    "national_standing": 70,
+    "institution_status": 100,
+    "programme_strength": 95,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #5; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 7,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-roorkee",
+   "name": "Indian Institute of Technology (IIT) Roorkee",
+   "state": "Uttarakhand",
+   "city": "Roorkee",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Roorkee",
+   "unranked": false,
+   "score": 85.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7, Engineering #6; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 8,
+   "tie": false
+  },
+  {
+   "id": "jamia-millia-islamia-jmi",
+   "name": "Jamia Millia Islamia (JMI)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Jamia Millia Islamia (JMI)",
+   "unranked": false,
+   "score": 83.4,
+   "parts": {
+    "national_standing": 66,
+    "institution_status": 85,
+    "programme_strength": 95,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #13, University #4, Engineering #24; central university; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 9,
+   "tie": false
+  },
+  {
+   "id": "icar-national-dairy-research-institute-ndri",
+   "name": "ICAR–National Dairy Research Institute (NDRI)",
+   "state": "Haryana",
+   "city": "Karnal",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–National Dairy Research Institute (NDRI)",
+   "unranked": false,
+   "score": 82.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 65,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #2; institute of national importance or a national research institute; PG programme with an institute-level route",
+   "rank": 10,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kharagpur",
+   "name": "Indian Institute of Technology (IIT) Kharagpur",
+   "state": "West Bengal",
+   "city": "Kharagpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kharagpur",
+   "unranked": false,
+   "score": 80.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 11,
+   "tie": false
+  },
+  {
+   "id": "banaras-hindu-university-bhu",
+   "name": "Banaras Hindu University (BHU)",
+   "state": "Uttar Pradesh",
+   "city": "Varanasi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Banaras Hindu University (BHU)",
+   "unranked": false,
+   "score": 78.4,
+   "parts": {
+    "national_standing": 66,
+    "institution_status": 85,
+    "programme_strength": 95,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #10, University #6, Agriculture #4; central university; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 12,
+   "tie": false
+  },
+  {
+   "id": "icar-indian-veterinary-research-institute-ivri",
+   "name": "ICAR–Indian Veterinary Research Institute (IVRI)",
+   "state": "Uttar Pradesh",
+   "city": "Izatnagar (Bareilly)",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–Indian Veterinary Research Institute (IVRI)",
+   "unranked": false,
+   "score": 76.7,
+   "parts": {
+    "national_standing": 62,
+    "institution_status": 100,
+    "programme_strength": 65,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #5; institute of national importance or a national research institute; PG programme with an institute-level route",
+   "rank": 13,
+   "tie": false
+  },
+  {
+   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
+   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "unranked": false,
+   "score": 76.3,
+   "parts": {
+    "national_standing": 61,
+    "institution_status": 100,
+    "programme_strength": 65,
+    "support": 100,
+    "data_confidence": 70
+   },
+   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PG programme with an institute-level route",
+   "rank": 14,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-guwahati",
+   "name": "Indian Institute of Technology (IIT) Guwahati",
+   "state": "Assam",
+   "city": "Guwahati",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Guwahati",
+   "unranked": false,
+   "score": 76.2,
+   "parts": {
+    "national_standing": 55,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 70,
+    "data_confidence": 70
+   },
+   "why": "NIRF 2025 Overall #11, Engineering #8; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 15,
+   "tie": false
+  },
+  {
+   "id": "punjab-agricultural-university-pau",
+   "name": "Punjab Agricultural University (PAU)",
+   "state": "Punjab",
+   "city": "Ludhiana",
+   "ownership": "State / UT Government",
+   "agencies": [
+    "DBT",
+    "ICAR"
+   ],
+   "search": "Punjab Agricultural University (PAU)",
+   "unranked": false,
+   "score": 75.3,
+   "parts": {
+    "national_standing": 72,
+    "institution_status": 65,
+    "programme_strength": 95,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 16,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-rourkela",
+   "name": "National Institute of Technology (NIT) Rourkela",
+   "state": "Odisha",
+   "city": "Rourkela",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Rourkela",
+   "unranked": false,
+   "score": 71.4,
+   "parts": {
+    "national_standing": 44,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 50,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Overall #34, Engineering #13; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 17,
+   "tie": false
+  },
+  {
+   "id": "university-of-delhi-du",
+   "name": "University of Delhi (DU)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [],
+   "search": "University of Delhi (DU)",
+   "unranked": false,
+   "score": 70.9,
+   "parts": {
+    "national_standing": 62,
+    "institution_status": 85,
+    "programme_strength": 85,
+    "support": 30,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 University #5; central university; PG admission through CUET (PG)",
+   "rank": 18,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-indore",
+   "name": "Indian Institute of Technology (IIT) Indore",
+   "state": "Madhya Pradesh",
+   "city": "Indore",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Indore",
+   "unranked": false,
+   "score": 70.3,
+   "parts": {
+    "national_standing": 32,
+    "institution_status": 100,
+    "programme_strength": 95,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Research #24; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 19,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-gandhinagar",
+   "name": "Indian Institute of Technology (IIT) Gandhinagar",
+   "state": "Gujarat",
+   "city": "Gandhinagar (Palaj)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Gandhinagar",
+   "unranked": false,
+   "score": 67.0,
+   "parts": {
+    "national_standing": 40,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 70,
+    "data_confidence": 30
+   },
+   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 20,
+   "tie": true
+  }
+ ],
+ "notable_unranked": {
+  "masters": [
+   {
+    "id": "regional-centre-for-biotechnology-rcb",
+    "name": "Regional Centre for Biotechnology (RCB)",
+    "state": "Haryana",
+    "city": "Faridabad",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT",
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Regional Centre for Biotechnology (RCB)",
+    "unranked": true,
+    "score": 67.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 95,
+     "support": 80,
+     "data_confidence": 80
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
+    "in_top20": false
+   },
+   {
+    "id": "rajiv-gandhi-centre-for-biotechnology-rgcb-thiruvananthapura",
+    "name": "Rajiv Gandhi Centre for Biotechnology (RGCB), Thiruvananthapuram",
+    "state": "Kerala",
+    "city": "Thiruvananthapuram",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "Rajiv Gandhi Centre for Biotechnology (RGCB), Thiruvananthapuram",
+    "unranked": true,
+    "score": 65.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 95,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
+    "in_top20": false
+   },
+   {
+    "id": "indian-institute-of-technology-iit-jodhpur",
+    "name": "Indian Institute of Technology (IIT) Jodhpur",
+    "state": "Rajasthan",
+    "city": "Jodhpur",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Jodhpur",
+    "unranked": true,
+    "score": 65.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 90,
+     "support": 50,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+    "in_top20": false
+   },
+   {
+    "id": "indian-institute-of-technology-iit-mandi",
+    "name": "Indian Institute of Technology (IIT) Mandi",
+    "state": "Himachal Pradesh",
+    "city": "Kamand (Mandi)",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Mandi",
+    "unranked": true,
+    "score": 65.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 90,
+     "support": 50,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+    "in_top20": false
+   },
+   {
+    "id": "indian-institute-of-technology-iit-hyderabad",
+    "name": "Indian Institute of Technology (IIT) Hyderabad",
+    "state": "Telangana",
+    "city": "Hyderabad (Kandi)",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Hyderabad",
+    "unranked": true,
+    "score": 58.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 90,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-of-virology-niv-pune",
+    "name": "ICMR-National Institute of Virology (NIV), Pune",
+    "state": "Maharashtra",
+    "city": "Pune",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute of Virology (NIV), Pune",
+    "unranked": true,
+    "score": 59.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   },
+   {
+    "id": "central-agricultural-university-cau-imphal",
+    "name": "Central Agricultural University (CAU), Imphal",
+    "state": "Manipur",
+    "city": "Imphal",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "Central Agricultural University (CAU), Imphal",
+    "unranked": true,
+    "score": 57.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 50,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   },
+   {
+    "id": "bihar-agricultural-university-bau-sabour",
+    "name": "Bihar Agricultural University (BAU), Sabour",
+    "state": "Bihar",
+    "city": "Sabour (Bhagalpur)",
+    "ownership": "State / UT Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "Bihar Agricultural University (BAU), Sabour",
+    "unranked": true,
+    "score": 53.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   },
+   {
+    "id": "birsa-agricultural-university-bau-ranchi",
+    "name": "Birsa Agricultural University (BAU), Ranchi",
+    "state": "Jharkhand",
+    "city": "Ranchi (Kanke)",
+    "ownership": "State / UT Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "Birsa Agricultural University (BAU), Ranchi",
+    "unranked": true,
+    "score": 53.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   },
+   {
+    "id": "icar-central-island-agricultural-research-institute-ciari-po",
+    "name": "ICAR–Central Island Agricultural Research Institute (CIARI), Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "city": "Port Blair",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "ICAR–Central Island Agricultural Research Institute (CIARI), Port Blair",
+    "unranked": true,
+    "score": 53.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   },
+   {
+    "id": "indian-institute-of-agricultural-biotechnology-iiab-ranchi",
+    "name": "Indian Institute of Agricultural Biotechnology (IIAB), Ranchi",
+    "state": "Jharkhand",
+    "city": "Ranchi",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "Indian Institute of Agricultural Biotechnology (IIAB), Ranchi",
+    "unranked": true,
+    "score": 53.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 65,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG programme with an institute-level route",
+    "in_top20": false
+   }
+  ],
+  "phd": [
+   {
+    "id": "bric-national-institute-of-immunology-nii-new-delhi",
+    "name": "BRIC-National Institute of Immunology (NII), New Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "BRIC-National Institute of Immunology (NII), New Delhi",
+    "unranked": true,
+    "score": 69.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "rank": 17,
+    "tie": true,
+    "in_top20": true
+   },
+   {
+    "id": "bose-institute-kolkata",
+    "name": "Bose Institute (Kolkata)",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "ownership": "Central Government",
+    "agencies": [
+     "DST"
+    ],
+    "search": "Bose Institute (Kolkata)",
+    "unranked": true,
+    "score": 69.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "rank": 18,
+    "tie": true,
+    "in_top20": true
+   },
+   {
+    "id": "csir-centre-for-cellular-and-molecular-biology-ccmb-hyderaba",
+    "name": "CSIR-Centre for Cellular and Molecular Biology (CCMB), Hyderabad",
+    "state": "Telangana",
+    "city": "Hyderabad (Habsiguda)",
+    "ownership": "Central Government",
+    "agencies": [
+     "CSIR"
+    ],
+    "search": "CSIR-Centre for Cellular and Molecular Biology (CCMB), Hyderabad",
+    "unranked": true,
+    "score": 69.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "rank": 19,
+    "tie": true,
+    "in_top20": true
+   },
+   {
+    "id": "csir-indian-institute-of-integrative-medicine-iiim-jammu",
+    "name": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
+    "state": "Jammu & Kashmir",
+    "city": "Jammu",
+    "ownership": "Central Government",
+    "agencies": [
+     "CSIR"
+    ],
+    "search": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "rank": 20,
+    "tie": true,
+    "in_top20": true
+   },
+   {
+    "id": "icmr-national-institute-for-research-in-bacterial-infections",
+    "name": "ICMR-National Institute for Research in Bacterial Infections (NICED), Kolkata",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute for Research in Bacterial Infections (NICED), Kolkata",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-for-research-in-tuberculosis-nirt-ch",
+    "name": "ICMR-National Institute for Research in Tuberculosis (NIRT), Chennai",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute for Research in Tuberculosis (NIRT), Chennai",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-of-epidemiology-nie-chennai",
+    "name": "ICMR-National Institute of Epidemiology (NIE), Chennai",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute of Epidemiology (NIE), Chennai",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-of-nutrition-nin-hyderabad",
+    "name": "ICMR-National Institute of Nutrition (NIN), Hyderabad",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute of Nutrition (NIN), Hyderabad",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-of-virology-niv-pune",
+    "name": "ICMR-National Institute of Virology (NIV), Pune",
+    "state": "Maharashtra",
+    "city": "Pune",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute of Virology (NIV), Pune",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "institute-of-bioresources-and-sustainable-development-ibsd-i",
+    "name": "Institute of Bioresources and Sustainable Development (IBSD), Imphal",
+    "state": "Manipur",
+    "city": "Imphal",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "Institute of Bioresources and Sustainable Development (IBSD), Imphal",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "rajiv-gandhi-centre-for-biotechnology-rgcb-thiruvananthapura",
+    "name": "Rajiv Gandhi Centre for Biotechnology (RGCB), Thiruvananthapuram",
+    "state": "Kerala",
+    "city": "Thiruvananthapuram",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "Rajiv Gandhi Centre for Biotechnology (RGCB), Thiruvananthapuram",
+    "unranked": true,
+    "score": 66.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "csir-institute-of-microbial-technology-imtech-chandigarh",
+    "name": "CSIR-Institute of Microbial Technology (IMTECH), Chandigarh",
+    "state": "Chandigarh",
+    "city": "Chandigarh",
+    "ownership": "Central Government",
+    "agencies": [
+     "CSIR"
+    ],
+    "search": "CSIR-Institute of Microbial Technology (IMTECH), Chandigarh",
+    "unranked": true,
+    "score": 64.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 50
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "institute-of-advanced-study-in-science-and-technology-iasst-",
+    "name": "Institute of Advanced Study in Science and Technology (IASST), Guwahati",
+    "state": "Assam",
+    "city": "Guwahati",
+    "ownership": "Central Government",
+    "agencies": [
+     "DST"
+    ],
+    "search": "Institute of Advanced Study in Science and Technology (IASST), Guwahati",
+    "unranked": true,
+    "score": 64.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 50
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "csir-institute-of-genomics-and-integrative-biology-igib-delh",
+    "name": "CSIR-Institute of Genomics and Integrative Biology (IGIB), Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "ownership": "Central Government",
+    "agencies": [
+     "CSIR"
+    ],
+    "search": "CSIR-Institute of Genomics and Integrative Biology (IGIB), Delhi",
+    "unranked": true,
+    "score": 62.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "national-centre-for-biological-sciences-ncbs-tifr-bengaluru",
+    "name": "National Centre for Biological Sciences (NCBS-TIFR), Bengaluru",
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "National Centre for Biological Sciences (NCBS-TIFR), Bengaluru",
+    "unranked": true,
+    "score": 62.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "icmr-national-institute-of-pathology-nip-new-delhi",
+    "name": "ICMR-National Institute of Pathology (NIP), New Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICMR"
+    ],
+    "search": "ICMR-National Institute of Pathology (NIP), New Delhi",
+    "unranked": true,
+    "score": 64.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 50,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "national-centre-for-cell-science-nccs-pune",
+    "name": "National Centre for Cell Science (NCCS), Pune",
+    "state": "Maharashtra",
+    "city": "Pune",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "National Centre for Cell Science (NCCS), Pune",
+    "unranked": true,
+    "score": 64.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 50,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "institute-of-nano-science-and-technology-inst-mohali",
+    "name": "Institute of Nano Science and Technology (INST), Mohali",
+    "state": "Punjab",
+    "city": "Mohali",
+    "ownership": "Central Government",
+    "agencies": [
+     "DST"
+    ],
+    "search": "Institute of Nano Science and Technology (INST), Mohali",
+    "unranked": true,
+    "score": 62.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 50,
+     "data_confidence": 50
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "institute-of-life-sciences-ils-bhubaneswar",
+    "name": "Institute of Life Sciences (ILS), Bhubaneswar",
+    "state": "Odisha",
+    "city": "Bhubaneswar",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "Institute of Life Sciences (ILS), Bhubaneswar",
+    "unranked": true,
+    "score": 60.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 50,
+     "data_confidence": 30
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "in_top20": false
+   },
+   {
+    "id": "indian-institute-of-technology-iit-mandi",
+    "name": "Indian Institute of Technology (IIT) Mandi",
+    "state": "Himachal Pradesh",
+    "city": "Kamand (Mandi)",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Mandi",
+    "unranked": true,
+    "score": 64.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 85,
+     "support": 50,
+     "data_confidence": 100
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship or test route",
+    "in_top20": false
+   },
+   {
+    "id": "regional-centre-for-biotechnology-rcb",
+    "name": "Regional Centre for Biotechnology (RCB)",
+    "state": "Haryana",
+    "city": "Faridabad",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT",
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Regional Centre for Biotechnology (RCB)",
+    "unranked": true,
+    "score": 62.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 70,
+     "support": 80,
+     "data_confidence": 80
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+    "in_top20": false
+   },
+   {
+    "id": "central-agricultural-university-cau-imphal",
+    "name": "Central Agricultural University (CAU), Imphal",
+    "state": "Manipur",
+    "city": "Imphal",
+    "ownership": "Central Government",
+    "agencies": [
+     "ICAR"
+    ],
+    "search": "Central Agricultural University (CAU), Imphal",
+    "unranked": true,
+    "score": 58.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 70,
+     "support": 50,
+     "data_confidence": 70
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+    "in_top20": false
+   },
+   {
+    "id": "bric-national-institute-of-plant-genome-research-nipgr-new-d",
+    "name": "BRIC-National Institute of Plant Genome Research (NIPGR), New Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "ownership": "Central Government",
+    "agencies": [
+     "DBT"
+    ],
+    "search": "BRIC-National Institute of Plant Genome Research (NIPGR), New Delhi",
+    "unranked": true,
+    "score": 56.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 70,
+     "support": 50,
+     "data_confidence": 50
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+    "in_top20": false
+   },
+   {
+    "id": "csir-central-food-technological-research-institute-cftri-mys",
+    "name": "CSIR-Central Food Technological Research Institute (CFTRI), Mysuru",
+    "state": "Karnataka",
+    "city": "Mysuru",
+    "ownership": "Central Government",
+    "agencies": [
+     "CSIR"
+    ],
+    "search": "CSIR-Central Food Technological Research Institute (CFTRI), Mysuru",
+    "unranked": true,
+    "score": 56.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 70,
+     "support": 50,
+     "data_confidence": 50
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+    "in_top20": false
+   }
+  ]
+ },
+ "masters_candidates": 231,
+ "phd": [
+  {
+   "id": "icar-indian-agricultural-research-institute-iari",
+   "name": "ICAR–Indian Agricultural Research Institute (IARI)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–Indian Agricultural Research Institute (IARI)",
+   "unranked": false,
+   "score": 94.3,
+   "parts": {
+    "national_standing": 92,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #1; institute of national importance or a national research institute; PhD with a national fellowship or test route",
+   "rank": 1,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-bombay",
+   "name": "Indian Institute of Technology (IIT) Bombay",
+   "state": "Maharashtra",
+   "city": "Mumbai",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Bombay",
+   "unranked": false,
+   "score": 92.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #3, Engineering #3; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 2,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-science-iisc-bengaluru",
+   "name": "Indian Institute of Science (IISc), Bengaluru",
+   "state": "Karnataka",
+   "city": "Bengaluru",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Science (IISc), Bengaluru",
+   "unranked": false,
+   "score": 92.3,
+   "parts": {
+    "national_standing": 92,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #2, University #1, Research #1; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 3,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-madras",
+   "name": "Indian Institute of Technology (IIT) Madras",
+   "state": "Tamil Nadu",
+   "city": "Chennai",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Madras",
+   "unranked": false,
+   "score": 89.0,
+   "parts": {
+    "national_standing": 100,
+    "institution_status": 100,
+    "programme_strength": 70,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #1, Engineering #1; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+   "rank": 4,
+   "tie": true
+  },
+  {
+   "id": "jawaharlal-nehru-university-jnu",
+   "name": "Jawaharlal Nehru University (JNU)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Jawaharlal Nehru University (JNU)",
+   "unranked": false,
+   "score": 89.0,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 85,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #9, University #2; central university; PhD with a national fellowship route at a national research body",
+   "rank": 5,
+   "tie": true
+  },
+  {
+   "id": "indian-institute-of-technology-iit-roorkee",
+   "name": "Indian Institute of Technology (IIT) Roorkee",
+   "state": "Uttarakhand",
+   "city": "Roorkee",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Roorkee",
+   "unranked": false,
+   "score": 87.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7, Engineering #6; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 6,
+   "tie": false
+  },
+  {
+   "id": "icar-national-dairy-research-institute-ndri",
+   "name": "ICAR–National Dairy Research Institute (NDRI)",
+   "state": "Haryana",
+   "city": "Karnal",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–National Dairy Research Institute (NDRI)",
+   "unranked": false,
+   "score": 86.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #2; institute of national importance or a national research institute; PhD with a national fellowship or test route",
+   "rank": 7,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kanpur",
+   "name": "Indian Institute of Technology (IIT) Kanpur",
+   "state": "Uttar Pradesh",
+   "city": "Kanpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kanpur",
+   "unranked": false,
+   "score": 86.4,
+   "parts": {
+    "national_standing": 70,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #5; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 8,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-delhi",
+   "name": "Indian Institute of Technology (IIT) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Delhi",
+   "unranked": false,
+   "score": 84.7,
+   "parts": {
+    "national_standing": 79,
+    "institution_status": 100,
+    "programme_strength": 70,
+    "support": 80,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #4, Engineering #2; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+   "rank": 9,
+   "tie": false
+  },
+  {
+   "id": "jamia-millia-islamia-jmi",
+   "name": "Jamia Millia Islamia (JMI)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "Jamia Millia Islamia (JMI)",
+   "unranked": false,
+   "score": 84.4,
+   "parts": {
+    "national_standing": 66,
+    "institution_status": 85,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #13, University #4, Engineering #24; central university; PhD with a national fellowship route at a national research body",
+   "rank": 10,
+   "tie": false
+  },
+  {
+   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
+   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "unranked": false,
+   "score": 83.3,
+   "parts": {
+    "national_standing": 61,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 70
+   },
+   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 11,
+   "tie": false
+  },
+  {
+   "id": "icar-indian-veterinary-research-institute-ivri",
+   "name": "ICAR–Indian Veterinary Research Institute (IVRI)",
+   "state": "Uttar Pradesh",
+   "city": "Izatnagar (Bareilly)",
+   "ownership": "Central Government",
+   "agencies": [
+    "ICAR"
+   ],
+   "search": "ICAR–Indian Veterinary Research Institute (IVRI)",
+   "unranked": false,
+   "score": 80.7,
+   "parts": {
+    "national_standing": 62,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #5; institute of national importance or a national research institute; PhD with a national fellowship or test route",
+   "rank": 12,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-guwahati",
+   "name": "Indian Institute of Technology (IIT) Guwahati",
+   "state": "Assam",
+   "city": "Guwahati",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Guwahati",
+   "unranked": false,
+   "score": 78.2,
+   "parts": {
+    "national_standing": 55,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 70
+   },
+   "why": "NIRF 2025 Overall #11, Engineering #8; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 13,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-kharagpur",
+   "name": "Indian Institute of Technology (IIT) Kharagpur",
+   "state": "West Bengal",
+   "city": "Kharagpur",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Kharagpur",
+   "unranked": false,
+   "score": 76.1,
+   "parts": {
+    "national_standing": 63,
+    "institution_status": 100,
+    "programme_strength": 70,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #7; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
+   "rank": 14,
+   "tie": false
+  },
+  {
+   "id": "punjab-agricultural-university-pau",
+   "name": "Punjab Agricultural University (PAU)",
+   "state": "Punjab",
+   "city": "Ludhiana",
+   "ownership": "State / UT Government",
+   "agencies": [
+    "DBT",
+    "ICAR"
+   ],
+   "search": "Punjab Agricultural University (PAU)",
+   "unranked": false,
+   "score": 70.3,
+   "parts": {
+    "national_standing": 72,
+    "institution_status": 65,
+    "programme_strength": 70,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; PhD programme with an institute-level route (or details not yet collected)",
+   "rank": 15,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-gandhinagar",
+   "name": "Indian Institute of Technology (IIT) Gandhinagar",
+   "state": "Gujarat",
+   "city": "Gandhinagar (Palaj)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Gandhinagar",
+   "unranked": false,
+   "score": 69.0,
+   "parts": {
+    "national_standing": 40,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 30
+   },
+   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 16,
+   "tie": true
+  },
+  {
+   "id": "bric-national-institute-of-immunology-nii-new-delhi",
+   "name": "BRIC-National Institute of Immunology (NII), New Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "BRIC-National Institute of Immunology (NII), New Delhi",
+   "unranked": true,
+   "score": 69.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 17,
+   "tie": true
+  },
+  {
+   "id": "bose-institute-kolkata",
+   "name": "Bose Institute (Kolkata)",
+   "state": "West Bengal",
+   "city": "Kolkata",
+   "ownership": "Central Government",
+   "agencies": [
+    "DST"
+   ],
+   "search": "Bose Institute (Kolkata)",
+   "unranked": true,
+   "score": 69.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 18,
+   "tie": true
+  },
+  {
+   "id": "csir-centre-for-cellular-and-molecular-biology-ccmb-hyderaba",
+   "name": "CSIR-Centre for Cellular and Molecular Biology (CCMB), Hyderabad",
+   "state": "Telangana",
+   "city": "Hyderabad (Habsiguda)",
+   "ownership": "Central Government",
+   "agencies": [
+    "CSIR"
+   ],
+   "search": "CSIR-Centre for Cellular and Molecular Biology (CCMB), Hyderabad",
+   "unranked": true,
+   "score": 69.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 100
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 19,
+   "tie": true
+  },
+  {
+   "id": "csir-indian-institute-of-integrative-medicine-iiim-jammu",
+   "name": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
+   "state": "Jammu & Kashmir",
+   "city": "Jammu",
+   "ownership": "Central Government",
+   "agencies": [
+    "CSIR"
+   ],
+   "search": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
+   "unranked": true,
+   "score": 66.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 70
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 20,
+   "tie": true
+  }
+ ],
+ "phd_candidates": 89
+}

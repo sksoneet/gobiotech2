@@ -1,0 +1,390 @@
+{
+ "version": 1,
+ "name": "GoBiotech Index (GBI), experimental",
+ "weights": {
+  "national_standing": 35,
+  "institution_status": 25,
+  "programme_strength": 20,
+  "support": 10,
+  "data_confidence": 10
+ },
+ "category_rank_multiplier": 1.5,
+ "unranked_standing_score": 20,
+ "notes": [
+  "Experimental index built only from signals in this site's own data and NIRF 2025 ranks found in public reports. It is not an official ranking and is not advice to apply or not apply.",
+  "Student and researcher work-environment feedback is NOT included yet: no reliable, comparable feedback data has been collected. The index has no weight for it until verified survey data exists.",
+  "Institutes with no published NIRF rank get a low default standing score, so research institutes that NIRF does not rank (for example NCBS or CCMB) are held down on that component.",
+  "NIRF ranks come from public reports of the NIRF 2025 lists; aggregator sites disagree on a few NIT ranks, so the figures used are the ones repeated by most sources. IIT Kharagpur and IIT Roorkee are both entered as overall #7 because overall ranks 6 and 7 were not clearly assigned. NIRF ranks for NIT Tiruchirappalli and NIT Surathkal are not used because those institutes are not in our data yet.",
+  "Ties are broken alphabetically. An institute not ranked by NIRF uses a low default standing score."
+ ],
+ "standing_formula": "comparable rank = the best of: Overall rank, or any category rank (University, Engineering, Agriculture, Research) x 1.5; national_standing = 100 x (1 - ln(rank)/ln(200)); unranked = 20",
+ "nirf_2025": [
+  {
+   "match": [
+    "indian institute of technology (iit) madras"
+   ],
+   "ranks": {
+    "Overall": 1,
+    "Engineering": 1
+   }
+  },
+  {
+   "match": [
+    "indian institute of science (iisc)"
+   ],
+   "ranks": {
+    "Overall": 2,
+    "University": 1,
+    "Research": 1
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) bombay"
+   ],
+   "ranks": {
+    "Overall": 3,
+    "Engineering": 3
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) delhi"
+   ],
+   "ranks": {
+    "Overall": 4,
+    "Engineering": 2
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) kanpur"
+   ],
+   "ranks": {
+    "Overall": 5
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) kharagpur"
+   ],
+   "ranks": {
+    "Overall": 7
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) roorkee"
+   ],
+   "ranks": {
+    "Overall": 7,
+    "Engineering": 6
+   }
+  },
+  {
+   "match": [
+    "all india institute of medical sciences (aiims) delhi"
+   ],
+   "ranks": {
+    "Overall": 8
+   }
+  },
+  {
+   "match": [
+    "jawaharlal nehru university"
+   ],
+   "ranks": {
+    "Overall": 9,
+    "University": 2
+   }
+  },
+  {
+   "match": [
+    "banaras hindu university"
+   ],
+   "ranks": {
+    "Overall": 10,
+    "University": 6,
+    "Agriculture": 4
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) guwahati"
+   ],
+   "ranks": {
+    "Overall": 11,
+    "Engineering": 8
+   }
+  },
+  {
+   "match": [
+    "jamia millia islamia"
+   ],
+   "ranks": {
+    "Overall": 13,
+    "University": 4,
+    "Engineering": 24
+   }
+  },
+  {
+   "match": [
+    "indian agricultural research institute"
+   ],
+   "ranks": {
+    "Agriculture": 1
+   }
+  },
+  {
+   "match": [
+    "national dairy research institute"
+   ],
+   "ranks": {
+    "Agriculture": 2
+   }
+  },
+  {
+   "match": [
+    "punjab agricultural university"
+   ],
+   "ranks": {
+    "Agriculture": 3,
+    "Overall": 81
+   }
+  },
+  {
+   "match": [
+    "indian veterinary research institute"
+   ],
+   "ranks": {
+    "Agriculture": 5
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) gandhinagar"
+   ],
+   "ranks": {
+    "Engineering": 16
+   }
+  },
+  {
+   "match": [
+    "indian institute of technology (iit) indore"
+   ],
+   "ranks": {
+    "Research": 24
+   }
+  },
+  {
+   "match": [
+    "university of delhi"
+   ],
+   "ranks": {
+    "University": 5
+   }
+  },
+  {
+   "match": [
+    "manipal academy of higher education"
+   ],
+   "ranks": {
+    "Overall": 14,
+    "University": 3
+   }
+  },
+  {
+   "match": [
+    "manipal institute of technology"
+   ],
+   "ranks": {
+    "Overall": 14
+   }
+  },
+  {
+   "match": [
+    "vit vellore"
+   ],
+   "ranks": {
+    "Overall": 21
+   }
+  },
+  {
+   "match": [
+    "srm institute of science and technology"
+   ],
+   "ranks": {
+    "Overall": 22
+   }
+  },
+  {
+   "match": [
+    "amrita school of biotechnology"
+   ],
+   "ranks": {
+    "Overall": 17
+   }
+  },
+  {
+   "match": [
+    "anna university"
+   ],
+   "ranks": {
+    "Overall": 29
+   }
+  },
+  {
+   "match": [
+    "siksha"
+   ],
+   "ranks": {
+    "Overall": 25
+   }
+  },
+  {
+   "match": [
+    "kiit (kalinga"
+   ],
+   "ranks": {
+    "Overall": 27
+   }
+  },
+  {
+   "match": [
+    "chandigarh university"
+   ],
+   "ranks": {
+    "Overall": 32
+   }
+  },
+  {
+   "match": [
+    "thapar institute"
+   ],
+   "ranks": {
+    "Overall": 44
+   }
+  },
+  {
+   "match": [
+    "symbiosis"
+   ],
+   "ranks": {
+    "Overall": 40
+   }
+  },
+  {
+   "match": [
+    "christ (deemed"
+   ],
+   "ranks": {
+    "Overall": 96
+   }
+  },
+  {
+   "match": [
+    "institute of chemical technology"
+   ],
+   "ranks": {
+    "Overall": 64
+   }
+  },
+  {
+   "match": [
+    "national institute of technology (nit) rourkela"
+   ],
+   "ranks": {
+    "Overall": 34,
+    "Engineering": 13
+   }
+  },
+  {
+   "match": [
+    "national institute of technology (nit) warangal"
+   ],
+   "ranks": {
+    "Engineering": 28
+   }
+  },
+  {
+   "match": [
+    "national institute of technology (nit) calicut"
+   ],
+   "ranks": {
+    "Engineering": 21
+   }
+  },
+  {
+   "match": [
+    "national institute of technology (nit) durgapur"
+   ],
+   "ranks": {
+    "Engineering": 49
+   }
+  },
+  {
+   "match": [
+    "motilal nehru national institute of technology"
+   ],
+   "ranks": {
+    "Engineering": 62
+   }
+  },
+  {
+   "match": [
+    "jadavpur university"
+   ],
+   "ranks": {
+    "Engineering": 18
+   }
+  },
+  {
+   "match": [
+    "university of calcutta"
+   ],
+   "ranks": {
+    "Research": 48
+   }
+  },
+  {
+   "match": [
+    "indian institute of science education and research (iiser), pune"
+   ],
+   "ranks": {
+    "Overall": 55,
+    "Research": 35
+   }
+  },
+  {
+   "match": [
+    "indian institute of science education and research (iiser), mohali"
+   ],
+   "ranks": {
+    "Overall": 70
+   }
+  },
+  {
+   "match": [
+    "indian institute of science education and research (iiser), kolkata"
+   ],
+   "ranks": {
+    "Research": 46
+   }
+  },
+  {
+   "match": [
+    "bits pilani"
+   ],
+   "ranks": {
+    "Engineering": 11
+   }
+  }
+ ],
+ "nirf_sources": [
+  "https://www.pw.live/iit-jee/exams/nirf-ranking-2025-of-engineering-colleges (overall ranks by state)",
+  "https://www.shiksha.com/engineering/articles/nits-in-india-blogId-20003 (NIT engineering ranks)",
+  "https://news.careers360.com/nirf-ranking-2025-overall-iit-madras-top-iisc-bangalore-second-iit-bombay-delhi-kanpur-roorkee-aiims-jnu-bhu-university-nba/amp",
+  "https://news.careers360.com/nirf-ranking-2025-agriculture-university-iari-new-delhi-pusa-ivri-izatnagar-bareilly-ndri-karnal-pau-ludhiana-top-colleges-list",
+  "https://www.selfstudys.com/update/nirf-ranking-2025-top-engineering-research-institutes-in-india-full-list (research ranks)"
+ ]
+}

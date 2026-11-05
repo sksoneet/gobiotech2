@@ -1,0 +1,10 @@
+{
+ "counselling": {
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "hours": "",
+  "languages": []
+ },
+ "_how_to_fill": "Add the number or address visitors should use. phone and whatsapp: digits with country code, for example +91XXXXXXXXXX. hours: for example 'Mon-Sat 10:00-18:00 IST'. languages: for example ['English','Hindi']. Leave a field empty to hide that channel. If all three channels are empty the menu says counselling is not set up yet."
+}

@@ -1,0 +1,11 @@
+{
+ "_note": "Fill these in to switch on the free counselling buttons. Leave blank to show 'opening soon'.",
+ "counselling": {
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "hours": "",
+  "languages": []
+ },
+ "feedback_email": ""
+}
