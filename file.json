@@ -1,0 +1,117 @@
+{
+  "title": "Advanced Biotechnology Ramifications & Research Thrusts",
+  "version": 1,
+  "description": "Frontier domains transforming life sciences research, therapeutic development, industrial bioprocessing, and computational biology across India.",
+  "domains": [
+    {
+      "id": "genome-editing",
+      "name": "Genome Editing & Gene Therapy",
+      "tagline": "Precision targeted manipulation of nucleotide sequences in living organisms",
+      "overview": "Beyond traditional recombinant DNA, precise site-directed alteration using programmable nucleases enables functional genomics, clinical gene therapies, and climate-resilient crop breeding.",
+      "technologies": ["CRISPR-Cas9 / Cas12 / Cas13", "Base Editing", "Prime Editing", "TALENs", "Zinc Finger Nucleases (ZFNs)", "AAV / LNP Delivery Vectors"],
+      "applications": ["Sickle cell & beta-thalassemia gene correction", "CAR-T cell engineering", "Abiotic stress-tolerant crops", "Pathogen eradication & gene drives"],
+      "skills_required": ["gRNA design & off-target prediction", "Electroporation & vector packaging", "T7EI / NGS cleavage validation", "Mammalian/plant tissue culture"],
+      "lead_institutes": [
+        "csir-institute-of-genomics-and-integrative-biology-igib-delh",
+        "bric-national-institute-of-plant-genome-research-nipgr-new-d",
+        "indian-institute-of-science-iisc-bengaluru",
+        "csir-centre-for-cellular-and-molecular-biology-ccmb-hyderaba",
+        "national-centre-for-biological-sciences-ncbs-tifr-bengaluru"
+      ]
+    },
+    {
+      "id": "genomics",
+      "name": "Genomics & Next-Gen Sequencing",
+      "tagline": "High-throughput mapping, sequencing, and structural analysis of whole genomes",
+      "overview": "Decoding organismal blueprint through short-read and long-read sequencers to resolve complex variation, population genetics, rare disease diagnostics, and evolutionary biology.",
+      "technologies": ["Illumina NovaSeq / NextSeq", "Oxford Nanopore (ONT)", "PacBio HiFi Long-Read", "Optical Genome Mapping (Bionano)", "Single-cell Genomics (10x Genomics)"],
+      "applications": ["National population cohorts (IndiGen)", "Cancer oncogenomics & liquid biopsy", "Rare genetic disorders", "Pathogen genomic surveillance (INSACOG)"],
+      "skills_required": ["DNA/RNA library prep", "FastQ/BAM QC & alignment", "Variant calling (GATK)", "Haplotype phased assembly"],
+      "lead_institutes": [
+        "csir-institute-of-genomics-and-integrative-biology-igib-delh",
+        "bric-centre-for-dna-fingerprinting-and-diagnostics-cdfd-hyde",
+        "indian-institute-of-science-iisc-bengaluru",
+        "regional-centre-for-biotechnology-rcb",
+        "all-india-institute-of-medical-sciences-aiims-delhi"
+      ]
+    },
+    {
+      "id": "transcriptomics",
+      "name": "Transcriptomics & Single-Cell RNA",
+      "tagline": "Dynamic quantification and characterization of RNA expression at cellular resolution",
+      "overview": "Reveals which genes are turned on or off under physiological or disease conditions, including non-coding RNAs, alternative splicing, and spatial tissue microenvironments.",
+      "technologies": ["Bulk RNA-Seq", "Single-Cell RNA-Seq (scRNA-seq)", "Spatial Transcriptomics (Visium/Stereo-seq)", "Ribosome Profiling (Ribo-seq)", "dRNA Nanopore Direct Sequencing"],
+      "applications": ["Tumor heterogeneity & microenvironment dissection", "Neurodevelopment mapping", "Host-pathogen interaction dynamics", "Drug target mechanism discovery"],
+      "skills_required": ["RNA integrity profiling (RIN)", "Count normalization (DESeq2/EdgeR)", "Seurat / Scanpy clustering", "Gene ontology & pathway enrichment"],
+      "lead_institutes": [
+        "csir-centre-for-cellular-and-molecular-biology-ccmb-hyderaba",
+        "national-centre-for-cell-science-nccs-pune",
+        "indian-institute-of-science-iisc-bengaluru",
+        "bric-national-institute-of-immunology-nii-new-delhi"
+      ]
+    },
+    {
+      "id": "proteomics",
+      "name": "Proteomics & Structural Biology",
+      "tagline": "Large-scale study of protein structure, function, post-translational modifications, and complexes",
+      "overview": "Proteins execute cellular functions. Modern proteomics measures abundance, phosphorylation/ubiquitination, interactomes, and atomic-resolution structures.",
+      "technologies": ["High-Res Orbitrap LC-MS/MS", "Cryo-Electron Microscopy (Cryo-EM)", "MALDI-TOF Mass Spectrometry", "Surface Plasmon Resonance (SPR)", "X-ray Crystallography"],
+      "applications": ["Biomarker discovery for early disease detection", "Protein-drug binding thermodynamics", "Monoclonal antibody characterization", "Structure-based drug design"],
+      "skills_required": ["Sample tryptic digestion & peptide cleanup", "DDA/DIA data acquisition", "Proteome Discoverer / MaxQuant analysis", "AlphaFold / PyMOL modeling"],
+      "lead_institutes": [
+        "indian-institute-of-technology-iit-bombay",
+        "indian-institute-of-science-iisc-bengaluru",
+        "bric-national-institute-of-immunology-nii-new-delhi",
+        "bose-institute-kolkata",
+        "institute-of-chemical-technology-ict-mumbai"
+      ]
+    },
+    {
+      "id": "metabolomics",
+      "name": "Metabolomics & Metabolic Profiling",
+      "tagline": "Comprehensive profiling of low-molecular-weight metabolites in biofluids and tissues",
+      "overview": "Metabolomics captures the physiological endpoint closest to the phenotype, bridging genomics, dietary environmental influences, and disease pathophysiology.",
+      "technologies": ["LC-HRMS / GC-MS", "High-field 1H & 13C NMR Spectroscopy", "Targeted MRM Quantification", "Fluxomics / 13C Metabolic Flux Analysis"],
+      "applications": ["Inborn errors of metabolism diagnostics", "Microbiome metabolic cross-talk", "Agricultural nutraceutical profiling", "Industrial strain fermentation tuning"],
+      "skills_required": ["Metabolite extraction & quenching", "Spectral peak alignment & deconvolution", "MetaboAnalyst multivariate statistics (PCA/PLS-DA)", "KEGG pathway topology"],
+      "lead_institutes": [
+        "csir-central-food-technological-research-institute-cftri-mys",
+        "icmr-national-institute-of-nutrition-nin-hyderabad",
+        "icar-indian-agricultural-research-institute-iari",
+        "indian-institute-of-science-iisc-bengaluru"
+      ]
+    },
+    {
+      "id": "systems-biology",
+      "name": "Systems Biology & Synthetic Biology",
+      "tagline": "Mathematical modeling of complex biological networks and de novo biological circuit engineering",
+      "overview": "Shifts biology from descriptive observation to predictive engineering. Combines computational modeling of biological networks with standardized genetic chassis design.",
+      "technologies": ["Genome-scale Metabolic Models (GEMs)", "Boolean & ODE Gene Network Modeling", "BioBricks / Golden Gate Assembly", "Cell-free Protein Synthesis (CFPS)", "Directed Laboratory Evolution"],
+      "applications": ["Microbial cell factories for biofuels & bioplastics", "Synthetic biosensors & engineered probiotics", "Antimicrobial resistance network prediction", "Cancer metabolic rewiring simulation"],
+      "skills_required": ["COBRA toolbox / MATLAB / Python", "Kinetic parameter estimation", "CRISPR-based circuit repression", "Chemostat & bioreactor kinetics"],
+      "lead_institutes": [
+        "indian-institute-of-technology-iit-madras",
+        "indian-institute-of-technology-iit-delhi",
+        "institute-of-chemical-technology-ict-mumbai",
+        "international-centre-for-genetic-engineering-and-biotechnolo",
+        "national-centre-for-biological-sciences-ncbs-tifr-bengaluru"
+      ]
+    },
+    {
+      "id": "bioinformatics",
+      "name": "Bioinformatics & Computational Biology",
+      "tagline": "Algorithmic data science, molecular dynamics, and AI foundation models in life sciences",
+      "overview": "The computational backbone underpinning all omics disciplines. Encompasses pipeline engineering, machine learning for sequence prediction, and molecular simulations.",
+      "technologies": ["Nextflow / Snakemake Pipelines", "Deep Learning (ESM-2, AlphaFold3, scGPT)", "Molecular Dynamics (GROMACS, AMBER)", "Docker / Singularity Containerization", "Cloud Compute (AWS / GCP / HPC Clusters)"],
+      "applications": ["AI-driven de novo drug design", "Variant effect pathogenicity prediction", "Phylogenomic epidemiology", "High-throughput docking & virtual screening"],
+      "skills_required": ["Python, R, Bash scripting", "HPC SLURM workflow execution", "PyTorch / TensorFlow for bio-embeddings", "Bioconductor & BioPython libraries"],
+      "lead_institutes": [
+        "indian-institute-of-science-iisc-bengaluru",
+        "indian-institute-of-technology-iit-delhi",
+        "jawaharlal-nehru-university-jnu",
+        "pondicherry-university",
+        "csir-institute-of-genomics-and-integrative-biology-igib-delh"
+      ]
+    }
+  ]
+}
