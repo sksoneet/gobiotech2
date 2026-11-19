@@ -135,6 +135,15 @@ def main():
         for s in inst.get("sources", []):
             users[s["url"]].append(inst["name"])
             notes.setdefault(s["url"], s.get("note", ""))
+    exf = ROOT / "data" / "exams.json"
+    if exf.exists() and not args.only:
+        for e in json.loads(exf.read_text(encoding="utf-8"))["exams"]:
+            items = list(e.get("sources", [])) + [{"url": x["url"], "note": x.get("title", "")} for x in e.get("announcements", [])]
+            if e.get("official_site"):
+                items.append({"url": e["official_site"], "note": "official site"})
+            for s in items:
+                users[s["url"]].append("Exam: " + e["name"])
+                notes.setdefault(s["url"], s.get("note", ""))
     urls = sorted(users)
     print(f"Checking {len(urls)} unique URLs for {sum(len(v) for v in users.values())} source links ...", flush=True)
 

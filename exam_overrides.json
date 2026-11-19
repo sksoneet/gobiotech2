@@ -1,0 +1,187 @@
+{
+ "alagappa-college-of-technology-anna-university-chennai": {
+  "masters": {
+   "exams": [
+    "gate"
+   ],
+   "others": [
+    "TANCET (Anna University M.Tech)"
+   ],
+   "note": "Typical route inferred: TANCET or GATE for M.Tech at Anna University; confirm in the admission notice."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-pun": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-kol": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-moh": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-bho": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-thi": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-tir": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "indian-institute-of-science-education-and-research-iiser-ber": {
+  "masters": {
+   "exams": [
+    "iat"
+   ],
+   "others": [],
+   "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+  }
+ },
+ "m-s-ramaiah-university-of-applied-sciences": {
+  "masters": {
+   "exams": [
+    "cuet-pg"
+   ],
+   "others": [],
+   "note": "The university is on the CUET (PG) 2026 participating list (Careers360 / CUET PG lists); the biotechnology course's own route was not stated, so confirm it in the admission notice.",
+   "inferred": [
+    "cuet-pg"
+   ]
+  }
+ },
+ "vinoba-bhave-university-hazaribagh": {
+  "masters": {
+   "exams": [
+    "cuet-pg"
+   ],
+   "others": [],
+   "note": "The university is on the CUET (PG) 2026 participating list (Careers360 / CUET PG lists); the biotechnology course's own route was not stated, so confirm it in the admission notice.",
+   "inferred": [
+    "cuet-pg"
+   ]
+  }
+ },
+ "gujarat-university-ahmedabad": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "GCAS (Gujarat Common Admission Services) merit list"
+   ],
+   "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+  }
+ },
+ "sardar-patel-university-vallabh-vidyanagar": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "GCAS (Gujarat Common Admission Services) merit list"
+   ],
+   "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+  }
+ },
+ "hemchandracharya-north-gujarat-university-patan": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "GCAS (Gujarat Common Admission Services) merit list"
+   ],
+   "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+  }
+ },
+ "veer-narmad-south-gujarat-university-vnsgu-surat": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "GCAS (Gujarat Common Admission Services) merit list"
+   ],
+   "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+  }
+ },
+ "nirma-university-institute-of-science": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "ISNU Entrance Examination (Nirma University Institute of Science)"
+   ],
+   "note": "Institute’s own entrance test followed by counselling (2026 cycle)."
+  }
+ },
+ "central-university-of-rajasthan-curaj": {
+  "masters": {
+   "exams": [
+    "gat-b",
+    "cuet-pg"
+   ],
+   "others": [],
+   "note": "DBT-supported seats through GAT-B; other M.Sc seats are reported to use CUET (PG)."
+  }
+ },
+ "university-of-rajasthan": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "University of Rajasthan PG entrance (URATPG)"
+   ],
+   "note": "Self-finance M.Sc Biotechnology weights an entrance test (about 70%) and the qualifying exam (about 30%) per Careers360 (an older answer); regular seats use merit lists (Department of Botany, 2025–26). Confirm in the current notice."
+  }
+ },
+ "mohanlal-sukhadia-university-mlsu": {
+  "masters": {
+   "exams": [],
+   "others": [],
+   "note": "Admission on university merit lists (the 2025–26 provisional merit list for the M.Sc Biotechnology first semester is on the MLSU site); confirm whether a test applies."
+  }
+ },
+ "jain-university-bengaluru": {
+  "masters": {
+   "exams": [],
+   "others": [
+    "JET (Jain Entrance Test)"
+   ],
+   "note": "Admission is based on the Jain Entrance Test conducted by the university (Careers360); the total fee is listed at about ₹3.0 lakh."
+  }
+ },
+ "reva-university": {
+  "masters": {
+   "exams": [],
+   "others": [],
+   "note": "Admission on merit basis per Collegedunia (a student summary mentions an entrance exam); the AIU listing shows 60 seats. Confirm in the REVA notice."
+  }
+ }
+}

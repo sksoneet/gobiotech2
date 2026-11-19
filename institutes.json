@@ -56,7 +56,21 @@
    "agency": [
     "DBT",
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "guru-jambheshwar-university-of-science-technology-gjust",
@@ -110,7 +124,25 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "deenbandhu-chhotu-ram-university-of-science-technology-dcrus",
@@ -161,7 +193,32 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "maharshi-dayanand-university-mdu",
@@ -216,7 +273,35 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "cuet-ug"
+     ],
+     "others": [
+      "HSTES counselling"
+     ],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "kurukshetra-university",
@@ -282,7 +367,30 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "central-university-of-haryana-cuh",
@@ -323,7 +431,27 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "maharishi-markandeshwar-deemed-to-be-university",
@@ -376,7 +504,32 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "amity-university-haryana",
@@ -431,7 +584,32 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "manav-rachna-international-institute-of-research-studies",
@@ -480,7 +658,32 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "chaudhary-charan-singh-haryana-agricultural-university-hau",
@@ -528,7 +731,24 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "icar-national-dairy-research-institute-ndri",
@@ -587,7 +807,30 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "icar-aice-jrf"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "lala-lajpat-rai-university-of-veterinary-animal-sciences-luv",
@@ -633,7 +876,23 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "icar-aice-jrf"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dronacharya-government-college-gurugram-university",
@@ -674,7 +933,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "baba-mastnath-university",
@@ -715,7 +981,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "jawaharlal-nehru-university-jnu",
@@ -778,7 +1051,26 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-delhi",
@@ -848,7 +1140,33 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iit-jam",
+      "gate"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "gate"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "delhi-technological-university-dtu",
@@ -899,7 +1217,32 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "JAC Delhi counselling"
+     ],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [
+      "JAC Delhi counselling"
+     ],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jamia-millia-islamia-jmi",
@@ -965,7 +1308,33 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "jamia-hamdard",
@@ -1014,7 +1383,27 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "all-india-institute-of-medical-sciences-aiims-delhi",
@@ -1032,7 +1421,7 @@
     "Masters",
     "PhD"
    ],
-   "programmes": "M.Sc Biotechnology, Ph.D.",
+   "programmes": "M.Biotechnology (M.Sc-level programme with its own entrance), Ph.D.",
    "fees": "Not yet verified",
    "hostel": "Yes",
    "website": "https://www.aiims.edu",
@@ -1045,15 +1434,15 @@
    },
    "campuses": null,
    "seats": [
-    "M.Sc Biotechnology: 14 or 18 seats (two 2022 Careers360 answers differ); the fee is listed at about ₹2,700 in total"
+    "M.Biotechnology: 18 seats in 2025 (official exam page summary); about 63 seats across all non-nursing M.Sc and M.Biotechnology programmes at AIIMS New Delhi in 2026"
    ],
    "eligibility": {
     "basis": "sourced",
-    "masters": "M.Sc / M.Biotechnology: AIIMS’s own national computer-based entrance test (the 2026 test was held on 13 June). Eligibility: MBBS/BDS, B.V.Sc, B.Pharm, B.Sc (life sciences / biotechnology) and similar, with at least 60% marks (55% for SC/ST). About 18 seats.",
-    "phd": "Master’s (or B.Tech) degree, about 55% marks, and usually a national fellowship test (DBT-BET JRF, CSIR-UGC NET, GATE) or the institute’s own entrance test, followed by an interview.",
+    "masters": "M.Biotechnology: admission only on rank in AIIMS’s own M.Sc / M.Biotechnology entrance exam (the 2025 exam was on 14 June 2025). A B.Sc in the relevant field is eligible, and a B.Tech in Biotechnology is also accepted. 2026 cycle: open-round seat allocation was announced on 18 September 2026 after an earlier allocation was postponed (Notice 122/2026, 29 July 2026).",
+    "phd": "Ph.D.: AIIMS New Delhi runs two sessions a year. The July 2026 session (applications until 12 May 2026) and the January 2027 session (applications opened 26 October 2026) are announced. Candidates need a national fellowship tenable at AIIMS, such as Joint CSIR-UGC NET JRF or ICMR-JRF, among the listed options.",
     "maths": "Mathematics is generally not required for M.Sc or PhD admission: students from Biology, Chemistry, Botany, Zoology, Microbiology, Pharmacy, Agriculture and similar backgrounds can usually apply."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://collegedunia.com/exams/aiims-msc",
@@ -1062,13 +1451,43 @@
     {
      "url": "https://www.careers360.com/question-what-is-the-process-for-taking-admission-in-aiims-delhi-for-msc-in-biotechnology",
      "note": "Careers360: AIIMS Delhi M.Sc Biotechnology (2022 answer)"
+    },
+    {
+     "url": "https://www.pw.live/iit-jam/exams/aiims-m-sc-entrance-exam-2025",
+     "note": "PW Live: AIIMS M.Sc entrance 2025 (18 seats)"
+    },
+    {
+     "url": "https://articles.findmycollege.com/news/aiims-msc-open-round-2026-seat-allocation-released-online-acceptance-and-joining-by-28-september/",
+     "note": "FindMyCollege: AIIMS open round 2026"
+    },
+    {
+     "url": "https://inphd.com/?p=8288",
+     "note": "InPhD: AIIMS Delhi PhD July 2026"
     }
    ],
    "data_collected": "2026-10-22",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "aiims-msc"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret",
+      "aiims-phd"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "icar-indian-agricultural-research-institute-iari",
@@ -1124,7 +1543,23 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "icar-aice-jrf"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "south-asian-university-sau",
@@ -1165,7 +1600,27 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "guru-gobind-singh-indraprastha-university-ggsipu",
@@ -1216,7 +1671,28 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-delhi-du",
@@ -1225,7 +1701,9 @@
    "city": "New Delhi",
    "type": "Central university with many affiliated colleges",
    "ownership": "Central Government",
-   "agencies": [],
+   "agencies": [
+    "DBT"
+   ],
    "address": "University of Delhi, Delhi 110007",
    "department": "Department of Plant Molecular Biology; life-science departments in colleges",
    "degrees": [
@@ -1245,12 +1723,12 @@
    },
    "campuses": "UG life-science seats sit in the colleges, where CUET UG seats are counted college-wise: for example Hansraj, Miranda House, Sri Venkateswara, Gargi, Kirori Mal, Ramjas, Shivaji and Zakir Husain Delhi College (B.Sc Life Sciences and related programmes). The department-level M.Sc Plant Molecular Biology & Biotechnology is on the university campus (confirm campus and intake).",
    "seats": [
-    "No B.Sc Biotechnology seats exist. For allied life-science programmes, seats are set college by college in each college’s CUET UG seat matrix; I have not collected those."
+    "M.Sc Plant Molecular Biology & Biotechnology: seats filled on GAT-B 2026 merit; spot round 1 held on 8 August 2026 (department notice)"
    ],
    "eligibility": {
     "basis": "sourced",
     "ug": "No B.Sc Biotechnology is offered. Allied programmes (B.Sc (Hons) Biochemistry, Microbiology, Biological Sciences; B.Sc Life Sciences) are admitted through CUET UG, with seats counted college-wise; subject combinations differ by college.",
-    "masters": "M.Sc Plant Molecular Biology & Biotechnology (2 years): confirm the admission route and intake.",
+    "masters": "M.Sc Plant Molecular Biology & Biotechnology (2-year, at the South Campus): for 2026–28 the university admitted GAT-B 2026-qualified candidates on merit. Applications were through pgportal.uod.ac.in, with a spot-admission round on 8 August 2026 for vacant GAT-B seats (department notices). This is not a CUET (PG) programme.",
     "maths": "Not required for the life-science programmes, which need 10+2 Science, usually with Biology and Chemistry; confirm per college."
    },
    "status": "partly_sourced",
@@ -1258,11 +1736,40 @@
     {
      "url": "https://www.careers360.com/question-which-delhi-university-college-have-bsc-biotechnology-through-cuet",
      "note": "Careers360 Q&A"
+    },
+    {
+     "url": "https://dpmb.ac.in/uploads/Data%20files/PG%20and%20PhD%20Courses/PMBB%20GAT-B%20PG%20Admission%20Schedule%202026-27.pdf",
+     "note": "DU South Campus: PMBB GAT-B admission schedule 2026-27 (official)"
+    },
+    {
+     "url": "https://dpmb.ac.in/uploads/Data%20files/SPOT%20ADMISSIONS%20-1%2008082026.pdf",
+     "note": "DU Dept. of Plant Molecular Biology: spot admission round 1 (official)"
+    },
+    {
+     "url": "https://www.tribuneindia.com/news/delhi/delhi-university-opens-registration-for-one-year-pg-programmes-releases-key-admission-updates/",
+     "note": "The Tribune: DU PG and M.Sc PMBB updates"
     }
    ],
    "data_collected": "2026-10-22",
-   "last_checked": null,
-   "agency": []
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-bombay",
@@ -1330,7 +1837,21 @@
    "agency": [
     "DBT",
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "iit-jam"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "institute-of-chemical-technology-ict-mumbai",
@@ -1384,7 +1905,26 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "savitribai-phule-pune-university-sppu",
@@ -1443,7 +1983,23 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "p-e-s-s-modern-college-of-arts-science-commerce-ganeshkhind",
@@ -1486,7 +2042,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "sinhgad-college-of-engineering-pune",
@@ -1527,7 +2090,17 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "mit-world-peace-university-mit-wpu",
@@ -1568,7 +2141,17 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kit-s-college-of-engineering-kolhapur",
@@ -1609,7 +2192,17 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "panjab-university-chandigarh",
@@ -1662,7 +2255,25 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "JAC Delhi counselling"
+     ],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "chandigarh-university",
@@ -1705,7 +2316,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "thapar-institute-of-engineering-technology-tiet",
@@ -1748,7 +2366,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "punjab-agricultural-university-pau",
@@ -1782,14 +2409,15 @@
    },
    "campuses": null,
    "seats": [
-    "Ph.D. Biotechnology: 8 seats (AIU listing)",
-    "B.Tech Biotechnology and M.Sc intake: not found; see the PAU prospectus",
-    "DBT-sanctioned M.Sc seats: 10 (GAT-B 2025–26 / 2026 participating lists)"
+    "B.Tech Biotechnology: 60 seats through the PAU Common Entrance Test (CET)",
+    "M.Sc Biotechnology: 10 seats through GAT-B",
+    "M.Sc Molecular Biology & Biotechnology: 16 seats plus 7 ICAR seats through PAU’s Master’s Entrance Test (MET)",
+    "Ph.D. Biotechnology: 8 seats (AIU listing)"
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech Biotechnology is listed in PAU’s 2024–25 admission notice (marked with an asterisk). The notice invites candidates residing in Punjab and Chandigarh. Entrance test, subjects and intake are in the prospectus at pau.edu.",
-    "masters": "M.Sc Molecular Biology & Biotechnology: listed in the 2024–25 notice; entrance details are in the PAU prospectus. For MBA and M.Tech (RS&GIS) the notice gives 85% seats to Punjab domicile and 15% to other states, with 15% more other-state seats in self-supporting programmes.",
+    "ug": "B.Tech Biotechnology (60 seats): admission through the PAU Common Entrance Test (official PAU page). A Collegedekho summary lists a B.Tech Biotechnology fee of about ₹1.36 lakh a year; the 2024–25 PAU notice invites applicants residing in Punjab and Chandigarh, with an 85% state quota in a 2026 summary.",
+    "masters": "M.Sc Biotechnology (10 seats): GAT-B. M.Sc Molecular Biology & Biotechnology (16 + 7 ICAR seats): PAU Master’s Entrance Test (MET) and ICAR channels. ICAR AIEEA (PG) 2026 was held on 4 July 2026.",
     "phd": "Ph.D. Biotechnology (8 seats): M.Sc in Biotechnology, Plant Breeding & Genetics or Life Sciences, or a 4-year B.Sc Biotechnology / B.Tech Biotechnology / B.Sc Molecular Biology / B.Sc Agriculture (Hons) / Forestry / Horticulture (AIU listing).",
     "maths": "B.Tech subject rules were not retrieved; check the prospectus. Mathematics is not required for the M.Sc or Ph.D."
    },
@@ -1806,13 +2434,41 @@
     {
      "url": "https://rcb.res.in/upload/list%20of%20participating%20institutes%20GATB-25.pdf",
      "note": "GAT-B 2025 participating institutes (official)"
+    },
+    {
+     "url": "https://pauwp.pau.edu/?p=4469",
+     "note": "PAU Biotechnology admission: intake and mode (official)"
+    },
+    {
+     "url": "https://uni-admission.aglasem.com/punjab/pau-ludhiana/",
+     "note": "Aglasem: PAU admission 2026"
     }
    ],
    "data_collected": "2026-10-22",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "punjabi-university-patiala-and-affiliated-colleges",
@@ -1859,7 +2515,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "bbk-dav-college-for-women-amritsar",
@@ -1900,7 +2563,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "central-university-of-punjab-cupb",
@@ -1949,7 +2619,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "guru-nanak-dev-university-gndu",
@@ -2017,7 +2696,21 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "guru-angad-dev-veterinary-and-animal-sciences-university-gad",
@@ -2078,7 +2771,30 @@
    "agency": [
     "DBT",
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "himachal-pradesh-university-hpu",
@@ -2146,7 +2862,21 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jaypee-university-of-information-technology-juit",
@@ -2205,7 +2935,21 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "shoolini-university-of-biotechnology-and-management-sciences",
@@ -2246,7 +2990,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-roorkee",
@@ -2320,7 +3071,29 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iit-jam"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "graphic-era-deemed-to-be-university",
@@ -2370,7 +3143,21 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "g-b-pant-university-of-agriculture-technology-gbpuat",
@@ -2421,7 +3208,16 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-y-s-parmar-university-of-horticulture-forestry-nauni",
@@ -2488,7 +3284,33 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "csk-himachal-pradesh-krishi-vishvavidyalaya-csk-hpkv",
@@ -2545,7 +3367,29 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-mandi",
@@ -2597,7 +3441,26 @@
    "last_checked": null,
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "gate"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "hemvati-nandan-bahuguna-garhwal-university-hnbgu",
@@ -2651,7 +3514,24 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": "2026-10-24 (manual check against the official page)",
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "bipin-tripathi-kumaon-institute-of-technology-btkit",
@@ -2692,7 +3572,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "g-b-pant-institute-of-engineering-technology-gbpiet",
@@ -2733,7 +3622,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "upes-university-of-petroleum-energy-studies",
@@ -2778,7 +3676,17 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-kanpur",
@@ -2845,7 +3753,34 @@
    "agency": [
     "DBT",
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "gate",
+      "icar-aice-jrf",
+      "dhr-bret"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "motilal-nehru-national-institute-of-technology-mnnit-allahab",
@@ -2874,11 +3809,12 @@
    },
    "campuses": null,
    "seats": [
-    "B.Tech Biotechnology intake not found"
+    "B.Tech Biotechnology intake not found",
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 27,136–33,266"
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech Biotechnology: JEE Main score with JoSAA counselling (national). One listing mentions 10+2 with 75% (or the usual top-20-percentile rule for NITs).",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "maths": "Mathematics is expected on the JEE Main / JoSAA route; confirm in the JoSAA eligibility."
    },
    "status": "partly_sourced",
@@ -2890,13 +3826,26 @@
     {
      "url": "https://s4.collegedunia.com/university/25961-mnnit-allahabad-motilal-nehru-national-institute-of-technology-mnnit-allahabad/bachelor-of-technology-btech-biotechnology-and-biochemical-engineering-2038",
      "note": "Collegedunia Biotechnology & Biochemical Engineering page"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-22",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "harcourt-butler-technical-university-hbtu-kanpur",
@@ -2941,7 +3890,17 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-ambedkar-institute-of-technology-for-divyangjan-kanpur",
@@ -2982,7 +3941,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-allahabad",
@@ -3023,7 +3991,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-lucknow",
@@ -3064,7 +4041,14 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "banaras-hindu-university-bhu",
@@ -3124,7 +4108,17 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "babasaheb-bhimrao-ambedkar-university-bbau",
@@ -3172,7 +4166,21 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "icar-indian-veterinary-research-institute-ivri",
@@ -3239,7 +4247,23 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "icar-aice-jrf"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gautam-buddha-university-gbu",
@@ -3294,7 +4318,21 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "galgotias-university",
@@ -3335,7 +4373,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "shobhit-institute-of-engineering-technology-meerut",
@@ -3376,7 +4423,16 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-uttar-pradesh-noida-greater-noida-lucknow",
@@ -3430,7 +4486,26 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bennett-university-greater-noida",
@@ -3473,7 +4548,19 @@
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "mohanlal-sukhadia-university-mlsu",
@@ -3520,11 +4607,27 @@
     {
      "url": "https://collegedunia.com/msc/biotechnology/rajasthan-colleges",
      "note": "Collegedunia Rajasthan M.Sc Biotechnology list"
+    },
+    {
+     "url": "https://mlsu.ac.in/notifications/15383_M.Sc.%20Biotechnology%20I%20Sem.%20Provisional%20Merit%20List%202025-26.pdf",
+     "note": "MLSU M.Sc Biotechnology provisional merit list 2025-26 (official)"
     }
    ],
    "data_collected": "2026-10-22",
    "last_checked": "2026-10-24 (manual check against the official page)",
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Admission on university merit lists (the 2025–26 provisional merit list for the M.Sc Biotechnology first semester is on the MLSU site); confirm whether a test applies."
+    }
+   }
   },
   {
    "id": "banasthali-vidyapith",
@@ -3578,7 +4681,21 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "central-university-of-rajasthan-curaj",
@@ -3608,11 +4725,11 @@
    "campuses": null,
    "seats": [
     "2022–23 spot round: 4 vacant seats (UR 2, OBC 1, SC 1); total intake not found",
-    "DBT-sanctioned M.Sc seats: 10 (GAT-B 2025–26 / 2026 participating lists)"
+    "DBT-supported M.Sc Biotechnology: 10 seats (UR 4, OBC 3, SC 1, ST 1, EWS 1) per CURAJ’s official guidelines; the 2025–26 merit list was prepared on GAT-B scores"
    ],
    "eligibility": {
     "basis": "sourced",
-    "masters": "M.Sc Biotechnology: bachelor’s degree in Microbiology, Zoology, Botany, Life Sciences, Biochemistry, Genetics, Biotechnology, Medicine, Pharmacy or another biological science with at least 50% marks (45% for SC/ST/OBC/PwD/EWS). The 2022 notice used CUET scores; DBT-supported seats are also in the GAT-B list.",
+    "masters": "M.Sc Biotechnology: the DBT-supported seats require a qualifying GAT-B score (conducted by RCB), with merit lists and offline counselling published by the department (official guidelines 2024 and 2025–26 notices). A CollegeDekho 2026 summary says admission is primarily on CUET (PG) for other M.Sc seats; confirm which route fills which seats. Eligibility: a bachelor’s in Microbiology, Zoology, Botany, Life Sciences, Biochemistry, Genetics, Biotechnology, Medicine, Pharmacy or another biological science with at least 50% marks (45% for reserved categories).",
     "maths": "Mathematics is not required; biological-science graduates are eligible."
    },
    "status": "partly_sourced",
@@ -3628,13 +4745,35 @@
     {
      "url": "https://rcb.res.in/upload/list%20of%20participating%20institutes%20GATB-25.pdf",
      "note": "GAT-B 2025 participating institutes (official)"
+    },
+    {
+     "url": "https://curaj.ac.in/sites/default/files/Admisison%20-DBT%20PG%20programme%20guidelines-2024.pdf",
+     "note": "CURAJ DBT PG programme guidelines 2024 (official)"
+    },
+    {
+     "url": "https://curaj.ac.in/sites/default/files/Revised%20Guidelines.pdf",
+     "note": "CURAJ revised guidelines: DBT seats (official)"
+    },
+    {
+     "url": "https://www.curaj.ac.in/node/92878",
+     "note": "CURAJ admission 2025-26 notices (official)"
     }
    ],
    "data_collected": "2026-10-22",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official notices and 2026 admission pages)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "DBT-supported seats through GAT-B; other M.Sc seats are reported to use CUET (PG)."
+    }
+   }
   },
   {
    "id": "university-of-rajasthan",
@@ -3673,11 +4812,24 @@
     {
      "url": "https://collegedunia.com/msc/biotechnology/rajasthan-colleges",
      "note": "Collegedunia Rajasthan list"
+    },
+    {
+     "url": "https://www.careers360.com/university/university-of-rajasthan-jaipur/msc-biotechnology-self-finance-course",
+     "note": "Careers360: UNIRAJ M.Sc Biotechnology (self-finance)"
     }
    ],
    "data_collected": "2026-10-22",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "University of Rajasthan PG entrance (URATPG)"
+     ],
+     "note": "Self-finance M.Sc Biotechnology weights an entrance test (about 70%) and the qualifying exam (about 30%) per Careers360 (an older answer); regular seats use merit lists (Department of Botany, 2025–26). Confirm in the current notice."
+    }
+   }
   },
   {
    "id": "university-of-jammu-school-of-biotechnology",
@@ -3733,7 +4885,16 @@
    "last_checked": "2026-10-24 (manual check against the official page)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-kashmir",
@@ -3790,7 +4951,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "skuast-jammu-institute-of-biotechnology",
@@ -3861,7 +5031,30 @@
    "agency": [
     "DBT",
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "central-university-of-jammu",
@@ -3911,7 +5104,20 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "university-of-mumbai-department-of-biotechnology",
@@ -3959,7 +5165,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-d-y-patil-biotechnology-bioinformatics-institute-pune",
@@ -4007,7 +5225,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "dr-d-y-patil-university-navi-mumbai-biotechnology",
@@ -4048,7 +5278,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "shivaji-university",
@@ -4094,7 +5331,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "mahatma-phule-krishi-vidyapeeth-mpkv-rahuri",
@@ -4151,7 +5395,17 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-panjabrao-deshmukh-krishi-vidyapeeth-dr-pdkv-akola",
@@ -4211,7 +5465,27 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "symbiosis-school-of-biological-sciences-siu-pune",
@@ -4265,7 +5539,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rajiv-gandhi-institute-of-it-biotechnology-bharati-vidyapeet",
@@ -4317,7 +5603,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "dr-babasaheb-ambedkar-marathwada-university-bamu-and-affilia",
@@ -4375,7 +5673,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "mgm-university-mgm-institute-of-biosciences-technology",
@@ -4420,7 +5730,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sanjay-ghodawat-university-kolhapur",
@@ -4468,7 +5787,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rashtrasant-tukadoji-maharaj-nagpur-university-rtmnu",
@@ -4509,7 +5840,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "vasantrao-naik-marathwada-krishi-vidyapeeth-vnmkv-parbhani",
@@ -4561,7 +5899,27 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "dr-balasaheb-sawant-konkan-krishi-vidyapeeth-bskkv-dapoli",
@@ -4618,7 +5976,27 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "k-k-wagh-college-of-agricultural-biotechnology-nashik",
@@ -4663,7 +6041,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "yashodeep-samajik-vikas-sanstha-s-college-of-agricultural-bi",
@@ -4708,7 +6096,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "neet-ug",
+      "mht-cet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "chhatrapati-shivaji-maharaj-university-csmu-navi-mumbai",
@@ -4760,7 +6159,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "sandip-university-nashik",
@@ -4801,7 +6214,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "g-h-raisoni-university-amravati",
@@ -4842,7 +6262,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gondwana-university-gadchiroli",
@@ -4883,7 +6310,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-mumbai-panvel",
@@ -4924,7 +6358,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-jodhpur",
@@ -4973,7 +6414,16 @@
    "last_checked": null,
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "maharana-pratap-university-of-agriculture-technology-mpuat-u",
@@ -5022,7 +6472,16 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "manipal-university-jaipur",
@@ -5070,7 +6529,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jecrc-university-jaipur",
@@ -5114,7 +6585,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jaipur-national-university",
@@ -5162,7 +6645,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-rajasthan-jaipur",
@@ -5206,7 +6701,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bhupal-nobles-university-udaipur",
@@ -5251,7 +6758,24 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rnb-global-university-bikaner",
@@ -5296,7 +6820,24 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "maharaja-ganga-singh-university-bikaner",
@@ -5339,7 +6880,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-kota",
@@ -5380,7 +6933,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gujarat-biotechnology-university-gbu",
@@ -5410,11 +6970,12 @@
    "campuses": null,
    "seats": [
     "M.Sc Biotechnology: 100 seats a year, 20 in each of the five specialisations (published admission summary)",
-    "Ph.D.: intake 29 (Careers360)"
+    "Ph.D.: intake 29 (Careers360)",
+    "2026: 100 M.Sc seats plus 10% EWS; filled in rounds from July 2026 (1st round notice July, round 2 list 5 Aug 2026); IIT-JAM merit list 27 Aug 2026; CUET (PG) provisional list 3 Sep 2026; a closing notice followed on 6 Oct 2026"
    ],
    "eligibility": {
     "basis": "sourced",
-    "masters": "M.Sc Biotechnology: only GAT-B qualified candidates (above the category-wise cut-off) are considered first; seats still vacant are filled on IIT-JAM, then CUET (PG) Life Sciences & Biotechnology scores (official brochures 2024 and 2026). Eligibility (AIU listing): bachelor’s degree in any field of science or technology with at least 55% marks for General/OBC (50% for SC/ST), or a CGPA of 5.5 (5.0 for SC/ST) on a 10-point scale. Gujarat Government reservation norms apply. A tie-up with the University of Edinburgh funds 3-month research visits for 25 students a year (BioTecNika, 2024).",
+    "masters": "M.Sc Biotechnology: only GAT-B qualified candidates (above the category-wise cut-off) are considered first; seats still vacant are filled on IIT-JAM, then CUET (PG) Life Sciences & Biotechnology scores (official brochures 2024 and 2026). Eligibility (AIU listing): bachelor’s degree in any field of science or technology with at least 55% marks for General/OBC (50% for SC/ST), or a CGPA of 5.5 (5.0 for SC/ST) on a 10-point scale. Gujarat Government reservation norms apply. A tie-up with the University of Edinburgh funds 3-month research visits for 25 students a year (BioTecNika, 2024). 2026 cycle (official GBU notices): GAT-B qualifiers are admitted first; vacant seats then go to IIT-JAM and then CUET (PG) candidates in separate merit lists.",
     "phd": "Ph.D.: apply through the university; eligibility not extracted.",
     "maths": "Mathematics is not required: any bachelor’s degree in science or technology with the listed marks is eligible."
    },
@@ -5439,13 +7000,41 @@
     {
      "url": "https://admission.aiu.ac.in/Search/ProgramSpecific/41632",
      "note": "AIU listing: GBU M.Sc Biotechnology, 100 seats"
+    },
+    {
+     "url": "https://gbu.edu.in/msc-admission",
+     "note": "GBU M.Sc admission page (official)"
+    },
+    {
+     "url": "https://gbu.edu.in/wp-content/uploads/2026/08/IIT-JAM-27082026.pdf",
+     "note": "GBU IIT-JAM merit list 27 Aug 2026 (official)"
+    },
+    {
+     "url": "https://gbu.edu.in/wp-content/uploads/2026/08/Provisional-List-2nd-round-05082026.pdf",
+     "note": "GBU provisional list, round 2 (official)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official notices and 2026 admission pages)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "iit-jam",
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "maharaja-sayajirao-university-of-baroda-msu",
@@ -5503,7 +7092,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sardar-patel-university-vallabh-vidyanagar",
@@ -5540,11 +7138,24 @@
     {
      "url": "https://s3.collegedunia.com/university/25508-sardar-patel-university-spu-vallabh-vidyanagar/master-of-science-msc-biotechnology-4314",
      "note": "Collegedunia M.Sc page"
+    },
+    {
+     "url": "https://university.careers360.com/articles/gcas-registration",
+     "note": "Careers360: GCAS (Gujarat Common Admission Services) registration"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "GCAS (Gujarat Common Admission Services) merit list"
+     ],
+     "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+    }
+   }
   },
   {
    "id": "nirma-university-institute-of-science",
@@ -5569,11 +7180,11 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "M.Sc Biotechnology: 60 seats (all-India) plus 10 NRI seats, 70 in all (the Institute of Science’s 2026 admission page); Careers360 lists 40 seats, so confirm"
    ],
    "eligibility": {
     "basis": "sourced",
-    "masters": "M.Sc Microbiology / Biotechnology: B.Sc in any of the life sciences or allied areas (university admissions notice on IndiaBioscience).",
+    "masters": "M.Sc Biotechnology / Microbiology: admission through the Institute of Science Nirma University entrance examination (ISNU Entrance); 2026 applications ran 2 March to 20 June 2026, with the entrance exam and counselling on 24 June 2026. A B.Sc in any life-science or allied subject is eligible (Institute of Science admission page).",
     "maths": "Mathematics is not required."
    },
    "status": "partly_sourced",
@@ -5581,11 +7192,32 @@
     {
      "url": "https://indiabioscience.org/orgs/nirma-university/jobs/m-sc-admissions",
      "note": "IndiaBioscience listing of the Nirma M.Sc admissions notice"
+    },
+    {
+     "url": "https://science.nirmauni.ac.in/?p=14121",
+     "note": "Nirma Institute of Science: M.Sc Biotechnology and Microbiology admission 2026 (official)"
+    },
+    {
+     "url": "https://admissions.nirmauni.ac.in/msc.html",
+     "note": "Nirma admissions: M.Sc (official)"
+    },
+    {
+     "url": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/18/2026/03/Admission-Poster_March2026.pdf",
+     "note": "Nirma admission poster March 2026 (official)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
-   "agency": []
+   "last_checked": "2026-11-09 (checked against official notices and 2026 admission pages)",
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "ISNU Entrance Examination (Nirma University Institute of Science)"
+     ],
+     "note": "Institute’s own entrance test followed by counselling (2026 cycle)."
+    }
+   }
   },
   {
    "id": "gujarat-university-ahmedabad",
@@ -5633,11 +7265,34 @@
     {
      "url": "https://s3.collegedunia.com/university/25491-gujarat-university-gu-ahmedabad/master-of-science-msc-biotechnology-4314",
      "note": "Collegedunia M.Sc page"
+    },
+    {
+     "url": "https://university.careers360.com/articles/gcas-registration",
+     "note": "Careers360: GCAS (Gujarat Common Admission Services) registration"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [],
+     "others": [
+      "GCAS (Gujarat Common Admission Services) merit list"
+     ],
+     "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gsfc-university-vadodara",
@@ -5678,7 +7333,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gandhinagar-university",
@@ -5719,7 +7381,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kadi-sarva-vishwavidyalaya",
@@ -5760,7 +7429,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "silver-oak-university-aditya-silver-oak-institute-of-technol",
@@ -5801,7 +7477,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "GUJCET / ACPC"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kamdhenu-university-gandhinagar-godhra-campus",
@@ -5846,7 +7531,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "goa-university",
@@ -5897,7 +7594,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bits-pilani-k-k-birla-goa-campus",
@@ -5944,7 +7650,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "BITSAT"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "pandit-deendayal-energy-university-pdeu",
@@ -5989,7 +7704,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "GUJCET / ACPC"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "parul-university-parul-institute-of-technology",
@@ -6034,7 +7760,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "GUJCET / ACPC"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "institute-of-advanced-research-iar-gandhinagar",
@@ -6084,7 +7821,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-gandhinagar",
@@ -6100,9 +7846,10 @@
    "department": "Biological Engineering",
    "degrees": [
     "Masters",
-    "PhD"
+    "PhD",
+    "UG"
    ],
-   "programmes": "M.Tech Biological Engineering, Ph.D. Biological Engineering (no B.Tech in biotechnology found)",
+   "programmes": "M.Tech Biological Engineering (2 years); 5-year integrated dual degree B.Tech in Bioengineering with M.Tech in Biomedical Technology (listed by PW Live); Ph.D.",
    "fees": "Not yet verified",
    "hostel": "Not yet verified",
    "website": "https://iitgn.ac.in",
@@ -6119,22 +7866,53 @@
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "masters": "M.Tech Biological Engineering is aimed at students from Biological Engineering, Biotechnology or Pharmacy; the usual IIT route is a valid GATE score. Confirm in the current IIT Gandhinagar PG notice.",
+    "masters": "M.Tech Biological Engineering: a B.Tech or equivalent degree and a valid GATE score; allotment through COAP (Careers360, 2026).",
     "phd": "Ph.D.: apply to the discipline; usually a master’s degree and a national fellowship test or institute screening, then an interview.",
-    "maths": "Not stated."
+    "maths": "Not stated.",
+    "ug": "B.Tech and the integrated dual degree go through JEE Advanced and JoSAA (Class 12 with PCM); the dual-degree listing comes from PW Live and should be confirmed with IIT Gandhinagar."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://www.mastersportal.com/studies/306848/biological-engineering.html",
      "note": "Masters Portal: Biological Engineering, IIT Gandhinagar"
+    },
+    {
+     "url": "https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/mtech-biological-engineering-course",
+     "note": "Careers360: M.Tech Biological Engineering"
+    },
+    {
+     "url": "https://www.pw.live/gate/exams/gate-xl-benefits",
+     "note": "PW Live: IIT programmes in biosciences and bioengineering"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "sardarkrushinagar-dantiwada-agricultural-university-sdau",
@@ -6183,7 +7961,16 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "GUJCET / ACPC"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "junagadh-agricultural-university-jau",
@@ -6232,7 +8019,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Admission through counselling; see the admission notice · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "navsari-agricultural-university-nau",
@@ -6281,7 +8080,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "hemchandracharya-north-gujarat-university-patan",
@@ -6318,11 +8129,24 @@
     {
      "url": "https://www.promilo.com/courses-description/science/m-sc/m-sc-in-biotechnology/hemchandracharya-north-gujarat-university-7768/eligibility",
      "note": "Promilo M.Sc Biotechnology listing"
+    },
+    {
+     "url": "https://university.careers360.com/articles/gcas-registration",
+     "note": "Careers360: GCAS (Gujarat Common Admission Services) registration"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "GCAS (Gujarat Common Admission Services) merit list"
+     ],
+     "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+    }
+   }
   },
   {
    "id": "veer-narmad-south-gujarat-university-vnsgu-surat",
@@ -6359,11 +8183,24 @@
     {
      "url": "https://www.careers360.com/question-which-are-colleges-offering-msc-in-biotechnology-in-gujrat",
      "note": "Careers360 answer listing Gujarat M.Sc Biotechnology colleges"
+    },
+    {
+     "url": "https://university.careers360.com/articles/gcas-registration",
+     "note": "Careers360: GCAS (Gujarat Common Admission Services) registration"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "GCAS (Gujarat Common Admission Services) merit list"
+     ],
+     "note": "Admission is on merit in the qualifying degree through the state’s GCAS portal; CollegeDekho says Gujarat University holds no entrance exam. Confirm the course-specific rule in the university notice."
+    }
+   }
   },
   {
    "id": "vanita-vishram-women-s-university-surat",
@@ -6404,7 +8241,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "navrachana-university-vadodara",
@@ -6448,7 +8292,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "ganpat-university-mehsana",
@@ -6489,7 +8345,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "uka-tarsadia-university-bardoli",
@@ -6530,7 +8393,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "st-xavier-s-college-ahmedabad",
@@ -6578,7 +8448,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "m-g-science-institute-ahmedabad",
@@ -6619,7 +8501,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "charotar-university-of-science-technology-charusat",
@@ -6671,7 +8560,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "patel-science-college-anand",
@@ -6712,7 +8613,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "r-v-college-of-engineering-rvce",
@@ -6761,7 +8669,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bms-college-of-engineering-bmsce",
@@ -6806,7 +8726,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "pes-university",
@@ -6851,7 +8781,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "KCET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dayananda-sagar-college-of-engineering-dsce",
@@ -6896,7 +8837,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "m-s-ramaiah-institute-of-technology-msrit",
@@ -6937,7 +8888,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "manipal-institute-of-technology-mit-mahe",
@@ -6980,7 +8941,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "kle-technological-university",
@@ -7021,7 +8992,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sri-jayachamarajendra-college-of-engineering-sjce-mysuru",
@@ -7062,7 +9043,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "siddaganga-institute-of-technology-sit-tumakuru",
@@ -7103,7 +9094,17 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET",
+      "COMEDK UGET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-mysore-department-of-studies-in-biotechnology",
@@ -7154,7 +9155,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bangalore-university",
@@ -7199,7 +9209,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "mangalore-university",
@@ -7240,7 +9257,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "karnatak-university-dharwad",
@@ -7285,7 +9309,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "university-of-agricultural-sciences-uas-bengaluru",
@@ -7339,7 +9370,31 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KCET"
+     ],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kristu-jayanti-college-autonomous-bengaluru",
@@ -7384,7 +9439,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jain-university-bengaluru",
@@ -7421,11 +9483,24 @@
     {
      "url": "https://www.careers360.com/question-colleges-in-karnataka-offering-msc-in-medical-biotechnology-course",
      "note": "Careers360 answer listing Karnataka M.Sc biotechnology colleges"
+    },
+    {
+     "url": "https://www.careers360.com/university/jain-deemed-be-university-bangalore/msc-biotechnology-course",
+     "note": "Careers360: Jain University M.Sc Biotechnology"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "JET (Jain Entrance Test)"
+     ],
+     "note": "Admission is based on the Jain Entrance Test conducted by the university (Careers360); the total fee is listed at about ₹3.0 lakh."
+    }
+   }
   },
   {
    "id": "christ-deemed-to-be-university",
@@ -7468,7 +9543,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "reva-university",
@@ -7493,7 +9575,7 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "M.Sc Biotechnology: 60 seats (AIU listing)"
    ],
    "eligibility": {
     "basis": "general_pattern",
@@ -7505,11 +9587,26 @@
     {
      "url": "https://www.careers360.com/question-colleges-in-karnataka-offering-msc-in-medical-biotechnology-course",
      "note": "Careers360 answer listing Karnataka M.Sc biotechnology colleges"
+    },
+    {
+     "url": "https://admission.aiu.ac.in/Search/ProgramSpecific/22576",
+     "note": "AIU listing: REVA M.Sc Biotechnology"
+    },
+    {
+     "url": "https://s3.collegedunia.com/university/54859-reva-university-bangalore/master-of-science-msc-biotechnology-4314",
+     "note": "Collegedunia: REVA M.Sc Biotechnology"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Admission on merit basis per Collegedunia (a student summary mentions an entrance exam); the AIU listing shows 60 seats. Confirm in the REVA notice."
+    }
+   }
   },
   {
    "id": "m-s-ramaiah-university-of-applied-sciences",
@@ -7550,7 +9647,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "The university is on the CUET (PG) 2026 participating list (Careers360 / CUET PG lists); the biotechnology course's own route was not stated, so confirm it in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "manipal-academy-of-higher-education-mahe",
@@ -7593,7 +9702,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-madras",
@@ -7653,7 +9769,30 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "alagappa-college-of-technology-anna-university-chennai",
@@ -7685,7 +9824,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech/B.E. Biotechnology: admission through TNEA, the single-window counselling run by Anna University for all affiliated colleges, on a common merit list of Class 12 marks. Eligibility: Class 12 with Physics and Mathematics compulsory along with one of Chemistry, Biotechnology, Biology, a technical vocational subject, Computer Science, Information Technology, Informatics Practices, Agriculture, Engineering Graphics or Business Studies (KCT listing); another listing states PCM. The Anna University listing for B.Tech Industrial Biotechnology states PCM (Physics, Chemistry, Mathematics) and a single-window admission administered by Anna University.",
+    "ug": "B.Tech/B.E. Biotechnology: admission through TNEA, the single-window counselling run by Anna University for all affiliated colleges, on a common merit list of Class 12 marks. Eligibility: Class 12 with Physics and Mathematics compulsory along with one of Chemistry, Biotechnology, Biology, a technical vocational subject, Computer Science, Information Technology, Informatics Practices, Agriculture, Engineering Graphics or Business Studies (KCT listing); another listing states PCM. The Anna University listing for B.Tech Industrial Biotechnology states PCM (Physics, Chemistry, Mathematics) and a single-window admission administered by Anna University. Note (Nov 2026 check): Anna University offers B.Tech Industrial Biotechnology, M.Tech Biotechnology and Ph.D. through its Department of Biotechnology at Chennai and the Regional Campus Coimbatore; admission to the B.Tech is through TNEA.",
     "maths": "Mathematics is compulsory on the TNEA route: Physics and Mathematics are mandatory, and Chemistry can be replaced by one of the listed subjects."
    },
    "status": "partly_sourced",
@@ -7697,11 +9836,33 @@
     {
      "url": "https://www.careers360.com/question-colleges-in-tnea-for-btech-biotechnology",
      "note": "Careers360 TNEA biotechnology colleges"
+    },
+    {
+     "url": "https://www.medboundtimes.com/biotechnology/tamil-nadu-biotechnology-education-colleges-admissions-careers",
+     "note": "MedBound Times: biotechnology education in Tamil Nadu"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [
+      "TANCET (Anna University M.Tech)"
+     ],
+     "note": "Typical route inferred: TANCET or GATE for M.Tech at Anna University; confirm in the admission notice."
+    }
+   }
   },
   {
    "id": "tamil-nadu-agricultural-university-tnau-coimbatore",
@@ -7759,7 +9920,25 @@
    "agency": [
     "DBT",
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "bharathiar-university-coimbatore",
@@ -7808,7 +9987,23 @@
    "last_checked": "2026-10-24 (manual check against the official page)",
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "phd": {
+     "exams": [],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "alagappa-university-karaikudi",
@@ -7859,7 +10054,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "madurai-kamaraj-university",
@@ -7905,7 +10109,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "psg-college-of-technology-coimbatore",
@@ -7946,7 +10159,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Admission through counselling; see the admission notice"
+    }
+   }
   },
   {
    "id": "kumaraguru-college-of-technology-coimbatore",
@@ -7991,7 +10213,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "adhiyamaan-college-of-engineering-hosur",
@@ -8032,7 +10263,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Admission through counselling; see the admission notice"
+    }
+   }
   },
   {
    "id": "vit-vellore-vellore-institute-of-technology",
@@ -8081,7 +10321,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "VITEEE"
+     ],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "srm-institute-of-science-and-technology-chennai",
@@ -8130,7 +10384,23 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "SRMJEEE"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "karunya-institute-of-technology-and-sciences-coimbatore",
@@ -8171,7 +10441,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "government-college-of-technology-gct-coimbatore",
@@ -8212,7 +10491,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "rajalakshmi-engineering-college",
@@ -8253,7 +10541,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "sri-venkateswara-college-of-engineering-svce",
@@ -8294,7 +10591,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "mepco-schlenk-engineering-college",
@@ -8335,7 +10641,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "bannari-amman-institute-of-technology-bit",
@@ -8376,7 +10691,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "k-s-rangasamy-college-of-technology-ksrct",
@@ -8417,7 +10741,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "TNEA"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "university-of-madras",
@@ -8466,7 +10799,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "srm-arts-and-science-college-university-of-madras-affiliate",
@@ -8507,7 +10847,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "periyar-university-salem",
@@ -8552,7 +10899,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "vysya-college-salem",
@@ -8593,7 +10947,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sastra-deemed-university-thanjavur",
@@ -8645,7 +11006,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bharathidasan-university-tiruchirappalli",
@@ -8689,7 +11064,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amrita-school-of-biotechnology-amritapuri-kollam",
@@ -8720,7 +11107,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Sc Biotechnology: a pass in higher secondary with 60% marks in Physics, Chemistry and Biology/Biotechnology taken together. Admission uses the aggregate percentage in Physics, Chemistry and Biology or the rank in the Amrita Entrance Examination, followed by counselling.",
+    "ug": "B.Sc Biotechnology: a pass in higher secondary with 60% marks in Physics, Chemistry and Biology/Biotechnology taken together. Admission uses the aggregate percentage in Physics, Chemistry and Biology or the rank in the Amrita Entrance Examination, followed by counselling. Note (Nov 2026 check): Amrita’s official 2026 B.Tech handbook confirms AEEE or JEE Main for B.Tech; the B.Sc Biotechnology route was not found in that handbook, so confirm on amrita.edu. AEEE 2027 dates have been released.",
     "maths": "Mathematics is not required: the PCB group is the requirement."
    },
    "status": "partly_sourced",
@@ -8728,11 +11115,25 @@
     {
      "url": "https://www.careers360.com/colleges/amrita-school-of-biotechnology-amritapuri/bsc-biotechnology-course",
      "note": "Careers360 B.Sc page"
+    },
+    {
+     "url": "https://webfiles.amrita.edu/2026/04/btech-csap-hanbook-2026.pdf",
+     "note": "Amrita B.Tech 2026 CSAP handbook (official)"
     }
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "aeee"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-iisc-bengaluru",
@@ -8802,7 +11203,35 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main",
+      "iat",
+      "neet-ug"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "masters": {
+     "exams": [
+      "iit-jam",
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-centre-for-biological-sciences-ncbs-tifr-bengaluru",
@@ -8847,7 +11276,14 @@
    "last_checked": null,
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "csir-central-food-technological-research-institute-cftri-mys",
@@ -8892,7 +11328,14 @@
    "last_checked": null,
    "agency": [
     "CSIR"
-   ]
+   ],
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "chanakya-university-chanakya-school-of-biosciences",
@@ -8936,7 +11379,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "central-university-of-south-bihar-cusb",
@@ -8993,7 +11448,17 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "mahatma-gandhi-central-university-motihari",
@@ -9034,7 +11499,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-rajendra-prasad-central-agricultural-university-rpcau-pus",
@@ -9085,7 +11559,14 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bihar-agricultural-university-bau-sabour",
@@ -9130,7 +11611,16 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "magadh-university-gaya",
@@ -9171,7 +11661,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "anugrah-narayan-college-patna",
@@ -9216,7 +11713,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "birla-institute-of-technology-bit-mesra",
@@ -9276,7 +11780,28 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "ranchi-university",
@@ -9324,7 +11849,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "marwari-college-ranchi",
@@ -9365,7 +11902,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "vinoba-bhave-university-hazaribagh",
@@ -9406,7 +11950,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "The university is on the CUET (PG) 2026 participating list (Careers360 / CUET PG lists); the biotechnology course's own route was not stated, so confirm it in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "patna-university",
@@ -9451,7 +12007,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "patna-science-college-patna-university",
@@ -9496,7 +12059,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bihar-national-college-patna-university",
@@ -9537,7 +12107,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "b-d-college-patna-patliputra-university",
@@ -9582,7 +12159,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "tilka-manjhi-bhagalpur-university-tmbu",
@@ -9630,7 +12214,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "veer-kunwar-singh-university-arrah-s-p-jain-college-sasaram",
@@ -9671,7 +12267,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-agricultural-biotechnology-iiab-ranchi",
@@ -9717,7 +12320,16 @@
    "agency": [
     "GoI autonomous",
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "birsa-agricultural-university-bau-ranchi",
@@ -9766,7 +12378,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "ranchi-women-s-college",
@@ -9814,7 +12438,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gossner-college-ranchi",
@@ -9855,7 +12491,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "ybn-university-ranchi",
@@ -9900,7 +12543,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "usha-martin-university-ranchi",
@@ -9941,7 +12591,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-jharkhand-ranchi",
@@ -9986,7 +12643,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "arka-jain-university-jamshedpur",
@@ -10031,7 +12695,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "netaji-subhas-university-jamshedpur",
@@ -10072,7 +12743,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "srinath-university-jamshedpur",
@@ -10113,7 +12791,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "radha-govind-university-ramgarh",
@@ -10157,7 +12842,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "nilamber-pitamber-university-palamu",
@@ -10200,7 +12897,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-kharagpur",
@@ -10264,7 +12973,30 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iit-jam",
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-durgapur",
@@ -10294,25 +13026,39 @@
    },
    "campuses": null,
    "seats": [
-    "M.Sc Life Sciences (microbial / plant and animal biotechnology): 10 DBT-supported seats (GAT-B 2026 list)"
+    "M.Sc Life Sciences (microbial / plant and animal biotechnology): 10 DBT-supported seats (GAT-B 2026 list)",
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 22,024–42,229"
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "ug": "JEE Main with JoSAA counselling, as for NITs; an NIT also needs 75% in Class 12 (or the top-20-percentile rule). Confirm in the JoSAA brochure.",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "maths": "Mathematics is expected on the JEE Main route."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://www.careers360.com/question-btech-biotechnology-colleges-in-west-bengal",
      "note": "Careers360 answer: B.Tech Biotechnology colleges in West Bengal (2021)"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "maulana-abul-kalam-azad-university-of-technology-makaut",
@@ -10361,7 +13107,16 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jadavpur-university",
@@ -10408,7 +13163,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-calcutta",
@@ -10457,7 +13221,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "st-xavier-s-college-autonomous-kolkata",
@@ -10504,7 +13280,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "calcutta-school-of-tropical-medicine-kolkata",
@@ -10545,7 +13333,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "heritage-institute-of-technology",
@@ -10586,7 +13381,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "haldia-institute-of-technology",
@@ -10627,7 +13433,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "techno-india-university-kolkata",
@@ -10668,7 +13485,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-kolkata",
@@ -10709,7 +13537,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "adamas-university-kolkata",
@@ -10750,7 +13589,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-engineering-management-uem-kolkata",
@@ -10791,7 +13641,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "brainware-university-barasat",
@@ -10832,7 +13693,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "WBJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "utkal-university",
@@ -10887,7 +13759,21 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kiit-kalinga-institute-of-industrial-technology-bhubaneswar",
@@ -10936,7 +13822,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KIITEE"
+     ],
+     "note": "Institute's own entrance test or interview"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-rourkela",
@@ -10967,11 +13867,11 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 22,123–34,087"
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech: JEE Main through JoSAA/CSAB; 10+2 with a minimum 75% aggregate in Physics, Chemistry and Mathematics (Collegedekho).",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "masters": "M.Tech: a bachelor’s degree in engineering or technology with at least 60% marks or 6.5 CGPA; admission through GATE and CCMT.",
     "maths": "Mathematics is compulsory for the B.Tech."
    },
@@ -10984,13 +13884,33 @@
     {
      "url": "https://www.collegedekho.com/colleges/national-institute-of-technology-rourkela-mtech-bio-medical-engineering-cpd-249741",
      "note": "Collegedekho M.Tech page"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "trident-academy-of-technology-bhubaneswar",
@@ -11031,7 +13951,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "OJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "odisha-university-of-technology-and-research-outr-bhubaneswa",
@@ -11076,7 +14007,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [
+      "OJEE"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "orissa-university-of-agriculture-and-technology-ouat",
@@ -11121,7 +14063,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "ravenshaw-university",
@@ -11162,7 +14116,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "berhampur-university",
@@ -11203,7 +14164,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sambalpur-university",
@@ -11244,7 +14212,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "fakir-mohan-university",
@@ -11285,7 +14260,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "siksha-o-anusandhan-university-soa",
@@ -11330,7 +14312,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "centurion-university-of-technology-and-management",
@@ -11373,7 +14367,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "giet-university-gunupur",
@@ -11422,7 +14428,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gauhati-university",
@@ -11481,7 +14501,28 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "assam-university-silchar",
@@ -11522,7 +14563,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "tezpur-university",
@@ -11573,7 +14626,20 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "dibrugarh-university",
@@ -11614,7 +14680,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "assam-agricultural-university-aau-guwahati-veterinary-colleg",
@@ -11667,7 +14740,20 @@
    "agency": [
     "DBT",
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "north-eastern-hill-university-nehu",
@@ -11725,7 +14811,20 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "mizoram-university",
@@ -11766,7 +14865,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "nagaland-university-kohima",
@@ -11807,7 +14918,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "sikkim-manipal-university-smims-gangtok",
@@ -11851,7 +14974,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "jawaharlal-nehru-technological-university-hyderabad-jntuh",
@@ -11899,7 +15034,23 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "ts-cpget"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-hyderabad",
@@ -11951,7 +15102,22 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "osmania-university-hyderabad",
@@ -11999,7 +15165,23 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "ts-cpget"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "telangana-mahila-viswavidyalayam-koti-hyderabad",
@@ -12040,7 +15222,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ts-cpget"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ts-cpget"
+     ]
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-hyderabad",
@@ -12059,7 +15253,7 @@
     "Masters",
     "PhD"
    ],
-   "programmes": "B.Tech Biotechnology (listed), M.Tech, Ph.D.",
+   "programmes": "B.Tech Biotechnology and Bioinformatics; M.Tech Medical Biotechnology; Ph.D. Biotechnology",
    "fees": "Not yet verified",
    "hostel": "Not yet verified",
    "website": "https://iith.ac.in",
@@ -12071,15 +15265,16 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "B.Tech Biotechnology and Bioinformatics: 15 seats when launched (an older report); a recent OBC-NCL seat matrix lists 8 OBC seats for this branch, so the intake is larger now; confirm in the JoSAA 2026 matrix"
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "ug": "IITs admit B.Tech through JEE Main and JEE Advanced (JoSAA); confirm the biotechnology programme and seats in the JoSAA matrix.",
-    "masters": "M.Tech: GATE-based admission, as at IITs.",
-    "maths": "Mathematics is compulsory for the B.Tech (JEE Advanced)."
+    "ug": "B.Tech Biotechnology and Bioinformatics: JEE Main, then JEE Advanced, with JoSAA counselling.",
+    "masters": "M.Tech Medical Biotechnology: B.E./B.Tech, B.Pharm or M.Sc graduates with a valid GATE score; allotment through COAP (department’s 2026 information brochure).",
+    "maths": "Mathematics is compulsory for the B.Tech (JEE Advanced). The M.Tech needs GATE; the Ph.D. follows the department brochure.",
+    "phd": "Ph.D. in Biotechnology: admission categories include candidates holding an external fellowship such as a valid CSIR-UGC JRF, plus institute categories; January and July cycles with separate brochures (Jan 2026 and July 2026 brochures are on iith.ac.in)."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://www.careers360.com/question-list-of-colleges-in-telangana-having-btech-in-biotechnology",
@@ -12088,13 +15283,47 @@
     {
      "url": "https://engineering.careers360.com/colleges/list-of-be-btech-in-biotechnology-engineering-colleges-in-telangana",
      "note": "Careers360 list: B.E./B.Tech Biotechnology colleges in Telangana"
+    },
+    {
+     "url": "https://iith.ac.in/assets/files/brochures/2026_july/pg/mtech_medical_biotech_brochure_2025.pdf",
+     "note": "IIT Hyderabad M.Tech Medical Biotechnology brochure 2026 (official)"
+    },
+    {
+     "url": "https://iith.ac.in/assets/files/brochures/jan_2026/phd/BT_PhD_Admissions_Jan_2026_Brochure.pdf",
+     "note": "IIT Hyderabad BT PhD brochure Jan 2026 (official)"
+    },
+    {
+     "url": "https://iith.ac.in/assets/files/brochures/2026_july/phd/bt_phd_admissions_2026_july_iith.pdf",
+     "note": "IIT Hyderabad BT PhD brochure July 2026 (official)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-warangal",
@@ -12124,25 +15353,48 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 26,936–35,793"
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "ug": "NITs admit B.Tech through JEE Main (JoSAA/CSAB); confirm the biotechnology programme and seats.",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "maths": "Mathematics is compulsory (JEE Main route)."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://www.careers360.com/question-list-of-colleges-in-telangana-having-btech-in-biotechnology",
      "note": "Careers360 answer: Telangana B.Tech Biotechnology colleges (2019)"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "gate"
+     ]
+    }
+   }
   },
   {
    "id": "chaitanya-bharathi-institute-of-technology-cbit-hyderabad",
@@ -12187,7 +15439,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sreenidhi-institute-of-science-and-technology-snist",
@@ -12228,7 +15489,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kl-koneru-lakshmaiah-university-hyderabad-campus",
@@ -12269,7 +15539,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gokaraju-rangaraju-institute-of-engineering-and-technology-g",
@@ -12310,7 +15589,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "vaagdevi-college-of-engineering-warangal",
@@ -12351,7 +15639,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sr-university-warangal",
@@ -12392,7 +15689,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gitam-university-hyderabad-campus",
@@ -12433,7 +15737,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "csir-centre-for-cellular-and-molecular-biology-ccmb-hyderaba",
@@ -12490,7 +15801,19 @@
    "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
    "agency": [
     "CSIR"
-   ]
+   ],
+   "entrance": {
+    "phd": {
+     "exams": [
+      "dbt-bet",
+      "gate"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "bric-centre-for-dna-fingerprinting-and-diagnostics-cdfd-hyde",
@@ -12539,7 +15862,14 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-animal-biotechnology-niab-hyderabad",
@@ -12584,7 +15914,14 @@
    "last_checked": null,
    "agency": [
     "DBT"
-   ]
+   ],
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "professor-jayashankar-telangana-state-agricultural-universit",
@@ -12629,7 +15966,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "sri-venkateswara-institute-of-medical-sciences-svims-univers",
@@ -12676,7 +16025,21 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sri-venkateswara-university-tirupati",
@@ -12724,7 +16087,28 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    },
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ap-pgcet"
+     ]
+    }
+   }
   },
   {
    "id": "andhra-university-college-of-engineering-visakhapatnam",
@@ -12765,7 +16149,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-andhra-pradesh",
@@ -12792,25 +16187,38 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 44,399–50,251"
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "ug": "Listed as offering B.Tech Biotechnology; admission is normally through JEE Main (JoSAA). Eligibility and seats were not extracted.",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "maths": "Mathematics is expected on the engineering-entrance route; confirm for Biotechnology."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://www.careers360.com/question-which-colleges-in-andhra-pradesh-offer-btech-biotechnology",
      "note": "Careers360 answer: Andhra Pradesh B.Tech Biotechnology colleges"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null,
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
    "agency": [
     "GoI autonomous"
-   ]
+   ],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jntua-college-of-engineering-kalikiri",
@@ -12851,7 +16259,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sri-padmavati-mahila-visvavidyalayam-spmvv-tirupati",
@@ -12892,7 +16311,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kl-koneru-lakshmaiah-university-vijayawada-guntur",
@@ -12933,7 +16363,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main",
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "gitam-school-of-technology-visakhapatnam",
@@ -12974,7 +16416,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "vignan-s-foundation-for-science-technology-and-research-gunt",
@@ -13015,7 +16466,16 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "bharatiya-engineering-science-and-technology-innovation-univ",
@@ -13056,7 +16516,18 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [
+      "AP EAPCET"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "acharya-nagarjuna-university-guntur",
@@ -13097,7 +16568,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ap-pgcet"
+     ]
+    }
+   }
   },
   {
    "id": "krishna-university-machilipatnam",
@@ -13138,7 +16621,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "andhra-university-college-of-science-and-technology",
@@ -13179,7 +16669,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ap-pgcet"
+     ]
+    }
+   }
   },
   {
    "id": "yogi-vemana-university-kadapa",
@@ -13220,7 +16722,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ap-pgcet"
+     ]
+    }
+   }
   },
   {
    "id": "dr-b-r-ambedkar-university-srikakulam",
@@ -13261,7 +16775,14 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sri-krishnadevaraya-university-anantapur",
@@ -13302,7 +16823,19 @@
    ],
    "data_collected": "2026-10-24",
    "last_checked": null,
-   "agency": []
+   "agency": [],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "ap-pgcet"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "ap-pgcet"
+     ]
+    }
+   }
   },
   {
    "id": "acharya-n-g-ranga-agricultural-university-angrau-guntur",
@@ -13347,7 +16880,19 @@
    "last_checked": null,
    "agency": [
     "ICAR"
-   ]
+   ],
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "bharat-institute-of-engineering-and-technology-biet-ibrahimp",
@@ -13387,7 +16932,16 @@
     }
    ],
    "data_collected": "2026-10-24",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "ts-eapcet"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-pun",
@@ -13423,7 +16977,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13451,7 +17005,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-kol",
@@ -13487,7 +17063,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13515,7 +17091,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-moh",
@@ -13551,7 +17149,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13579,7 +17177,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-bho",
@@ -13613,7 +17233,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13641,7 +17261,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-thi",
@@ -13675,7 +17317,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13703,7 +17345,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-tir",
@@ -13737,7 +17401,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13765,7 +17429,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-science-education-and-research-iiser-ber",
@@ -13799,7 +17485,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "BS-MS (5-year dual degree): admission only through the IISER Aptitude Test (IAT). Since 2024 the JEE Advanced and KVPY channels no longer apply to IISERs. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
+    "ug": "BS-MS (5-year dual degree): admission through the IISER Aptitude Test (IAT). Sources disagree about other channels: the KVPY channel has ended, and some pages still list a JEE Advanced channel while others say IAT is the only route; confirm in the IISER brochure at iiseradmission.in before relying on either. IAT 2026 intake is about 2,043 BS-MS seats across the seven IISERs in one listing (other listings give 2,138–2,363 including BS/B.Tech). Class 12 science stream; confirm marks and category rules in the IAT brochure.",
     "phd": "Ph.D.: each IISER admits through its own calls; details are on the institute site.",
     "maths": "Mathematics in Class 12 is mandatory only for the 4-year BS programmes at IISER Bhopal (Engineering and Economic Sciences); the BS-MS in Biological Sciences does not need it."
    },
@@ -13827,7 +17513,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "iat"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "iat"
+     ],
+     "others": [],
+     "note": "The Master’s (MS) years are part of the 5-year BS-MS programme admitted through IAT; no separate PG entrance test is needed."
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-of-virology-niv-pune",
@@ -13883,7 +17591,24 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    },
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-of-nutrition-nin-hyderabad",
@@ -13933,7 +17658,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-of-epidemiology-nie-chennai",
@@ -13979,7 +17716,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-for-research-in-tuberculosis-nirt-ch",
@@ -14025,7 +17774,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-for-research-in-bacterial-infections",
@@ -14071,7 +17832,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "national-centre-for-cell-science-nccs-pune",
@@ -14117,7 +17890,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net"
+     ],
+     "others": [
+      "JGEEBILS",
+      "DST-INSPIRE fellowship"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bose-institute-kolkata",
@@ -14171,7 +17956,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "institute-of-nano-science-and-technology-inst-mohali",
@@ -14217,7 +18011,21 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "gate",
+      "dhr-bret"
+     ],
+     "others": [
+      "JGEEBILS",
+      "DST-INSPIRE fellowship"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sree-chitra-thirunal-college-of-engineering-sctce-thiruvanan",
@@ -14257,7 +18065,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [
+      "KEAM"
+     ],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "kerala-agricultural-university-kau-thrissur",
@@ -14311,7 +18128,29 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "neet-ug"
+     ],
+     "others": [
+      "KEAM"
+     ],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-calicut",
@@ -14340,22 +18179,35 @@
    },
    "campuses": null,
    "seats": [
-    "Intake not found"
+    "B.Tech Biotechnology is on the JoSAA cut-off list; 2024 OPEN home-state opening–closing JEE Main ranks: 13,404–28,517"
    ],
    "eligibility": {
     "basis": "general_pattern",
-    "ug": "JEE Main with JoSAA counselling, as for NITs; confirm the programme name and seats.",
+    "ug": "B.Tech Biotechnology: JEE Main rank with JoSAA/CSAB counselling (NITs); 2024 home-state OPEN closing ranks are listed in the seats line. Class 12 with Physics, Chemistry and Mathematics; a 75% Class 12 mark (65% for SC/ST) or a top-20-percentile rule applies for NITs. Intake per branch was not found.",
     "maths": "Mathematics is expected on the JEE Main route."
    },
-   "status": "needs_verification",
+   "status": "partly_sourced",
    "sources": [
     {
      "url": "https://collegedunia.com/courses/biotechnology/biotechnology-courses-in-kerala",
      "note": "Collegedunia: biotechnology courses in Kerala"
+    },
+    {
+     "url": "https://engineering.careers360.com/articles/nits-cutoff-for-btech-biotechnology",
+     "note": "Careers360: NIT cut-off for B.Tech Biotechnology (JoSAA)"
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": "2026-11-09 (checked against official brochures/notices and 2026 admission pages)",
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rajiv-gandhi-centre-for-biotechnology-rgcb-thiruvananthapura",
@@ -14404,7 +18256,21 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "cochin-university-of-science-and-technology-cusat",
@@ -14446,7 +18312,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "mahatma-gandhi-university-kottayam",
@@ -14486,7 +18361,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "university-of-calicut",
@@ -14530,7 +18412,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rajiv-gandhi-proudyogiki-vishwavidyalaya-rgpv-school-of-biot",
@@ -14574,7 +18468,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Admission through counselling; see the admission notice"
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-indore",
@@ -14638,7 +18539,17 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "masters": {
+     "exams": [
+      "iit-jam",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "guru-ghasidas-vishwavidyalaya-bilaspur",
@@ -14684,7 +18595,20 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "barkatullah-university-bhopal",
@@ -14728,7 +18652,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "sant-hirdaram-girls-college-bhopal",
@@ -14768,7 +18699,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "institute-for-excellence-in-higher-education-iehe-bhopal",
@@ -14808,7 +18746,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "dr-harisingh-gour-vishwavidyalaya-sagar",
@@ -14852,7 +18797,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "vikram-university-ujjain",
@@ -14892,7 +18846,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "cuet-ug"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rani-durgavati-vishwavidyalaya-jabalpur",
@@ -14932,7 +18895,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "indira-gandhi-national-tribal-university-igntu-amarkantak",
@@ -14972,7 +18942,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Institute's own entrance test or interview · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "pandit-shambhunath-shukla-university-shahdol",
@@ -15017,7 +18999,24 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "medicaps-university-indore",
@@ -15057,7 +19056,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "rkdf-university-bhopal",
@@ -15097,7 +19103,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "malwanchal-university-indore",
@@ -15137,7 +19150,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sadhu-vaswani-college-bhopal",
@@ -15177,7 +19197,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "lnct-university-bhopal",
@@ -15222,7 +19249,24 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "madhyanchal-professional-university-bhopal",
@@ -15267,7 +19311,24 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "pt-ravishankar-shukla-university-prsu-raipur",
@@ -15307,7 +19368,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "kalinga-university-raipur",
@@ -15353,7 +19421,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-raipur",
@@ -15395,7 +19475,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "shri-rawatpura-sarkar-university-raipur",
@@ -15435,7 +19524,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "anjaneya-university-raipur",
@@ -15475,7 +19571,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "amity-university-chhattisgarh-raipur",
@@ -15518,7 +19621,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "sarguja-university-ambikapur",
@@ -15558,7 +19673,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bastar-university-jagdalpur",
@@ -15598,7 +19720,14 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "pondicherry-university",
@@ -15655,7 +19784,24 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "phd": {
+     "exams": [
+      "gate"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "vinayaka-mission-s-research-foundation-vmrf-du-avmc-campus-p",
@@ -15698,7 +19844,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    },
+    "masters": {
+     "exams": [],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks"
+    }
+   }
   },
   {
    "id": "icar-central-island-agricultural-research-institute-ciari-po",
@@ -15740,7 +19898,19 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "bric-national-institute-of-immunology-nii-new-delhi",
@@ -15798,7 +19968,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)"
+   "last_checked": "2026-11-03 (checked against 2026 admission pages and notices)",
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [
+      "JGEEBILS"
+     ],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "csir-institute-of-genomics-and-integrative-biology-igib-delh",
@@ -15840,7 +20019,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "international-centre-for-genetic-engineering-and-biotechnolo",
@@ -15880,7 +20068,16 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "csir-institute-of-microbial-technology-imtech-chandigarh",
@@ -15926,7 +20123,21 @@
     }
    ],
    "data_collected": "2026-10-27",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dbt-bet",
+      "gate",
+      "dhr-bret"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "indian-institute-of-technology-iit-guwahati",
@@ -15963,7 +20174,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech: JEE Main, then JEE Advanced and JoSAA counselling. An aggregator quotes at least 75% in 10+2 with Physics, Chemistry and Mathematics or Biology; confirm in the JoSAA rules.",
+    "ug": "B.Tech: JEE Main, then JEE Advanced and JoSAA counselling. An aggregator quotes at least 75% in 10+2 with Physics, Chemistry and Mathematics or Biology; confirm in the JoSAA rules. Note (Nov 2026 check): sources conflict on the UG programme. PW Live lists only a 2-year M.Tech in Biotechnology at IIT Guwahati; a 2023 report says IIT Guwahati offers a B.Tech in Biotechnology. Confirm on the department page.",
     "masters": "M.Tech: GATE-based admission (aggregator summary); the M.Sc route and eligibility were not extracted.",
     "phd": "Ph.D. (science departments): admission twice a year, in July and January; eligibility is relaxed by 5% marks or 0.5 CPI for SC/ST/PwD; a valid national research-fellowship qualification is needed for some categories (2018 notices; confirm the current ones).",
     "maths": "Mathematics is expected on the JEE Advanced route."
@@ -15981,10 +20192,40 @@
     {
      "url": "https://www.biotecnika.org/2018/10/iit-guwahati-phd-admissions-december-2018-session",
      "note": "BioTecNika: IIT Guwahati PhD admissions (2018)"
+    },
+    {
+     "url": "https://www.pw.live/gate/exams/gate-xl-benefits",
+     "note": "PW Live: IIT programmes in biosciences and bioengineering"
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-advanced",
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    },
+    "masters": {
+     "exams": [
+      "gate",
+      "iit-jam"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "iit-jam"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-institute-of-technology-nit-agartala",
@@ -16015,7 +20256,7 @@
    ],
    "eligibility": {
     "basis": "sourced",
-    "ug": "B.Tech: JEE Main with JoSAA/CSAB counselling; the NIT home-state quota applies to Tripura candidates.",
+    "ug": "B.Tech: JEE Main with JoSAA/CSAB counselling; the NIT home-state quota applies to Tripura candidates. Note (Nov 2026 check): B.Tech Biotechnology at NIT Agartala did not appear in the JoSAA biotechnology cut-off lists I checked; confirm the programme exists before relying on this entry.",
     "maths": "Mathematics is expected on the JEE Main route."
    },
    "status": "needs_verification",
@@ -16030,7 +20271,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "ug": {
+     "exams": [
+      "jee-main"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "central-agricultural-university-cau-imphal",
@@ -16079,7 +20329,26 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Merit-based admission on qualifying marks · Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg",
+      "icar-aieea-pg"
+     ]
+    },
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "institute-of-advanced-study-in-science-and-technology-iasst-",
@@ -16121,7 +20390,17 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "dhr-bret"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "bric-national-institute-of-plant-genome-research-nipgr-new-d",
@@ -16163,7 +20442,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": "Institute's own entrance test or interview"
+    }
+   }
   },
   {
    "id": "icmr-national-institute-of-pathology-nip-new-delhi",
@@ -16205,7 +20491,19 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net",
+      "gate"
+     ],
+     "others": [
+      "DST-INSPIRE fellowship"
+     ],
+     "note": ""
+    }
+   }
   },
   {
    "id": "institute-of-life-sciences-ils-bhubaneswar",
@@ -16247,7 +20545,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "bric-institute-for-stem-cell-science-and-regenerative-medici",
@@ -16289,7 +20594,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "jawaharlal-nehru-centre-for-advanced-scientific-research-jnc",
@@ -16331,7 +20643,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "national-agri-food-biotechnology-institute-nabi-mohali",
@@ -16373,7 +20692,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "translational-health-science-and-technology-institute-thsti-",
@@ -16415,7 +20741,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "agharkar-research-institute-ari-pune",
@@ -16457,7 +20790,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "institute-of-bioresources-and-sustainable-development-ibsd-i",
@@ -16503,7 +20843,14 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "csir-indian-institute-of-integrative-medicine-iiim-jammu",
@@ -16545,7 +20892,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "phd": {
+     "exams": [
+      "csir-ugc-net"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "visva-bharati-university-santiniketan",
@@ -16592,7 +20948,20 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "cuet-pg"
+     ]
+    }
+   }
   },
   {
    "id": "shri-mata-vaishno-devi-university-katra",
@@ -16639,7 +21008,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "baba-ghulam-shah-badshah-university-rajouri",
@@ -16685,7 +21063,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "nanaji-deshmukh-veterinary-science-university-ndvsu-jabalpur",
@@ -16732,7 +21119,20 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "indira-gandhi-krishi-vishwavidyalaya-igkv-raipur",
@@ -16779,7 +21179,20 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b",
+      "icar-aieea-pg"
+     ],
+     "others": [],
+     "note": "Typical route inferred from the institution type; confirm in the admission notice.",
+     "inferred": [
+      "icar-aieea-pg"
+     ]
+    }
+   }
   },
   {
    "id": "devi-ahilya-vishwavidyalaya-davv-indore",
@@ -16829,7 +21242,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "national-college-tiruchirappalli",
@@ -16875,7 +21297,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "gat-b"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   },
   {
    "id": "tripura-university",
@@ -16915,7 +21346,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": "Some seats may use the institute's own test or interview"
+    }
+   }
   },
   {
    "id": "manipur-university-imphal",
@@ -16955,7 +21395,16 @@
     }
    ],
    "data_collected": "2026-10-28",
-   "last_checked": null
+   "last_checked": null,
+   "entrance": {
+    "masters": {
+     "exams": [
+      "cuet-pg"
+     ],
+     "others": [],
+     "note": ""
+    }
+   }
   }
  ],
  "schema_note": "ownership: Central Government | State / UT Government | Private. agencies: any of DBT, DST, CSIR, ICMR, ICAR, 'Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)'",

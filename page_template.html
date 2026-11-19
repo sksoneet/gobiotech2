@@ -30,6 +30,16 @@ h1{margin:0;font-size:1.8rem}h1 span{color:var(--accent)}
 .chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 .chip small{opacity:.75;margin-left:4px}
 .own{font-weight:600;color:var(--accent)}
+.lvnav{margin:8px 0;font-size:.95rem}
+.lvnav a{font-weight:600}
+.lvsec{border-top:1px dashed var(--line);margin-top:10px;padding-top:6px;scroll-margin-top:12px}
+.lvsec h3{margin:0 0 4px;font-size:1rem;color:var(--accent)}
+.lvsec.hl{animation:hl 1.7s}
+@keyframes hl{0%{background:var(--warnbg)}100%{background:transparent}}
+a.tag{text-decoration:none;color:var(--accent);font-weight:600}
+.menu{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:0 0 14px}
+.menu .chips{margin:0 0 6px}
+.menu .chip{font-weight:600}
 .rk{display:flex;gap:12px;align-items:flex-start}
 .rk>div:nth-child(2){flex:1}
 .rkn{font-size:1.5rem;font-weight:700;color:var(--accent);min-width:2.2rem;line-height:1.2}
@@ -51,8 +61,8 @@ footer{color:var(--muted);font-size:.85rem;margin-top:24px}
 <div class="wrap">
 <h1>Go<span>Biotech</span></h1>
 <p class="sub">Biotechnology institutes in India, state by state. Now covering: <b id="covered"></b></p>
+<div class="menu"><div class="lbl">Menu</div><div class="chips" id="tabs" role="tablist" aria-label="Menu"></div><div class="aghelp" id="menuhelp">Top 20 institutes for UG, Masters and PhD, high-grade institutes without a NIRF rank, and free counselling are in this menu.</div></div>
 <div class="note">Early version. Entries marked “Needs verification” have not yet been checked against the institute’s official prospectus. Always confirm fees and seats on the official website before applying.</div>
-<div class="chips" id="tabs" role="tablist" aria-label="Views"></div>
 <div id="v-dir">
 <div class="chips" id="chips" role="group" aria-label="Institution type"></div>
 <div class="lbl">Funding / sponsoring agency</div>
@@ -77,17 +87,33 @@ var L=DATA.institutes;
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function row(l,v){return v?'<div class="row"><b>'+l+'</b>'+v+'</div>':''}
 function rk(i){var r=i.rankings||{};return ["NIRF","NAAC","NBA","ISO","QS / THE"].map(function(k){return '<span class="tag">'+k+': '+esc(r[k]||"to be verified")+'</span>'}).join("")+' <a href="https://www.nirfindia.org" target="_blank" rel="noopener">Check NIRF</a>'}
+var LVS=[["ug","UG","UG"],["masters","Masters","Masters"],["phd","PhD","PhD"]],curLv="";
+var SEATRE={ug:/B\.\s?Tech|B\.\s?Sc|B\.\s?E\.|BS-MS|\bBS\b|B\.S\.|integrated|\bUG\b|undergraduate/i,masters:/M\.\s?Sc|M\.\s?Tech|M\.V\.Sc|M\.\s?E\.|M\.Biotech|master|\bPG\b|DBT-supported|GAT-B|JAM/i,phd:/Ph\.?\s?D|doctoral/i};
+function lvSeats(i,k){return (i.seats||[]).filter(function(s){return SEATRE[k].test(s)})}
+function otherSeats(i){return (i.seats||[]).filter(function(s){return !(SEATRE.ug.test(s)||SEATRE.masters.test(s)||SEATRE.phd.test(s))})}
+function lvLink(i,k,label,cls){return '<a '+(cls?'class="'+cls+'" ':'')+'href="#" data-go="'+esc(i.id)+'|'+k+'">'+label+'</a>'}
+var EXM={};
+function examChips(i,k){(DATA.exams&&DATA.exams.exams||[]).forEach(function(x){EXM[x.id]=x});
+var en=((i.entrance||{})[k])||{},out=[],txt=[];
+(en.exams||[]).forEach(function(id){var x=EXM[id];if(!x)return;out.push('<a href="#" data-ex="'+esc(id)+'|'+k+'">'+esc(x.name)+'</a> <small>('+esc(x.status)+')'+(((en.inferred||[]).indexOf(id)>-1)?' \u00b7 typical route, confirm':'')+'</small>')});
+if((en.others||[]).length)txt.push("Also named: "+en.others.map(esc).join(", "));
+if(en.note)txt.push(esc(en.note));
+if(!out.length&&!txt.length)return 'Not stated in our data. <a href="#" data-ex="|'+k+'">See all '+({ug:"UG",masters:"PG",phd:"PhD"}[k])+' entrance tests</a> and check the institute\u2019s admission notice.';
+return out.join("<br>")+(txt.length?(out.length?"<br>":"")+txt.join(" \u00b7 "):"")}
 function card(i){
-var e=i.eligibility||{},s=i.streams||{},h="";
-h+='<div class="card"><h2>'+esc(i.name)+'<span class="badge '+(i.status==="partly_sourced"?'v1">Partly sourced':'v0">Needs verification')+'</span></h2>';
+var e=i.eligibility||{},s=i.streams||{},h="",deg=i.degrees||[];
+h+='<div class="card" id="inst-'+esc(i.id)+'"><h2>'+esc(i.name)+'<span class="badge '+(i.status==="partly_sourced"?'v1">Partly sourced':'v0">Needs verification')+'</span></h2>';
 h+='<div class="meta">'+esc(i.city)+', '+esc(i.state)+' \u00b7 <span class="own">'+esc(i.ownership)+'</span> \u00b7 '+esc(i.type)+'</div>';
+var nav=LVS.filter(function(l){return deg.indexOf(l[2])>-1}).map(function(l){return lvLink(i,l[0],l[1])});
+if(nav.length)h+='<div class="lvnav"><b>Go to:</b> '+nav.join(" \u00b7 ")+'</div>';
 h+=row("Address",esc(i.address))+row("Department",esc(i.department))+row("Programmes",esc(i.programmes))+row("Fees",esc(i.fees))+row("Hostel",esc(i.hostel));
 h+=row("Rankings",rk(i))+row("Agency",esc((i.agencies||[]).join(" \u00b7 ")))+row("Campuses",esc(i.campuses));
-if(i.seats&&i.seats.length)h+=row("Seats",i.seats.map(esc).join("<br>"));
-h+=row("UG stream",esc(s.ug))+row("PG stream",esc(s.masters))+row("PhD stream",esc(s.phd));
-h+='<div class="row"><b>Admission</b><span class="badge '+(e.basis==="sourced"?'v1">Partly sourced':'v0">General pattern, confirm')+'</span></div>';
-h+=row("UG",esc(e.ug))+row("Masters",esc(e.masters))+row("PhD",esc(e.phd))+row("Maths?",esc(e.maths));
-h+='<div class="tags">'+i.degrees.map(function(d){return '<span class="tag">'+d+'</span>'}).join("")+'</div>';
+var os=otherSeats(i);if(os.length)h+=row("Seats",os.map(esc).join("<br>"));
+h+=row("Maths?",esc(e.maths));
+LVS.forEach(function(l){var k=l[0];if(deg.indexOf(l[2])<0)return;var sl=lvSeats(i,k);
+h+='<div class="lvsec" id="inst-'+esc(i.id)+'-'+k+'"><h3>'+l[1]+'</h3><div class="row"><b>Admission</b><span class="badge '+(e.basis==="sourced"?'v1">Partly sourced':'v0">General pattern, confirm')+'</span></div>'
++row("Stream",esc(s[k]))+row("Admission exam",examChips(i,k))+row("Eligibility and route",esc(e[k]))+(sl.length?row("Seats",sl.map(esc).join("<br>")):"")+'</div>'});
+h+='<div class="tags">'+deg.map(function(d){var k=d==="UG"?"ug":d==="PhD"?"phd":"masters";return lvLink(i,k,d,"tag")}).join("")+'</div>';
 h+='<div class="row"><a href="'+esc(i.website)+'" target="_blank" rel="noopener">Official website</a></div>';
 if(i.sources&&i.sources.length)h+='<div class="row"><b>Sources</b>'+i.sources.map(function(x){return '<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.note||"source")+'</a>'}).join(" \u00b7 ")+'</div>';
 h+='<div class="row"><b>Verified</b>Collected '+esc(i.data_collected)+'; last automatic check: '+esc(i.last_checked||"not yet run")+'</div></div>';
@@ -106,10 +132,10 @@ document.getElementById("covered").textContent=states.join(", ");
 document.getElementById("foot").textContent="Data generated "+DATA.generated+" from data/institutes.json. Every record lists its sources; a scheduled checker re-reads them and flags changes for review before this page is updated.";
 
 var TOP=DATA.top20||{};
-var TABS=[["dir","Directory"],["ug","Top 20 UG"],["masters","Top 20 Masters"],["phd","Top 20 PhD"],["help","Free counselling"]],view="dir";
+var TABS=[["dir","Directory"],["ug","Top 20 UG"],["masters","Top 20 Masters"],["phd","Top 20 PhD"],["unr","High-grade, no NIRF rank"],["exm","Entrance exams"],["help","Free counselling"]],view="dir";
 var tabsEl=document.getElementById("tabs"),topEl=document.getElementById("v-top");
 function drawTabs(){tabsEl.innerHTML=TABS.map(function(t){return '<button class="chip" type="button" data-v="'+t[0]+'" aria-pressed="'+(view===t[0])+'">'+t[1]+'</button>'}).join("")}
-function showView(){drawTabs();var dir=view==="dir",help=view==="help";document.getElementById("v-dir").hidden=!dir;topEl.hidden=dir||help;helpEl.hidden=!help;if(help)renderHelp();else if(!dir)renderTop(view)}
+function showView(){drawTabs();var dir=view==="dir",help=view==="help";document.getElementById("v-dir").hidden=!dir;topEl.hidden=dir||help;helpEl.hidden=!help;if(help)renderHelp();else if(view==="unr")renderUnr();else if(view==="exm")renderExams();else if(!dir)renderTop(view)}
 tabsEl.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;view=b.getAttribute("data-v");showView()});
 
 var SITE=(DATA.site||{}).counselling||{},helpEl=document.getElementById("v-help");
@@ -139,7 +165,39 @@ function upd(){var m=helpMsg(),p=document.getElementById("hmsg"),l=document.getE
 ["hl","hs","hx","hb","hq"].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener("input",upd)});
 var c=document.getElementById("hcopy");if(c)c.addEventListener("click",function(){var m=helpMsg();var done=function(){var k=document.getElementById("hok");if(k)k.textContent="Copied."};if(typeof navigator!=="undefined"&&navigator.clipboard)navigator.clipboard.writeText(m).then(done,function(){});else done()});
 upd()}
-function renderTop(lv){
+
+var unrLv="phd";
+function unrCard(r){return '<div class="card"><h2>'+esc(r.name)+'</h2><div class="meta">'+esc(r.city)+', '+esc(r.state)+' \u00b7 <span class="own">'+esc(r.ownership)+'</span>'+((r.agencies||[]).length?' \u00b7 '+esc(r.agencies.join(" \u00b7 ")):'')+'</div>'+row("Why",esc(r.why))+(r.in_top20?row("Note","Also in the Top 20 list for this level."):"")+'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'" data-id="'+esc(r.id)+'" data-lv="'+curLv+'">Open full details in the directory</a></div></div>'}
+function renderUnr(){curLv=unrLv;
+var nu=(TOP.notable_unranked||{})[unrLv]||[];
+var h='<h2 style="margin:0 0 6px">High-grade institutes without a NIRF rank</h2>';
+h+='<div class="chips"><button class="chip" type="button" data-u="phd" aria-pressed="'+(unrLv==="phd")+'">For PhD</button><button class="chip" type="button" data-u="masters" aria-pressed="'+(unrLv==="masters")+'">For Masters</button></div>';
+h+='<div class="method">NIRF does not rank many dedicated research institutes, so they cannot score on national standing. These are national institutes or agency-backed centres (DBT, CSIR, ICMR, DST, ICAR or Government of India autonomous) that offer this level in our data, ordered by programme strength, support and data confidence. They are listed separately, not scored against NIRF-ranked institutes, and this is not an endorsement. Showing '+nu.length+' institutes.</div>';
+h+=nu.map(unrCard).join("");
+topEl.innerHTML=h}
+
+var EX=DATA.exams||{exams:[]},exLv="UG";
+function useCount(id){var n=0;L.forEach(function(i){var en=i.entrance||{};["ug","masters","phd"].forEach(function(k){if(((en[k]||{}).exams||[]).indexOf(id)>-1)n++})});return n?n+" institute sections in this directory list this exam for admission":"No institute section links to this exam yet"}
+function exCard(e){var open=/open|announced|dates/i.test(e.status||"")&&!/not announced/i.test(e.status||"");
+var ann=(e.announcements||[]).map(function(a){return '<div>'+esc(a.date)+': <a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a></div>'}).join("");
+var srcs=(e.sources||[]).map(function(s){return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.note||"source")+'</a>'}).join(" \u00b7 ");
+return '<div class="card" id="exam-'+esc(e.id)+'"><h2>'+esc(e.name)+'<span class="badge '+(open?'v1">':'v0">')+esc(e.status)+'</span></h2><div class="meta">'+esc(e.agency)+' \u00b7 '+esc(e.mode)+'</div>'
++row("Dates",esc(e.dates))+row("Admits to",esc(e.admits_to))+row("Used at",useCount(e.id))
++(ann?'<div class="row"><b>Announcements</b><span>'+ann+'</span></div>':row("Announcements","None found yet"))
++row("Note",esc(e.notes))
++(e.official_site?'<div class="row"><b>Official site</b><a href="'+esc(e.official_site)+'" target="_blank" rel="noopener">'+esc(e.official_site)+'</a></div>':'<div class="row"><b>Official site</b>Confirm on the agency\u2019s own website</div>')
++(srcs?'<div class="row"><b>Sources</b>'+srcs+'</div>':'')+'</div>'}
+function renderExams(){
+var lvKey={UG:"UG",PG:"PG",PhD:"PhD"}[exLv]||"UG";
+var rows=(EX.exams||[]).filter(function(e){return (e.levels||[]).indexOf(lvKey)>-1});
+var h='<h2 style="margin:0 0 6px">Entrance exams and announcements</h2>';
+h+='<div class="bar"><select id="exsel"><option value="UG"'+(exLv==="UG"?" selected":"")+'>UG entrance tests</option><option value="PG"'+(exLv==="PG"?" selected":"")+'>PG entrance tests</option><option value="PhD"'+(exLv==="PhD"?" selected":"")+'>PhD entrance tests</option></select></div>';
+h+='<div class="method">Announcements collected from public pages as of '+esc(EX.as_of||"")+'. '+esc(EX.note||"")+' Showing '+rows.length+' exams.</div>';
+var groups=[],by={};rows.forEach(function(e){if(!by[e.agency]){by[e.agency]=[];groups.push(e.agency)}by[e.agency].push(e)});
+groups.forEach(function(g){h+='<div class="lbl" style="margin-top:12px">'+esc(g)+'</div>'+by[g].map(exCard).join("")});
+topEl.innerHTML=h;
+var sl=document.getElementById("exsel");if(sl)sl.addEventListener("change",function(){exLv=sl.value||"UG";renderExams()})}
+function renderTop(lv){curLv=lv;
 var rows=TOP[lv]||[],W=TOP.weights||{},nm={ug:"undergraduate",masters:"Master\u2019s",phd:"PhD"}[lv];
 var h='<h2 style="margin:0 0 6px">GoBiotech Index: top 20 for '+nm+' admission</h2>';
 h+='<div class="method"><b>Experimental index, not an official ranking.</b> Scored out of 100 from: national standing (NIRF 2025 rank, '+(W.national_standing||0)+'%), institution status ('+(W.institution_status||0)+'%), programme strength for this level ('+(W.programme_strength||0)+'%), support such as hostel and fellowships ('+(W.support||0)+'%) and how well the data is sourced ('+(W.data_confidence||0)+'%). '+esc((TOP[lv+"_candidates"]||0)+' institutes in our data offer this level. ')+(TOP.notes||[]).map(esc).join(" ")+'</div>';
@@ -148,18 +206,19 @@ return '<div class="card"><div class="rk"><div class="rkn">'+r.rank+'</div><div>
 +row("Why",esc(r.why))
 +row("Scores","Standing "+p.national_standing+" \u00b7 Status "+p.institution_status+" \u00b7 Programme "+p.programme_strength+" \u00b7 Support "+p.support+" \u00b7 Data "+p.data_confidence)
 +(r.tie?row("Note","Tied with a neighbouring institute; order inside a tie is alphabetical."):"")
-+'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'">Open full details in the directory</a></div></div>'}).join("");
++'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'" data-id="'+esc(r.id)+'" data-lv="'+curLv+'">Open full details in the directory</a></div></div>'}).join("");
 var nu=(TOP.notable_unranked||{})[lv]||[];
-if(nu.length){h+='<h2 style="margin:18px 0 6px">Well-regarded institutes without a NIRF rank</h2><div class="method">NIRF does not rank many dedicated research institutes, so they cannot score on national standing. These are national institutes or agency-backed centres (DBT, CSIR, ICMR, DST, ICAR or Government of India autonomous) that offer this level in our data, ordered by programme strength, support and data confidence. They are listed separately, not scored against NIRF-ranked institutes, and this is not an endorsement.</div>'+nu.map(function(r){return '<div class="card"><h2>'+esc(r.name)+'</h2><div class="meta">'+esc(r.city)+', '+esc(r.state)+' \u00b7 <span class="own">'+esc(r.ownership)+'</span>'+((r.agencies||[]).length?' \u00b7 '+esc(r.agencies.join(" \u00b7 ")):'')+'</div>'+row("Why",esc(r.why))+(r.in_top20?row("Note","Also in the top 20 above."):"")+'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'">Open full details in the directory</a></div></div>'}).join("")}
+if(nu.length){h+='<h2 style="margin:18px 0 6px">Well-regarded institutes without a NIRF rank</h2><div class="method">NIRF does not rank many dedicated research institutes, so they cannot score on national standing. These are national institutes or agency-backed centres (DBT, CSIR, ICMR, DST, ICAR or Government of India autonomous) that offer this level in our data, ordered by programme strength, support and data confidence. They are listed separately, not scored against NIRF-ranked institutes, and this is not an endorsement.</div>'+nu.map(function(r){return '<div class="card"><h2>'+esc(r.name)+'</h2><div class="meta">'+esc(r.city)+', '+esc(r.state)+' \u00b7 <span class="own">'+esc(r.ownership)+'</span>'+((r.agencies||[]).length?' \u00b7 '+esc(r.agencies.join(" \u00b7 ")):'')+'</div>'+row("Why",esc(r.why))+(r.in_top20?row("Note","Also in the top 20 above."):"")+'<div class="row"><a href="#" data-open="'+esc(r.search||r.name)+'" data-id="'+esc(r.id)+'" data-lv="'+curLv+'">Open full details in the directory</a></div></div>'}).join("")}
 topEl.innerHTML=h}
-topEl.addEventListener("click",function(e){var a=e.target.closest("a");if(!a||!a.getAttribute("data-open"))return;if(e.preventDefault)e.preventDefault();
-document.getElementById("q").value=a.getAttribute("data-open");sel.value="";document.getElementById("deg").value="";document.getElementById("host").value="";own="";ag="";drawChips();drawAg();view="dir";showView();render()});
+topEl.addEventListener("click",function(e){var ub=e.target.closest("button");if(ub&&ub.getAttribute("data-u")){unrLv=ub.getAttribute("data-u");renderUnr();return}var a=e.target.closest("a");if(!a||!a.getAttribute("data-open"))return;if(e.preventDefault)e.preventDefault();
+document.getElementById("q").value=a.getAttribute("data-open");sel.value="";document.getElementById("deg").value="";document.getElementById("host").value="";own="";ag="";drawChips();drawAg();view="dir";showView();render();var lvk=a.getAttribute("data-lv"),rid=a.getAttribute("data-id");if(lvk&&rid){var tg=document.getElementById("inst-"+rid+"-"+lvk);if(tg&&tg.scrollIntoView){tg.scrollIntoView({behavior:"smooth",block:"start"})}}});
 if(DATA.coverage_notes)document.getElementById("foot").textContent+=" Coverage: "+DATA.coverage_notes;
 function render(){
 var st=sel.value,q=document.getElementById("q").value.toLowerCase(),dg=document.getElementById("deg").value,hs=document.getElementById("host").value;
 var r=L.filter(function(i){return (!own||i.ownership===own)&&(!ag||(i.agencies||[]).indexOf(ag)>-1)&&(!st||i.state===st)&&(!q||(i.name+" "+i.city+" "+i.type+" "+i.programmes).toLowerCase().indexOf(q)>-1)&&(!dg||i.degrees.indexOf(dg)>-1)&&(!hs||i.hostel===hs)});
 document.getElementById("count").textContent=r.length+" institute"+(r.length===1?"":"s")+" found";
 document.getElementById("list").innerHTML=r.map(card).join("");}
+document.getElementById("list").addEventListener("click",function(e){var a=e.target.closest("a");if(!a)return;var ex=a.getAttribute("data-ex");if(ex!==null&&ex!==undefined){if(e.preventDefault)e.preventDefault();var pp=ex.split("|"),eid=pp[0],lk=pp[1];exLv={ug:"UG",masters:"PG",phd:"PhD"}[lk]||"UG";var xo=EXM[eid];if(xo&&(xo.levels||[]).indexOf(exLv)<0)exLv=xo.levels[0];view="exm";showView();if(eid){var tg=document.getElementById("exam-"+eid);if(tg&&tg.scrollIntoView)tg.scrollIntoView({behavior:"smooth",block:"start"})}return}var g=a.getAttribute("data-go");if(!g)return;if(e.preventDefault)e.preventDefault();var p=g.split("|"),el=document.getElementById("inst-"+p[0]+"-"+p[1]);if(el){if(el.scrollIntoView)el.scrollIntoView({behavior:"smooth",block:"start"});el.className="lvsec hl";setTimeout(function(){el.className="lvsec"},1700)}});
 ["q","st","deg","host"].forEach(function(id){document.getElementById(id).addEventListener("input",render)});
 drawChips();
 drawAg();

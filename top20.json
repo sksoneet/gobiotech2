@@ -225,6 +225,29 @@
    "tie": false
   },
   {
+   "id": "indian-institute-of-technology-iit-gandhinagar",
+   "name": "Indian Institute of Technology (IIT) Gandhinagar",
+   "state": "Gujarat",
+   "city": "Gandhinagar (Palaj)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Gandhinagar",
+   "unranked": false,
+   "score": 74.0,
+   "parts": {
+    "national_standing": 40,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 10,
+   "tie": false
+  },
+  {
    "id": "national-institute-of-technology-nit-rourkela",
    "name": "National Institute of Technology (NIT) Rourkela",
    "state": "Odisha",
@@ -235,16 +258,16 @@
    ],
    "search": "National Institute of Technology (NIT) Rourkela",
    "unranked": false,
-   "score": 70.4,
+   "score": 72.4,
    "parts": {
     "national_standing": 44,
     "institution_status": 100,
     "programme_strength": 85,
     "support": 50,
-    "data_confidence": 80
+    "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #34, Engineering #13; institute of national importance or a national research institute; UG admission through a national or state common test",
-   "rank": 10,
+   "rank": 11,
    "tie": false
   },
   {
@@ -268,7 +291,7 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; UG programme with an institute-level route",
-   "rank": 11,
+   "rank": 12,
    "tie": false
   },
   {
@@ -291,7 +314,7 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #55, Research #35; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
-   "rank": 12,
+   "rank": 13,
    "tie": false
   },
   {
@@ -305,16 +328,83 @@
    ],
    "search": "National Institute of Technology (NIT) Calicut",
    "unranked": false,
-   "score": 62.2,
+   "score": 67.2,
    "parts": {
     "national_standing": 35,
     "institution_status": 100,
     "programme_strength": 85,
     "support": 50,
-    "data_confidence": 30
+    "data_confidence": 80
    },
    "why": "NIRF 2025 Engineering #21; institute of national importance or a national research institute; UG admission through a national or state common test",
-   "rank": 13,
+   "rank": 14,
+   "tie": false
+  },
+  {
+   "id": "indian-institute-of-technology-iit-hyderabad",
+   "name": "Indian Institute of Technology (IIT) Hyderabad",
+   "state": "Telangana",
+   "city": "Hyderabad (Kandi)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Hyderabad",
+   "unranked": true,
+   "score": 67.0,
+   "parts": {
+    "national_standing": 20,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 80
+   },
+   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
+   "rank": 15,
+   "tie": false
+  },
+  {
+   "id": "amrita-school-of-biotechnology-amritapuri-kollam",
+   "name": "Amrita School of Biotechnology (Amritapuri, Kollam)",
+   "state": "Kerala",
+   "city": "Amritapuri (Kollam)",
+   "ownership": "Private",
+   "agencies": [],
+   "search": "Amrita School of Biotechnology (Amritapuri, Kollam)",
+   "unranked": false,
+   "score": 66.2,
+   "parts": {
+    "national_standing": 56,
+    "institution_status": 55,
+    "programme_strength": 85,
+    "support": 60,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #17, University #7; private or deemed university; UG admission through a national or state common test",
+   "rank": 16,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-warangal",
+   "name": "National Institute of Technology (NIT) Warangal",
+   "state": "Telangana",
+   "city": "Warangal",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Warangal",
+   "unranked": false,
+   "score": 65.3,
+   "parts": {
+    "national_standing": 29,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Engineering #28; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 17,
    "tie": false
   },
   {
@@ -337,119 +427,8 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Engineering #62; institute of national importance or a national research institute; UG admission through a national or state common test",
-   "rank": 14,
-   "tie": false
-  },
-  {
-   "id": "national-institute-of-technology-nit-agartala",
-   "name": "National Institute of Technology (NIT) Agartala",
-   "state": "Tripura",
-   "city": "Agartala",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "National Institute of Technology (NIT) Agartala",
-   "unranked": true,
-   "score": 61.0,
-   "parts": {
-    "national_standing": 20,
-    "institution_status": 100,
-    "programme_strength": 85,
-    "support": 50,
-    "data_confidence": 70
-   },
-   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through a national or state common test",
-   "rank": 15,
-   "tie": false
-  },
-  {
-   "id": "national-institute-of-technology-nit-warangal",
-   "name": "National Institute of Technology (NIT) Warangal",
-   "state": "Telangana",
-   "city": "Warangal",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "National Institute of Technology (NIT) Warangal",
-   "unranked": false,
-   "score": 60.3,
-   "parts": {
-    "national_standing": 29,
-    "institution_status": 100,
-    "programme_strength": 85,
-    "support": 50,
-    "data_confidence": 30
-   },
-   "why": "NIRF 2025 Engineering #28; institute of national importance or a national research institute; UG admission through a national or state common test",
-   "rank": 16,
-   "tie": false
-  },
-  {
-   "id": "indian-institute-of-technology-iit-hyderabad",
-   "name": "Indian Institute of Technology (IIT) Hyderabad",
-   "state": "Telangana",
-   "city": "Hyderabad (Kandi)",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "Indian Institute of Technology (IIT) Hyderabad",
-   "unranked": true,
-   "score": 60.0,
-   "parts": {
-    "national_standing": 20,
-    "institution_status": 100,
-    "programme_strength": 100,
-    "support": 50,
-    "data_confidence": 30
-   },
-   "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through JEE Advanced or the IISER aptitude test",
-   "rank": 17,
-   "tie": false
-  },
-  {
-   "id": "amrita-school-of-biotechnology-amritapuri-kollam",
-   "name": "Amrita School of Biotechnology (Amritapuri, Kollam)",
-   "state": "Kerala",
-   "city": "Amritapuri (Kollam)",
-   "ownership": "Private",
-   "agencies": [],
-   "search": "Amrita School of Biotechnology (Amritapuri, Kollam)",
-   "unranked": false,
-   "score": 57.0,
-   "parts": {
-    "national_standing": 47,
-    "institution_status": 55,
-    "programme_strength": 65,
-    "support": 60,
-    "data_confidence": 80
-   },
-   "why": "NIRF 2025 Overall #17; private or deemed university; UG programme with an institute-level route",
    "rank": 18,
-   "tie": true
-  },
-  {
-   "id": "alagappa-college-of-technology-anna-university-chennai",
-   "name": "Alagappa College of Technology, Anna University (Chennai)",
-   "state": "Tamil Nadu",
-   "city": "Chennai (Guindy)",
-   "ownership": "State / UT Government",
-   "agencies": [],
-   "search": "Alagappa College of Technology, Anna University (Chennai)",
-   "unranked": false,
-   "score": 57.0,
-   "parts": {
-    "national_standing": 36,
-    "institution_status": 65,
-    "programme_strength": 85,
-    "support": 30,
-    "data_confidence": 80
-   },
-   "why": "NIRF 2025 Overall #29; state or UT public institution; UG admission through a national or state common test",
-   "rank": 19,
-   "tie": true
+   "tie": false
   },
   {
    "id": "national-institute-of-technology-nit-andhra-pradesh",
@@ -462,20 +441,44 @@
    ],
    "search": "National Institute of Technology (NIT) Andhra Pradesh",
    "unranked": true,
-   "score": 57.0,
+   "score": 62.0,
    "parts": {
     "national_standing": 20,
     "institution_status": 100,
     "programme_strength": 85,
     "support": 50,
-    "data_confidence": 30
+    "data_confidence": 80
    },
    "why": "no published NIRF rank found; institute of national importance or a national research institute; UG admission through a national or state common test",
+   "rank": 19,
+   "tie": false
+  },
+  {
+   "id": "national-institute-of-technology-nit-durgapur",
+   "name": "National Institute of Technology (NIT) Durgapur",
+   "state": "West Bengal",
+   "city": "Durgapur",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT",
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "National Institute of Technology (NIT) Durgapur",
+   "unranked": false,
+   "score": 61.6,
+   "parts": {
+    "national_standing": 19,
+    "institution_status": 100,
+    "programme_strength": 85,
+    "support": 50,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Engineering #49; institute of national importance or a national research institute; UG admission through a national or state common test",
    "rank": 20,
-   "tie": true
+   "tie": false
   }
  ],
- "ug_candidates": 184,
+ "ug_candidates": 185,
  "masters": [
   {
    "id": "indian-institute-of-technology-iit-madras",
@@ -733,6 +736,29 @@
    "tie": false
   },
   {
+   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
+   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "unranked": false,
+   "score": 79.3,
+   "parts": {
+    "national_standing": 61,
+    "institution_status": 100,
+    "programme_strength": 65,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PG programme with an institute-level route",
+   "rank": 12,
+   "tie": false
+  },
+  {
    "id": "banaras-hindu-university-bhu",
    "name": "Banaras Hindu University (BHU)",
    "state": "Uttar Pradesh",
@@ -752,7 +778,30 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #10, University #6, Agriculture #4; central university; DBT-supported M.Sc/M.Tech filled through GAT-B",
-   "rank": 12,
+   "rank": 13,
+   "tie": false
+  },
+  {
+   "id": "university-of-delhi-du",
+   "name": "University of Delhi (DU)",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "DBT"
+   ],
+   "search": "University of Delhi (DU)",
+   "unranked": false,
+   "score": 76.9,
+   "parts": {
+    "national_standing": 62,
+    "institution_status": 85,
+    "programme_strength": 95,
+    "support": 50,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 University #5; central university; DBT-supported M.Sc/M.Tech filled through GAT-B",
+   "rank": 14,
    "tie": false
   },
   {
@@ -775,30 +824,7 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Agriculture #5; institute of national importance or a national research institute; PG programme with an institute-level route",
-   "rank": 13,
-   "tie": false
-  },
-  {
-   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
-   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
-   "state": "Delhi",
-   "city": "New Delhi",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
-   "unranked": false,
-   "score": 76.3,
-   "parts": {
-    "national_standing": 61,
-    "institution_status": 100,
-    "programme_strength": 65,
-    "support": 100,
-    "data_confidence": 70
-   },
-   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PG programme with an institute-level route",
-   "rank": 14,
+   "rank": 15,
    "tie": false
   },
   {
@@ -821,7 +847,7 @@
     "data_confidence": 70
    },
    "why": "NIRF 2025 Overall #11, Engineering #8; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
-   "rank": 15,
+   "rank": 16,
    "tie": false
   },
   {
@@ -845,7 +871,7 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; DBT-supported M.Sc/M.Tech filled through GAT-B",
-   "rank": 16,
+   "rank": 17,
    "tie": false
   },
   {
@@ -859,37 +885,39 @@
    ],
    "search": "National Institute of Technology (NIT) Rourkela",
    "unranked": false,
-   "score": 71.4,
+   "score": 73.4,
    "parts": {
     "national_standing": 44,
     "institution_status": 100,
     "programme_strength": 90,
     "support": 50,
-    "data_confidence": 80
+    "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #34, Engineering #13; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
-   "rank": 17,
+   "rank": 18,
    "tie": false
   },
   {
-   "id": "university-of-delhi-du",
-   "name": "University of Delhi (DU)",
-   "state": "Delhi",
-   "city": "New Delhi",
+   "id": "indian-institute-of-technology-iit-gandhinagar",
+   "name": "Indian Institute of Technology (IIT) Gandhinagar",
+   "state": "Gujarat",
+   "city": "Gandhinagar (Palaj)",
    "ownership": "Central Government",
-   "agencies": [],
-   "search": "University of Delhi (DU)",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Gandhinagar",
    "unranked": false,
-   "score": 70.9,
+   "score": 72.0,
    "parts": {
-    "national_standing": 62,
-    "institution_status": 85,
-    "programme_strength": 85,
-    "support": 30,
+    "national_standing": 40,
+    "institution_status": 100,
+    "programme_strength": 90,
+    "support": 70,
     "data_confidence": 80
    },
-   "why": "NIRF 2025 University #5; central university; PG admission through CUET (PG)",
-   "rank": 18,
+   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+   "rank": 19,
    "tie": false
   },
   {
@@ -913,31 +941,8 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Research #24; institute of national importance or a national research institute; DBT-supported M.Sc/M.Tech filled through GAT-B",
-   "rank": 19,
-   "tie": false
-  },
-  {
-   "id": "indian-institute-of-technology-iit-gandhinagar",
-   "name": "Indian Institute of Technology (IIT) Gandhinagar",
-   "state": "Gujarat",
-   "city": "Gandhinagar (Palaj)",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "Indian Institute of Technology (IIT) Gandhinagar",
-   "unranked": false,
-   "score": 67.0,
-   "parts": {
-    "national_standing": 40,
-    "institution_status": 100,
-    "programme_strength": 90,
-    "support": 70,
-    "data_confidence": 30
-   },
-   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
    "rank": 20,
-   "tie": true
+   "tie": false
   }
  ],
  "notable_unranked": {
@@ -988,6 +993,28 @@
     "in_top20": false
    },
    {
+    "id": "indian-institute-of-technology-iit-hyderabad",
+    "name": "Indian Institute of Technology (IIT) Hyderabad",
+    "state": "Telangana",
+    "city": "Hyderabad (Kandi)",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Hyderabad",
+    "unranked": true,
+    "score": 65.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 90,
+     "support": 70,
+     "data_confidence": 80
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
+    "in_top20": false
+   },
+   {
     "id": "indian-institute-of-technology-iit-jodhpur",
     "name": "Indian Institute of Technology (IIT) Jodhpur",
     "state": "Rajasthan",
@@ -1027,28 +1054,6 @@
      "programme_strength": 90,
      "support": 50,
      "data_confidence": 100
-    },
-    "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
-    "in_top20": false
-   },
-   {
-    "id": "indian-institute-of-technology-iit-hyderabad",
-    "name": "Indian Institute of Technology (IIT) Hyderabad",
-    "state": "Telangana",
-    "city": "Hyderabad (Kandi)",
-    "ownership": "Central Government",
-    "agencies": [
-     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-    ],
-    "search": "Indian Institute of Technology (IIT) Hyderabad",
-    "unranked": true,
-    "score": 58.0,
-    "parts": {
-     "national_standing": 20,
-     "institution_status": 100,
-     "programme_strength": 90,
-     "support": 50,
-     "data_confidence": 30
     },
     "why": "no published NIRF rank found; institute of national importance or a national research institute; PG admission through IIT JAM or GATE",
     "in_top20": false
@@ -1260,6 +1265,30 @@
     "in_top20": true
    },
    {
+    "id": "indian-institute-of-technology-iit-hyderabad",
+    "name": "Indian Institute of Technology (IIT) Hyderabad",
+    "state": "Telangana",
+    "city": "Hyderabad (Kandi)",
+    "ownership": "Central Government",
+    "agencies": [
+     "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+    ],
+    "search": "Indian Institute of Technology (IIT) Hyderabad",
+    "unranked": true,
+    "score": 67.0,
+    "parts": {
+     "national_standing": 20,
+     "institution_status": 100,
+     "programme_strength": 100,
+     "support": 70,
+     "data_confidence": 80
+    },
+    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+    "rank": 20,
+    "tie": false,
+    "in_top20": true
+   },
+   {
     "id": "csir-indian-institute-of-integrative-medicine-iiim-jammu",
     "name": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
     "state": "Jammu & Kashmir",
@@ -1279,9 +1308,7 @@
      "data_confidence": 70
     },
     "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
-    "rank": 20,
-    "tie": true,
-    "in_top20": true
+    "in_top20": false
    },
    {
     "id": "icmr-national-institute-for-research-in-bacterial-infections",
@@ -1701,28 +1728,6 @@
     },
     "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
     "in_top20": false
-   },
-   {
-    "id": "csir-central-food-technological-research-institute-cftri-mys",
-    "name": "CSIR-Central Food Technological Research Institute (CFTRI), Mysuru",
-    "state": "Karnataka",
-    "city": "Mysuru",
-    "ownership": "Central Government",
-    "agencies": [
-     "CSIR"
-    ],
-    "search": "CSIR-Central Food Technological Research Institute (CFTRI), Mysuru",
-    "unranked": true,
-    "score": 56.0,
-    "parts": {
-     "national_standing": 20,
-     "institution_status": 100,
-     "programme_strength": 70,
-     "support": 50,
-     "data_confidence": 50
-    },
-    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
-    "in_top20": false
    }
   ]
  },
@@ -1915,6 +1920,29 @@
    "tie": false
   },
   {
+   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
+   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "state": "Delhi",
+   "city": "New Delhi",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
+   "unranked": false,
+   "score": 86.3,
+   "parts": {
+    "national_standing": 61,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 100,
+    "data_confidence": 100
+   },
+   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 9,
+   "tie": false
+  },
+  {
    "id": "indian-institute-of-technology-iit-delhi",
    "name": "Indian Institute of Technology (IIT) Delhi",
    "state": "Delhi",
@@ -1934,7 +1962,7 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #4, Engineering #2; institute of national importance or a national research institute; PhD programme with an institute-level route (or details not yet collected)",
-   "rank": 9,
+   "rank": 10,
    "tie": false
   },
   {
@@ -1957,29 +1985,6 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Overall #13, University #4, Engineering #24; central university; PhD with a national fellowship route at a national research body",
-   "rank": 10,
-   "tie": false
-  },
-  {
-   "id": "all-india-institute-of-medical-sciences-aiims-delhi",
-   "name": "All India Institute of Medical Sciences (AIIMS) Delhi",
-   "state": "Delhi",
-   "city": "New Delhi",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "All India Institute of Medical Sciences (AIIMS) Delhi",
-   "unranked": false,
-   "score": 83.3,
-   "parts": {
-    "national_standing": 61,
-    "institution_status": 100,
-    "programme_strength": 100,
-    "support": 100,
-    "data_confidence": 70
-   },
-   "why": "NIRF 2025 Overall #8; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
    "rank": 11,
    "tie": false
   },
@@ -2053,6 +2058,29 @@
    "tie": false
   },
   {
+   "id": "indian-institute-of-technology-iit-gandhinagar",
+   "name": "Indian Institute of Technology (IIT) Gandhinagar",
+   "state": "Gujarat",
+   "city": "Gandhinagar (Palaj)",
+   "ownership": "Central Government",
+   "agencies": [
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
+   ],
+   "search": "Indian Institute of Technology (IIT) Gandhinagar",
+   "unranked": false,
+   "score": 74.0,
+   "parts": {
+    "national_standing": 40,
+    "institution_status": 100,
+    "programme_strength": 100,
+    "support": 70,
+    "data_confidence": 80
+   },
+   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
+   "rank": 15,
+   "tie": false
+  },
+  {
    "id": "punjab-agricultural-university-pau",
    "name": "Punjab Agricultural University (PAU)",
    "state": "Punjab",
@@ -2073,31 +2101,8 @@
     "data_confidence": 100
    },
    "why": "NIRF 2025 Agriculture #3, Overall #81; state or UT public institution; PhD programme with an institute-level route (or details not yet collected)",
-   "rank": 15,
-   "tie": false
-  },
-  {
-   "id": "indian-institute-of-technology-iit-gandhinagar",
-   "name": "Indian Institute of Technology (IIT) Gandhinagar",
-   "state": "Gujarat",
-   "city": "Gandhinagar (Palaj)",
-   "ownership": "Central Government",
-   "agencies": [
-    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
-   ],
-   "search": "Indian Institute of Technology (IIT) Gandhinagar",
-   "unranked": false,
-   "score": 69.0,
-   "parts": {
-    "national_standing": 40,
-    "institution_status": 100,
-    "programme_strength": 100,
-    "support": 70,
-    "data_confidence": 30
-   },
-   "why": "NIRF 2025 Engineering #16; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
    "rank": 16,
-   "tie": true
+   "tie": false
   },
   {
    "id": "bric-national-institute-of-immunology-nii-new-delhi",
@@ -2169,27 +2174,27 @@
    "tie": true
   },
   {
-   "id": "csir-indian-institute-of-integrative-medicine-iiim-jammu",
-   "name": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
-   "state": "Jammu & Kashmir",
-   "city": "Jammu",
+   "id": "indian-institute-of-technology-iit-hyderabad",
+   "name": "Indian Institute of Technology (IIT) Hyderabad",
+   "state": "Telangana",
+   "city": "Hyderabad (Kandi)",
    "ownership": "Central Government",
    "agencies": [
-    "CSIR"
+    "Govt. of India autonomous (IIT, AIIMS, NIT, IISER, IISc)"
    ],
-   "search": "CSIR-Indian Institute of Integrative Medicine (IIIM), Jammu",
+   "search": "Indian Institute of Technology (IIT) Hyderabad",
    "unranked": true,
-   "score": 66.0,
+   "score": 67.0,
    "parts": {
     "national_standing": 20,
     "institution_status": 100,
     "programme_strength": 100,
     "support": 70,
-    "data_confidence": 70
+    "data_confidence": 80
    },
    "why": "no published NIRF rank found; institute of national importance or a national research institute; PhD with a national fellowship route at a national research body",
    "rank": 20,
-   "tie": true
+   "tie": false
   }
  ],
  "phd_candidates": 89

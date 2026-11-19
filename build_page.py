@@ -11,6 +11,9 @@ if top.exists():
 site = root / "data" / "site.json"
 if site.exists():
     data["site"] = json.loads(site.read_text(encoding="utf-8"))
+ex = root / "data" / "exams.json"
+if ex.exists():
+    data["exams"] = json.loads(ex.read_text(encoding="utf-8"))
 tpl = (root / "tools" / "page_template.html").read_text(encoding="utf-8")
 blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 out = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else root / "site" / "index.html"

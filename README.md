@@ -44,3 +44,14 @@ It is an experimental index, not an official ranking.
 `data/site.json` holds the counselling contact details (phone, WhatsApp, email, hours, languages). Leave a field empty to hide that
 channel; if all are empty the menu says counselling is not set up yet. Visitors fill a short form and the page builds a message
 that opens in their own phone, WhatsApp or email app. The site stores nothing. Someone has to staff the line you publish.
+
+## Entrance exams menu
+`data/exams.json` lists entrance tests by level (UG, PG, PhD) with the conducting agency, current status, dates, announcements
+and sources. Update it when an agency announces something (the weekly source checker also watches the exam links).
+Use `official_site` only for the agency's own page; leave it null otherwise.
+
+## Exam links on every institute section
+`tools/link_exams.py` reads each level's own text (eligibility, level-specific seat lines, stream) and writes an `entrance`
+field linking the UG, Masters and PhD section to entries in `data/exams.json`. Where no exam can be found it says so and
+links to the full list for that level. Fix a wrong or missing link in `data/exam_overrides.json`, for example
+`{"institute-id": {"masters": {"exams": ["gat-b"], "others": [], "note": ""}}}`. Rerun the script after changing institute text.

@@ -1,0 +1,698 @@
+{
+ "as_of": "2026-11-09",
+ "note": "Announcements are collected from public pages and may change; always confirm on the conducting agency's official site. Exams with 'Not announced yet' show expected timing only where a source gave it.",
+ "exams": [
+  {
+   "id": "jee-main",
+   "name": "JEE Main 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "National Testing Agency (NTA)",
+   "admits_to": "B.Tech Biotechnology and related B.E./B.Tech at NITs, IIITs, GFTIs and many state and private colleges (through JoSAA/CSAB and state counselling)",
+   "mode": "Computer-based test",
+   "status": "Registration open",
+   "dates": "Session 1 registration closes 22 Nov 2026; Session 1 exam 20–24 and 28 Jan 2027 (revised); Session 2 exam 2–7 Apr 2027",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "NTA revises its 2026–27 exam calendar: JEE Main 2027 Session 1 moved to 20–24 and 28 January; Session 2 on 2–7 April 2027",
+     "url": "https://news.careers360.com/nta-revises-exam-calendar-jee-mains-session-1-dates-ugc-net-joint-csir-cuet-pg-cmat-neet"
+    },
+    {
+     "date": "2026-09-16",
+     "title": "NTA publishes the tentative exam calendar for December 2026 to April 2027",
+     "url": "https://www.freepressjournal.in/education/nta-exam-calendar-2026-27-released-at-ntaacin-jee-main-ugc-net-cuet-pg-cmat-dates-out"
+    }
+   ],
+   "official_site": "https://jeemain.nta.nic.in",
+   "notes": "NTA says calendar dates are tentative and can change.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/education/news/nta-exam-calendar-2026-27-new-dates-for-ugc-net-jee-main-cuet-pg-out-nc-126102700437_1.html",
+     "note": "Business Standard: NTA calendar 2026-27"
+    },
+    {
+     "url": "https://competishun.com/engineering-entrance-exam-calendar",
+     "note": "Competishun exam calendar (registration close date)"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "jee-advanced",
+   "name": "JEE Advanced 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "Joint Admission Board (IITs); organising IIT rotates yearly",
+   "admits_to": "B.Tech and dual-degree programmes at the IITs, including Biological Engineering/Biotechnology; also one channel considered by some institutes",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "Application expected around April 2027 and exam around April–May 2027 (expectation from exam calendars, not an announcement); IIT Delhi is reported as the expected organiser",
+   "announcements": [],
+   "official_site": null,
+   "notes": "No official notice found as of this check. Eligibility needs a JEE Main qualification.",
+   "sources": [
+    {
+     "url": "https://competishun.com/engineering-entrance-exam-calendar",
+     "note": "Competishun: JEE Advanced 2027 expected"
+    },
+    {
+     "url": "https://admission.aglasem.com/national-exams/",
+     "note": "Aglasem: national exams calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "cuet-ug",
+   "name": "CUET (UG) 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "National Testing Agency (NTA)",
+   "admits_to": "B.Sc and other UG programmes at central universities and many state, deemed and private universities (for example B.Sc Biotechnology at JMI)",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "Expected (from the 2026 timeline): registration January 2027, exam May 2027",
+   "announcements": [],
+   "official_site": "https://cuet.nta.nic.in",
+   "notes": "Information bulletin is to be released on the CUET site; dates above are tentative and come from last year’s timeline.",
+   "sources": [
+    {
+     "url": "https://university.careers360.com/articles/cuet-2027",
+     "note": "Careers360: CUET 2027 expected dates"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "iat",
+   "name": "IISER Aptitude Test (IAT) 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "IISERs (organising IISER rotates)",
+   "admits_to": "BS-MS dual degree in Biological Sciences and other programmes at the seven IISERs (IISc also accepts IAT scores for its BS Research)",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (2026 test held on 7 June 2026)",
+   "dates": "Tentative: notification first week of February 2027, registration March–April 2027, exam late May or June 2027 (sources differ: 23 May, or June)",
+   "announcements": [
+    {
+     "date": "2026-02-10",
+     "title": "IAT 2026 notification and dates released at iiseradmission.in (exam 7 June 2026)",
+     "url": "https://engineering.careers360.com/exams/iiser-aptitude-test"
+    }
+   ],
+   "official_site": "https://www.iiseradmission.in",
+   "notes": "Sources disagree on whether a JEE Advanced channel still exists for IISERs; confirm in the IISER brochure.",
+   "sources": [
+    {
+     "url": "https://www.sciastra.com/blogs/iat-2027",
+     "note": "SciAstra: IAT 2027 tentative timeline"
+    },
+    {
+     "url": "https://mystudycart.com/examinations/iat",
+     "note": "IAT 2027 tentative dates"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "nest",
+   "name": "NEST 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "NISER Bhubaneswar and UM-DAE CEBS Mumbai",
+   "admits_to": "Integrated 5-year M.Sc in Biological Sciences at NISER and UM-DAE CEBS",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "Tentative: notification and registration open in the first week of February 2027; registration closes in the second week of May 2027",
+   "announcements": [],
+   "official_site": null,
+   "notes": "Tentative dates from a coaching-site calendar; check the NISER site for the notification.",
+   "sources": [
+    {
+     "url": "https://www.sciastra.com/blogs/science-entrance-exam-calendar",
+     "note": "SciAstra: science entrance exam calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "neet-ug",
+   "name": "NEET (UG) 2027",
+   "levels": [
+    "UG"
+   ],
+   "agency": "National Testing Agency (NTA)",
+   "admits_to": "Medical, allied and some agricultural/bio programmes that use NEET scores (for example IISc BS Research no longer accepts it, but some state agriculture courses and institutes do)",
+   "mode": "Pen-and-paper or computer-based (to be announced)",
+   "status": "Not announced yet",
+   "dates": "NTA has not announced the NEET UG 2027 date as of 26 Oct 2026",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "NTA revised exam calendar notes that the NEET UG date is still awaited",
+     "url": "https://news.careers360.com/nta-revises-exam-calendar-jee-mains-session-1-dates-ugc-net-joint-csir-cuet-pg-cmat-neet"
+    }
+   ],
+   "official_site": "https://nta.ac.in",
+   "notes": "Relevant only to programmes that accept NEET.",
+   "sources": [
+    {
+     "url": "https://news.careers360.com/nta-revises-exam-calendar-jee-mains-session-1-dates-ugc-net-joint-csir-cuet-pg-cmat-neet",
+     "note": "Careers360: NTA revised calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "mht-cet",
+   "name": "MHT-CET 2027 (Maharashtra)",
+   "levels": [
+    "UG"
+   ],
+   "agency": "State CET Cell, Maharashtra",
+   "admits_to": "B.Tech/B.E. Biotechnology and other engineering programmes in Maharashtra (CAP rounds)",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "Dates not announced; expected in the first half of 2027",
+   "announcements": [],
+   "official_site": null,
+   "notes": "Check the State CET Cell site for the notification.",
+   "sources": [
+    {
+     "url": "https://competishun.com/engineering-entrance-exam-calendar",
+     "note": "Competishun exam calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "ts-eapcet",
+   "name": "TS EAPCET 2027 (Telangana)",
+   "levels": [
+    "UG"
+   ],
+   "agency": "JNTU Hyderabad for Telangana",
+   "admits_to": "B.Tech/B.E. Biotechnology and other engineering programmes in Telangana",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "Notification usually comes in February; expected exam around April–May 2027",
+   "announcements": [],
+   "official_site": null,
+   "notes": "Expected timing only; check the Telangana EAPCET site.",
+   "sources": [
+    {
+     "url": "https://competishun.com/engineering-entrance-exam-calendar",
+     "note": "Competishun exam calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "iit-jam",
+   "name": "IIT JAM 2027",
+   "levels": [
+    "PG"
+   ],
+   "agency": "IIT Kharagpur (organising institute for 2027)",
+   "admits_to": "M.Sc programmes at the IITs and other institutes through the Biotechnology (BT) test paper, including M.Sc Biotechnology and Biosciences and Bioengineering at IIT Bombay, Roorkee and Indore",
+   "mode": "Computer-based test (two sessions; BT in the afternoon)",
+   "status": "Registration closed (one source says the deadline moved to 19 Oct 2026)",
+   "dates": "Brochure 31 Aug 2026; registration 12 Sep to 12 Oct 2026; admit card 5 Jan 2027; exam 14 Feb 2027; result 18 Mar 2027",
+   "announcements": [
+    {
+     "date": "2026-09-01",
+     "title": "JAM 2027 brochure released; registration start moved from 5 to 12 September",
+     "url": "https://news.careers360.com/iit-jam-2027-brochure-out-iit-kharagpur-revises-registration-date-september-12"
+    },
+    {
+     "date": "2026-08-18",
+     "title": "JAM 2027 website jam.iitkgp.ac.in launched; exam date set for 14 February 2027",
+     "url": "https://news.careers360.com/iit-jam-2027-website-jam-iitkgp-ac-in-registration-exam-dates-iit-admission"
+    },
+    {
+     "date": "2026-09-12",
+     "title": "Registration begins; last date 12 October 2026",
+     "url": "https://www.freepressjournal.in/education/iit-jam-2027-registration-begins-today-at-jamiitkgpacin-apply-by-october-12-check-exam-date-fee"
+    }
+   ],
+   "official_site": "https://jam.iitkgp.ac.in",
+   "notes": "Application portal is JOAPS. Seven papers: BT, CY, EN, GG, MA, MS, PH.",
+   "sources": [
+    {
+     "url": "https://www.pw.live/iit-jam/exams/iit-jam-2027-notification",
+     "note": "PW Live: JAM 2027 notification"
+    },
+    {
+     "url": "https://www.pw.live/news/iit-jam-2027-registration-september-12-new-dates-exam-date-iit-kharagpur",
+     "note": "PW Live: revised registration dates"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "cuet-pg",
+   "name": "CUET (PG) 2027",
+   "levels": [
+    "PG"
+   ],
+   "agency": "National Testing Agency (NTA)",
+   "admits_to": "M.Sc Biotechnology and other PG programmes at central and many other universities (for example JMI, Allahabad, Pondicherry in some routes)",
+   "mode": "Computer-based test",
+   "status": "Dates announced (registration expected in December 2026)",
+   "dates": "Exam 1–5, 8, 12–20 and 24–25 March 2027 per the earlier calendar; the revised calendar spreads papers over multiple March blocks; registration expected December 2026",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "NTA revises its calendar and updates the CUET PG 2027 March schedule",
+     "url": "https://news.careers360.com/nta-revises-exam-calendar-jee-mains-session-1-dates-ugc-net-joint-csir-cuet-pg-cmat-neet"
+    },
+    {
+     "date": "2026-09-17",
+     "title": "NTA releases CUET PG 2027 dates in its 2026–27 calendar",
+     "url": "https://www.indiatvnews.com/education/news/nta-announces-jee-main-ugc-net-cuet-pg-exam-dates-2026-details-here-2026-09-17-1054516"
+    }
+   ],
+   "official_site": "https://nta.ac.in",
+   "notes": "Dates are tentative until the information bulletin is out.",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/education/news/nta-exam-calendar-2026-27-new-dates-for-ugc-net-jee-main-cuet-pg-out-nc-126102700437_1.html",
+     "note": "Business Standard: NTA calendar 2026-27"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "gat-b",
+   "name": "GAT-B 2027 (Graduate Aptitude Test–Biotechnology)",
+   "levels": [
+    "PG"
+   ],
+   "agency": "DBT through the Regional Centre for Biotechnology (RCB); one listing names NTA as the conducting body",
+   "admits_to": "DBT-supported M.Sc Biotechnology and related programmes (and M.Tech) at JNU, GNDU, HPU, SPPU, Tezpur, IIT Indore and many others",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (GAT-B 2026 vacant-seat list updated 24 Aug 2026)",
+   "dates": "Expected: online registration around March 2027 (expectation from an exam calendar, not an announcement)",
+   "announcements": [
+    {
+     "date": "2026-08-24",
+     "title": "RCB publishes the updated GAT-B 2026 vacant seat details",
+     "url": "https://rcb.res.in/files/2026-08/gat-b_2026_vacamt_seat_details_updated_24-8-26_1.pdf"
+    }
+   ],
+   "official_site": "https://rcb.res.in",
+   "notes": "Participating institutes and seats are in the RCB list; the conducting body is shown differently by different sources.",
+   "sources": [
+    {
+     "url": "https://rcb.res.in/files/2026-08/gat-b_2026_vacamt_seat_details_updated_24-8-26_1.pdf",
+     "note": "RCB GAT-B 2026 vacant seat details (official)"
+    },
+    {
+     "url": "https://admission.aglasem.com/ivri-phd/",
+     "note": "Aglasem: GAT-B / BET 2027 expected"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "gate",
+   "name": "GATE 2027 (Biotechnology BT and Life Sciences XL)",
+   "levels": [
+    "PG",
+    "PhD"
+   ],
+   "agency": "IIT Madras (organising institute for 2027)",
+   "admits_to": "M.Tech/M.E. admissions, MHRD/MoE fellowships, and PhD admission at many institutes (for example IIT Mandi, IMTECH and MAKAUT use GATE)",
+   "mode": "Computer-based test",
+   "status": "Dates announced (notification released)",
+   "dates": "Exam in February 2027 (dates in the official notification); no change to exam dates after the revised brochure",
+   "announcements": [
+    {
+     "date": "2026-07-27",
+     "title": "IIT Madras revises the GATE 2027 brochure: new Biotechnology (BT) syllabus and new two-paper combinations; exam dates unchanged",
+     "url": "https://news.careers360.com/iit-madras-revises-gate-2027-brochure-new-biotechnology-syllabus-two-paper-combinations-robotics-automation-exam-dates-pattern"
+    },
+    {
+     "date": "2026-08-01",
+     "title": "GATE 2027 notification out; a new Robotics and Automation paper added and BT syllabus updated",
+     "url": "https://www.biotecnika.org/2026/08/gate-2027-notification-out/"
+    }
+   ],
+   "official_site": null,
+   "notes": "Check the official GATE 2027 portal for exact dates; application windows are normally Aug–Oct.",
+   "sources": [
+    {
+     "url": "https://www.biotecnika.org/2026/08/gate-2027-notification-out/",
+     "note": "BioTecNika: GATE 2027 notification"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "icar-aieea-pg",
+   "name": "ICAR AIEEA (PG) 2027",
+   "levels": [
+    "PG"
+   ],
+   "agency": "National Testing Agency (NTA) for ICAR",
+   "admits_to": "M.Sc (Agricultural Biotechnology, Animal Biotechnology and related) at ICAR institutes such as IARI, NDRI and IVRI and at state agricultural universities",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (2026 test held on 4 July 2026)",
+   "dates": "2026 cycle: registration closed 10 June, exam 4 July 2026, results out; the 2027 cycle has not been announced",
+   "announcements": [
+    {
+     "date": "2026-06-10",
+     "title": "NTA extends ICAR AIEEA (PG) and AICE-JRF/SRF 2026 registration deadline to 10 June",
+     "url": "https://news.careers360.com/icar-aieea-pg-aice-jrf-srf-phd-2026-registration-deadline-fee-payment-extended-till-june-10-exams-nta-nic-in-pattern-marking/amp"
+    },
+    {
+     "date": "2026-07",
+     "title": "ICAR public notice: AIEEA (PG) and AICE-Ph.D. 2026 registration open",
+     "url": "https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20PG%20and%20PhD%202026%20Registration%20open.pdf"
+    }
+   ],
+   "official_site": "https://icar.org.in",
+   "notes": "ICAR UG admission may have moved to CUET (UG) according to one summary; confirm with ICAR.",
+   "sources": [
+    {
+     "url": "https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20PG%20and%20PhD%202026%20Registration%20open.pdf",
+     "note": "ICAR public notice 2026 (official)"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "csir-ugc-net",
+   "name": "Joint CSIR-UGC NET (December 2026 cycle)",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "National Testing Agency (NTA) for CSIR and UGC",
+   "admits_to": "JRF and lectureship eligibility; the JRF is accepted for PhD admission and fellowship at CSIR labs (CCMB, IMTECH, IGIB), DBT, DST and ICMR institutes, IISERs and universities",
+   "mode": "Computer-based test",
+   "status": "Dates announced (revised)",
+   "dates": "19, 22 and 27 December 2026 (revised on 26 Oct from 20–21 December)",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "NTA revises the Joint CSIR-UGC NET December 2026 dates to 19, 22 and 27 December",
+     "url": "https://news.careers360.com/nta-revises-exam-calendar-jee-mains-session-1-dates-ugc-net-joint-csir-cuet-pg-cmat-neet"
+    },
+    {
+     "date": "2026-09-16",
+     "title": "Joint CSIR-UGC NET first proposed for 20 and 21 December 2026",
+     "url": "https://www.careerpower.in/blog/?p=286300"
+    }
+   ],
+   "official_site": "https://csirnet.nta.ac.in",
+   "notes": "Detailed notification and the application schedule are released on the NTA site.",
+   "sources": [
+    {
+     "url": "https://www.collegedekho.com/amp/news/nta-revised-exam-calendar-2026-27-jee-main-ugc-net-cuet-pg-dates-80367/",
+     "note": "CollegeDekho: revised NTA calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "ugc-net",
+   "name": "UGC NET (December 2026 cycle)",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "National Testing Agency (NTA) for UGC",
+   "admits_to": "Assistant Professor eligibility and JRF; JRF holders can enter PhD programmes at universities",
+   "mode": "Computer-based test",
+   "status": "Dates announced (revised)",
+   "dates": "14–18 and 21 December 2026; correction window 2–4 Nov; city slip 23 Nov; admit card 7 Dec",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "NTA revises UGC NET December 2026 to 14–18 and 21 December",
+     "url": "https://www.careerindia.com/news/nta-exam-calendar-2027-revised-new-dates-jee-main-ugc-net-csir-net-cuet-pg-011-67759.html"
+    }
+   ],
+   "official_site": "https://ugcnet.nta.ac.in",
+   "notes": "Dates are tentative per NTA.",
+   "sources": [
+    {
+     "url": "https://www.careerindia.com/news/nta-exam-calendar-2027-revised-new-dates-jee-main-ugc-net-csir-net-cuet-pg-011-67759.html",
+     "note": "CareerIndia: revised calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "icar-aice-jrf",
+   "name": "ICAR AICE-JRF/SRF (PhD) 2027",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "National Testing Agency (NTA) for ICAR",
+   "admits_to": "PhD admission and JRF/SRF fellowships at ICAR institutes (IARI, NDRI, IVRI and others) and agricultural universities",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (2026 test held on 4 July 2026)",
+   "dates": "2026 cycle: exam 4 July 2026, results out; the 2027 cycle has not been announced",
+   "announcements": [
+    {
+     "date": "2026-07-04",
+     "title": "ICAR AIEEA (PG) and AICE-JRF/SRF (PhD) 2026 exam held; results declared for 38,720 candidates",
+     "url": "https://news.careers360.com/icar-aieea-pg-aice-jrf-srf-phd-results-2026-out-at-exams-nta-nic-in-for-38720-download-scorecard-agriculture-research-admission/amp"
+    }
+   ],
+   "official_site": "https://icar.org.in",
+   "notes": "Conducted together with AIEEA (PG).",
+   "sources": [
+    {
+     "url": "https://news.careers360.com/icar-aieea-pg-aice-jrf-srf-phd-results-2026-out-at-exams-nta-nic-in-for-38720-download-scorecard-agriculture-research-admission/amp",
+     "note": "Careers360: ICAR 2026 results"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "dhr-bret",
+   "name": "DHR-BRET (ICMR JRF) 2027",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "AIIMS New Delhi for the Department of Health Research / ICMR",
+   "admits_to": "ICMR-JRF fellowship used for PhD admission at ICMR institutes (NIV, NIN, NIE, NIRT, NICED) and other biomedical institutes",
+   "mode": "Computer-based test",
+   "status": "Not announced yet",
+   "dates": "A coaching-site calendar expects the DHR-BRET-2026 notice around October 2026; no official notice found",
+   "announcements": [],
+   "official_site": null,
+   "notes": "Check the ICMR and AIIMS sites for the official notice.",
+   "sources": [
+    {
+     "url": "https://admission.aglasem.com/national-exams/",
+     "note": "Aglasem: national exams calendar"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "dbt-bet",
+   "name": "DBT-BET (Biotechnology Eligibility Test) 2027",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "DBT through the Regional Centre for Biotechnology (RCB)",
+   "admits_to": "DBT-JRF fellowships for PhD in biotechnology and life sciences at institutes such as RCB, NII, NCCS, CCMB and IMTECH",
+   "mode": "Computer-based test (held with GAT-B)",
+   "status": "Not announced yet",
+   "dates": "Expected to be held with GAT-B; registration around March 2027 per an exam calendar (an expectation, not an announcement)",
+   "announcements": [],
+   "official_site": "https://rcb.res.in",
+   "notes": "BET is usually announced together with GAT-B.",
+   "sources": [
+    {
+     "url": "https://admission.aglasem.com/ivri-phd/",
+     "note": "Aglasem: GAT-B / BET 2027 expected"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports and exam calendars; official sites not opened)"
+  },
+  {
+   "id": "aeee",
+   "name": "AEEE 2027 (Amrita Entrance Examination–Engineering)",
+   "levels": [
+    "UG"
+   ],
+   "agency": "Amrita Vishwa Vidyapeetham",
+   "admits_to": "B.Tech programmes at all Amrita campuses (also an alternative to JEE Main); the B.Sc Biotechnology at Amritapuri has its own route, to be confirmed",
+   "mode": "Computer-based test, two phases",
+   "status": "Dates announced (registration to start in November 2026)",
+   "dates": "Exam schedule released on 9 Oct 2026; registration starts in November 2026; exact registration dates to follow",
+   "announcements": [
+    {
+     "date": "2026-10-09",
+     "title": "AEEE 2027 exam schedule released; registration to start in November 2026",
+     "url": "https://www.business-standard.com/education/news/aeee-2027-exam-schedule-released-registration-to-start-in-november-2026-nc-126100900632_1.html"
+    }
+   ],
+   "official_site": "https://aeee.amrita.edu",
+   "notes": "For 2026, 70% of B.Tech seats went on AEEE rank and 30% on JEE Main scores.",
+   "sources": [
+    {
+     "url": "https://aeee.amrita.edu",
+     "note": "AEEE site (official)"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports; official sites not opened)"
+  },
+  {
+   "id": "aiims-msc",
+   "name": "AIIMS M.Sc / M.Biotechnology entrance 2027",
+   "levels": [
+    "PG"
+   ],
+   "agency": "AIIMS New Delhi",
+   "admits_to": "M.Biotechnology and M.Sc courses at AIIMS New Delhi and other AIIMS campuses",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (2026 cycle: open-round allocation announced 18 Sep 2026)",
+   "dates": "2025 exam was on 14 June 2025; the 2027 cycle has not been announced",
+   "announcements": [
+    {
+     "date": "2026-09-18",
+     "title": "AIIMS announces open-round seat allocation results for M.Sc courses and M.Biotechnology",
+     "url": "https://articles.findmycollege.com/news/aiims-msc-open-round-2026-seat-allocation-released-online-acceptance-and-joining-by-28-september/"
+    }
+   ],
+   "official_site": null,
+   "notes": "AIIMS postponed an earlier allocation on 29 July 2026 (Notice 122/2026).",
+   "sources": [
+    {
+     "url": "https://collegedunia.com/exams/aiims-msc",
+     "note": "Collegedunia: AIIMS M.Sc 2026"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports; official sites not opened)"
+  },
+  {
+   "id": "aiims-phd",
+   "name": "AIIMS New Delhi PhD (January 2027 session)",
+   "levels": [
+    "PhD"
+   ],
+   "agency": "AIIMS New Delhi",
+   "admits_to": "PhD programmes at AIIMS New Delhi for candidates holding a national fellowship (Joint CSIR-UGC NET JRF, ICMR-JRF and others listed)",
+   "mode": "Online application; selection per the prospectus",
+   "status": "Applications opened (26 Oct 2026)",
+   "dates": "January 2027 session: applications opened about 26 Oct 2026; closing date is in the prospectus",
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "AIIMS New Delhi opens PhD admissions for the January 2027 session",
+     "url": "https://medicaldialogues.in/pdf_upload/2026/10/26/aiims-new-delhi-opens-phd-admissions-for-january-2027-session-check-details-480980.pdf"
+    },
+    {
+     "date": "2026-05-03",
+     "title": "AIIMS releases the PhD entrance schedule for the July 2026 session (applications until 12 May 2026)",
+     "url": "https://medicaldialogues.in/news/education/medical-admissions/aiims-phd-july-2026-session-check-key-dates-eligibility-seats-all-admission-details-here-169843"
+    }
+   ],
+   "official_site": null,
+   "notes": "A valid national fellowship is needed.",
+   "sources": [
+    {
+     "url": "https://inphd.com/?p=8288",
+     "note": "InPhD: AIIMS Delhi PhD 2026"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against news reports; official sites not opened)"
+  },
+  {
+   "id": "ts-cpget",
+   "name": "TG CPGET 2027 (Telangana state universities)",
+   "levels": [
+    "PG"
+   ],
+   "agency": "Osmania University, Hyderabad, for the Telangana Council of Higher Education",
+   "admits_to": "M.Sc Biotechnology, M.Sc Botany/Zoology and other PG courses at Osmania, Kakatiya, Telangana, Mahatma Gandhi, Palamuru, Satavahana and other Telangana state universities",
+   "mode": "Computer-based test",
+   "status": "Not announced yet (2026 cycle conducted by Osmania University)",
+   "dates": "2026 cycle: computer-based test held by Osmania University (sources say August 2026, with results around September 2026); the 2027 cycle has not been announced",
+   "announcements": [],
+   "official_site": null,
+   "notes": "M.Sc Biotechnology has its own CPGET paper and syllabus. JNTUH Institute of Science & Technology also admits its M.Sc Biotechnology on CPGET rank.",
+   "sources": [
+    {
+     "url": "https://m.collegedekho.com/exam/ts-cpget",
+     "note": "Collegedekho: CPGET exam page"
+    },
+    {
+     "url": "https://university.careers360.com/articles/cpget-2026",
+     "note": "Careers360: CPGET 2026"
+    },
+    {
+     "url": "https://university.careers360.com/articles/cpget-syllabus",
+     "note": "Careers360: CPGET M.Sc Biotechnology syllabus"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against exam pages and news reports; official TG CPGET site not opened)"
+  },
+  {
+   "id": "ap-pgcet",
+   "name": "AP PGCET 2027 (Andhra Pradesh state universities)",
+   "levels": [
+    "PG"
+   ],
+   "agency": "Sri Venkateswara University, Tirupati, on behalf of APSCHE",
+   "admits_to": "M.Sc Biotechnology and other PG courses at Andhra University, SV University, Acharya Nagarjuna, Sri Krishnadevaraya, Yogi Vemana, SPMVV, Rayalaseema, Vikrama Simhapuri, Dravidian University and SVIMS University",
+   "mode": "Computer-based test (100 objective questions, 90 minutes)",
+   "status": "Not announced yet (2026 test held 5–11 May 2026)",
+   "dates": "2026 cycle: notification 7 Feb 2026, applications from 9 Feb, exam 5–11 May 2026, phase 2 seat allotment October 2026; the 2027 cycle has not been announced",
+   "announcements": [
+    {
+     "date": "2026-02-07",
+     "title": "AP PGCET 2026 notification released; exam scheduled for 5–11 May 2026",
+     "url": "https://cets.apsche.ap.gov.in/PGCET/PGCET_HomePages/ImportantDates"
+    }
+   ],
+   "official_site": "https://cets.apsche.ap.gov.in/PGCET",
+   "notes": "17 participating universities in the 2026 notification.",
+   "sources": [
+    {
+     "url": "https://www.collegedekho.com/exam/ap-pgcet/exam-dates",
+     "note": "Collegedekho: AP PGCET 2026 dates"
+    },
+    {
+     "url": "https://university.careers360.com/articles/appgcet-exam-dates",
+     "note": "Careers360: AP PGCET dates"
+    }
+   ],
+   "as_of": "2026-11-09",
+   "last_checked": "2026-11-09 (checked against exam pages and news reports; official TG CPGET site not opened)"
+  }
+ ]
+}
